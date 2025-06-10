@@ -1,0 +1,24 @@
+<CATALOG>
+    <QUESTION>
+        <ID>1</ID>
+        <CATEGORY>Motivation der Datendokumentation</CATEGORY>
+        <QUESTION_TEXT>JMöchten Sie Ihre Daten organisiert und verständlich halten?</QUESTION_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
+        <BUTTON_LINK>2<BUTTON_LINK>
+        <BUTTON_LINK>101<BUTTON_LINK>
+        <ANSWER_TEXT>TestText</ANSWER_TEXT>
+    </QUESTION>
+
+    <QUESTION>
+        <ID></ID>
+        <CATEGORY></CATEGORY>
+        <QUESTION_TEXT></QUESTION_TEXT>
+        <BUTTON_TEXT></BUTTON_TEXT>
+        <BUTTON_TEXT></BUTTON_TEXT>
+        <BUTTON_LINK><BUTTON_LINK>
+        <BUTTON_LINK><BUTTON_LINK>
+        <ANSWER_TEXT></ANSWER_TEXT>
+    </QUESTION>
+
+</CATALOG>
