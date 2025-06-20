@@ -5,20 +5,21 @@
         <title>Decision Tree</title>
         <link rel="stylesheet" href="design.css">
         <script src="program.js"></script>
+        <script>loadDoc(1)</script>
     </head>
     <body>
-        <h1>Motivation der Datendokumentation - Frage 1</h1>
+        <h1 id="title">Default Title</h1>
         <hr class ="hr">
-        <div id= "container question" class="container question">Möchten Sie Ihre Daten organisiert und verständlich halten?</div>
+        <div id="container question" class="container question">Default Question</div>
         <div class="container hierarchy center">
             <div class="circle active"></div>
         </div>
-        <div class="container awnser">
-            <a href="./step2.html" class="button">Ja</a>
-            <button class="button" onclick="loadDoc(1)">Nein</button>
+        <div id="container answer" class="container answer">
+            <button id="button" class="button" onclick="loadDoc(1)">Default Answer 1</button>
+            <button id="button" class="button" onclick="loadDoc(2)">Default Answer 2</button>
         </div>
     </body>
-    <table id="demo"></table>
+    <div id="demo"></div>
     <footer>
         <a  href="https://fairagro.net/"><img src="./Fairagro_Logo.png" alt="FAIRagro_Logo" class="logo"></a>
     </footer>

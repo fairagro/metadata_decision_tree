@@ -12,15 +12,27 @@ function loadDoc(id) {
 function loadQuestion(xml,id)
 {
     var xmlDoc = xml.responseXML;
-    var q = xmlDoc.getElementsByTagName("ID");
+    var q = xmlDoc.getElementsByTagName("QUESTION");
+    
+    RemoveButtons();
+
+    var question_content;
+    var title_content; 
     for (var i = 0; i <q.length; i++) { 
         if(q[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue == id)
         {
-            document.getElementById("container question").value = q[i].getElementsByTagName("QUESTION_TEXT")[0].childNodes[0].nodeValue;
+            question_content = q[i].getElementsByTagName("QUESTION_TEXT")[0].childNodes[0].nodeValue;
+            title_content = q[i].getElementsByTagName("CATEGORY")[0].childNodes[0].nodeValue;
+            AddButtons(q[i]);
+            break;
         }else{
-            document.getElementById("container question").value = "Error"; 
+            question_content = "Frage " + id + " nicht gefunden";
+            title_content = "Titel zu Frage " + id + " nicht gefunden";
         }
-    } 
+    }
+    document.getElementById("container question").innerText = question_content;
+    document.getElementById("title").innerText = title_content;
+    
 }
 
 function t(xml,id) {
@@ -39,3 +51,38 @@ function t(xml,id) {
   document.getElementById("demo").innerHTML = table;
 }
 
+function RemoveButtons()
+{
+    while(document.getElementById("button"))
+    {
+        const element = document.getElementById("button");
+        element.remove();
+    }
+}
+
+function AddButtons(question)
+{
+    var buttons_content = question.getElementsByTagName("BUTTON_TEXT");
+    var buttons_links = question.getElementsByTagName("BUTTON_LINK");
+    const container = document.getElementById("container answer");
+
+    for(var i = 0; i < buttons_content.length; i++)
+    {
+      var newButton = document.createElement('button');
+      var page_link = buttons_links[i].childNodes[0].nodeValue;
+
+      newButton.textContent = buttons_content[i].childNodes[0].nodeValue;
+      newButton.id = "button";
+      newButton.className = "button";
+
+      newButton.onclick = function(){loadDoc(page_link);};
+      /*newButton.addEventListener('click', () => {
+        loadDoc(page_link);
+      }); */
+
+      container.appendChild(newButton);
+    }
+
+    // document.getElementById("demo").innerText = "Fun" + buttons_content.length;
+    return;
+}
