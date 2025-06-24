@@ -25,6 +25,18 @@ hr {
     width: 100%;
     margin-bottom: 40px;
 }
+a {
+    color: var(--main_colour_light);
+}
+a:visited {
+    color:var(--main_colour_dark);
+}
+a:hover {
+    color: var(--contrast_colour);
+}
+a:active {
+    color: var(--contrast_colour_dark);
+}
 
 #myDesign {
     width: 400px;
@@ -43,20 +55,21 @@ hr {
     display: inline-flex;
     cursor: pointer;
     text-decoration: none;
-    padding: 0.5em 1.5em;
+    padding: 24px 72px;
     border: none; /*var(--main_colour) 0.125em solid;*/
     border-radius: 0.1em;
     text-align: center;
     box-shadow: inset 0 0 0 0 var(--contrast_colour_dark);
-    transition: ease-out 300ms;
+    transition: ease-out 500ms;
     color: var(--bg_contrast_colour);
     background-color: var(--main_colour_dark);
-    min-width: 100;
+    min-width: 10px;
+    max-height: 103.2px;
     justify-content: center;
 }
 
 .button:hover{
-    box-shadow: inset 8em 0 0 0 var(--contrast_colour_dark);
+    box-shadow: inset 10em 0 0 0 var(--contrast_colour_dark);
 }
 
 .container{
@@ -77,16 +90,25 @@ hr {
     margin: auto;
     min-height: 100px;
     font-size: xx-large;
+    border-color: white;
 }
+
+.highlight{
+    border-color: var(--contrast_colour);
+}
+
 
 .circle { 
     height: 2em;  
     width: 2em; 
     border: none;
-    display: inline-block;
+    display: flex;
     border-radius: 100%;
     margin-left: 1em;
     margin-right: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
     transition: ease-out 500ms;
 

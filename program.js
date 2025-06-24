@@ -12,43 +12,32 @@ function loadDoc(id) {
 function loadQuestion(xml,id)
 {
     var xmlDoc = xml.responseXML;
-    var q = xmlDoc.getElementsByTagName("QUESTION");
+    var entries = xmlDoc.getElementsByTagName("ENTRY");
     
     RemoveButtons();
+    RemoveHierachy();
 
     var question_content;
-    var title_content; 
-    for (var i = 0; i <q.length; i++) { 
-        if(q[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue == id)
+    var title_content;
+    for (var i = 0; i <entries.length; i++) { 
+        if(parseInt(entries[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue) == id)
         {
-            question_content = q[i].getElementsByTagName("QUESTION_TEXT")[0].childNodes[0].nodeValue;
-            title_content = q[i].getElementsByTagName("CATEGORY")[0].childNodes[0].nodeValue;
-            AddButtons(q[i]);
+            question_content = entries[i].getElementsByTagName("QUESTION_TEXT")[0].childNodes[0].nodeValue;
+            title_content = entries[i].getElementsByTagName("CATEGORY")[0].childNodes[0].nodeValue;
+            AddButtons(entries[i]);
+            //Change Border Colour
+            SetQuestionBorderColour(entries[i]);
+            AddHierachy(entries[i], id);
             break;
         }else{
-            question_content = "Frage " + id + " nicht gefunden";
-            title_content = "Titel zu Frage " + id + " nicht gefunden";
+            question_content = "Eintrag " + id + " nicht gefunden";
+            title_content = "Titel zum Eintrag " + id + " nicht gefunden";
         }
+        AddHierachy(entries[i], id);
     }
-    document.getElementById("container question").innerText = question_content;
+    document.getElementById("container question").innerHTML = question_content;
     document.getElementById("title").innerText = title_content;
     
-}
-
-function t(xml,id) {
-  var xmlDoc = xml.responseXML;
-  var x = xmlDoc.getElementsByTagName("CD");
-  var table="<tr><th>Artist</th><th>Title</th></tr>";
-  for (var i = 0; i <x.length; i++) { 
-    table += "<tr><td>" +
-    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue + id +
-    "</td></tr>";
-  }
-  document.getElementById("demo").innerHTML = table;
 }
 
 function RemoveButtons()
@@ -60,16 +49,46 @@ function RemoveButtons()
     }
 }
 
-function AddButtons(question)
+function RemoveHierachy()
 {
-    var buttons_content = question.getElementsByTagName("BUTTON_TEXT");
-    var buttons_links = question.getElementsByTagName("BUTTON_LINK");
+    while(document.getElementById("circle"))
+    {
+        const element = document.getElementById("circle");
+        element.remove();
+    }
+}
+
+function AddHierachy(entry, id)
+{
+  if(entry.getElementsByTagName("TYPE")[0].childNodes[0].nodeValue == 'Frage' && entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue != 0 && parseInt(entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue) <= id)
+  {
+    let page_link = entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue;
+
+    const newDiv = document.createElement('div');
+    if(parseInt(entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue) == id)
+    {
+      newDiv.className = "circle active";
+    }else{
+      newDiv.className = "circle passive";
+    }
+    newDiv.id ="circle";
+    newDiv.innerText = entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue;
+    newDiv.onclick = function(){loadDoc(page_link);};
+
+    document.getElementById("container hierarchy").appendChild(newDiv);
+  }
+}
+
+function AddButtons(entry)
+{
+    var buttons_content = entry.getElementsByTagName("BUTTON_TEXT");
+    var buttons_links = entry.getElementsByTagName("BUTTON_LINK");
     const container = document.getElementById("container answer");
 
     for(var i = 0; i < buttons_content.length; i++)
     {
-      var newButton = document.createElement('button');
-      var page_link = buttons_links[i].childNodes[0].nodeValue;
+      let newButton = document.createElement('button');
+      let page_link = buttons_links[i].childNodes[0].nodeValue;
 
       newButton.textContent = buttons_content[i].childNodes[0].nodeValue;
       newButton.id = "button";
@@ -86,3 +105,32 @@ function AddButtons(question)
     // document.getElementById("demo").innerText = "Fun" + buttons_content.length;
     return;
 }
+
+function SetQuestionBorderColour(entry)
+{
+  if(entry.getElementsByTagName("TYPE")[0].childNodes[0].nodeValue =="Antwort")
+  {
+    document.getElementById("container question").className = "container question highlight";
+  }
+  else
+  {
+    document.getElementById("container question").className = "container question";
+  }
+}
+
+/*
+function t(xml,id) {
+  var xmlDoc = xml.responseXML;
+  var x = xmlDoc.getElementsByTagName("CD");
+  var table="<tr><th>Artist</th><th>Title</th></tr>";
+  for (var i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue + id +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+} */
