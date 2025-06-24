@@ -5,11 +5,22 @@
         <title>Decision Tree</title>
         <link rel="stylesheet" href="design.css">
         <script src="program.js"></script>
+        <script>loadDoc(9)</script>
     </head>
     <body>
-        <h1>Startseite Entscheidungsbaum</h1>
-        <hr>
-            <a href="./step1.html" class="button">BEGINN</a>
-            <a href="https://uni-bonn.sciebo.de/s/Wu87OxJjiQ2Qw4O" class="button">Entscheidungsbaum</a>
+        <h1 id="title">Default Title</h1>
+        <hr class ="hr">
+        <div id="container question" class="container question">Default Question</div>
+        <div id="container hierarchy" class="container hierarchy center">
+            <div id="circle" class="circle active"></div>
+        </div>
+        <div id="container answer" class="container answer">
+            <button id="button" class="button" onclick="loadDoc(1)">Default Answer 1</button>
+            <button id="button" class="button" onclick="loadDoc(2)">Default Answer 2</button>
+        </div>
     </body>
+    <div id="demo"></div>
+    <footer>
+        <a  href="https://fairagro.net/"><img src="./Fairagro_Logo.png" alt="FAIRagro_Logo" class="logo"></a>
+    </footer>
 </html>
