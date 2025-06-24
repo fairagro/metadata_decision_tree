@@ -5,7 +5,7 @@ function loadDoc(id) {
         loadQuestion(this,id);
     }
   };
-  xmlRequest.open("GET", "data.xml", true);
+  xmlRequest.open("GET", "./data.xml", true);
   xmlRequest.send();
 }
 
