@@ -81,7 +81,7 @@ a:active {
 }
 
 .question{
-    max-width: 880px;
+    max-width: 848px;
     width: 100%;
     text-align: left;
     padding: 0.5em;
@@ -91,6 +91,14 @@ a:active {
     min-height: 100px;
     font-size: xx-large;
     border-color: white;
+}
+
+progress{
+    accent-color: var(--main_colour_dark);
+    height: 30px;
+    width: 100%;
+    margin-top: 25px;
+    max-width: 392.8px;
 }
 
 .notice{

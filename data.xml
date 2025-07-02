@@ -23,7 +23,7 @@
         <ID>101</ID>
         <TYPE>Exitfrage</TYPE>
         <CATEGORY>Motivation der Datendokumentation - Exitfrage</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine Nachnutzung kaum möglich, zudem sind <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912">Metadaten</a> zentral für die FAIR-Prinzipien (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine Nachnutzung kaum möglich, zudem sind <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912" target="_blank">Metadaten</a> zentral für die FAIR-Prinzipien (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>2</BUTTON_LINK>
@@ -257,8 +257,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadatenschema auswählen - Frage 5</CATEGORY>
         <QUESTION_TEXT>Gibt es hinsichtlich der Metadaten Richtlinien oder Vorgaben Ihrer Einrichtung, Ihrer Förderorganisation oder von Zeitschriften/Journals?</QUESTION_TEXT>
-        <BUTTON_TEXT>Ja, eines</BUTTON_TEXT>
-        <BUTTON_TEXT>Ja, mehrere</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>112</BUTTON_LINK>
         <BUTTON_LINK>13</BUTTON_LINK>
     </ENTRY>
