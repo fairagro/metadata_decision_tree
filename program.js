@@ -110,7 +110,10 @@ function SetQuestionBorderColour(entry)
 {
   if(entry.getElementsByTagName("TYPE")[0].childNodes[0].nodeValue =="Antwort")
   {
-    document.getElementById("container question").className = "container question highlight";
+    document.getElementById("container question").className = "container question notice";
+  }else if(entry.getElementsByTagName("TYPE")[0].childNodes[0].nodeValue =="Exitfrage")
+  {
+    document.getElementById("container question").className = "container question warning";
   }
   else
   {

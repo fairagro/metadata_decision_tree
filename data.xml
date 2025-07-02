@@ -21,7 +21,7 @@
 
     <ENTRY>
         <ID>101</ID>
-        <TYPE>Antwort</TYPE>
+        <TYPE>Exitfrage</TYPE>
         <CATEGORY>Motivation der Datendokumentation - Exitfrage</CATEGORY>
         <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine Nachnutzung kaum möglich, zudem sind <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912">Metadaten</a> zentral für die FAIR-Prinzipien (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
@@ -143,7 +143,7 @@
 
     <ENTRY>
         <ID>1072</ID>
-        <TYPE>Antwort</TYPE>
+        <TYPE>Exitfrage</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation - Exitfrage</CATEGORY>
         <QUESTION_TEXT>Eine gute Dokumentation kann auch für Ihre eigene Arbeit innerhalb des Projektes oder an ihrer Institution hilfreich sein. Möchten Sie dafür strukturierte Metadaten erfassen?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>

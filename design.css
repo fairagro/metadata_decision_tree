@@ -59,17 +59,17 @@ a:active {
     border: none; /*var(--main_colour) 0.125em solid;*/
     border-radius: 0.1em;
     text-align: center;
-    box-shadow: inset 0 0 0 0 var(--contrast_colour_dark);
+    box-shadow: inset 0 0 0 0 var(--main_colour_dark);
     transition: ease-out 500ms;
     color: var(--bg_contrast_colour);
-    background-color: var(--main_colour_dark);
+    background-color: var(--contrast_colour_light);
     min-width: 10px;
     max-height: 103.2px;
     justify-content: center;
 }
 
 .button:hover{
-    box-shadow: inset 10em 0 0 0 var(--contrast_colour_dark);
+    box-shadow: inset 10em 0 0 0 var(--main_colour_dark);
 }
 
 .container{
@@ -93,7 +93,11 @@ a:active {
     border-color: white;
 }
 
-.highlight{
+.notice{
+    border-color: var(--main_colour_light);
+}
+
+.warning{
     border-color: var(--contrast_colour);
 }
 
