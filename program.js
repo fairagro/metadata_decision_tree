@@ -13,28 +13,30 @@ function loadQuestion(xml,id)
 {
     var xmlDoc = xml.responseXML;
     var entries = xmlDoc.getElementsByTagName("ENTRY");
-    
+
+
     RemoveButtons();
-    RemoveHierachy();
+    UpdateProgressBar(entries, id);
 
     var question_content;
     var title_content;
     for (var i = 0; i <entries.length; i++) { 
-        if(parseInt(entries[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue) == id)
+        if(entries[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue == id)
         {
             question_content = entries[i].getElementsByTagName("QUESTION_TEXT")[0].childNodes[0].nodeValue;
             title_content = entries[i].getElementsByTagName("CATEGORY")[0].childNodes[0].nodeValue;
             AddButtons(entries[i]);
+
             //Change Border Colour
             SetQuestionBorderColour(entries[i]);
-            AddHierachy(entries[i], id);
             break;
         }else{
             question_content = "Eintrag " + id + " nicht gefunden";
             title_content = "Titel zum Eintrag " + id + " nicht gefunden";
         }
-        AddHierachy(entries[i], id);
+
     }
+    
     document.getElementById("container question").innerHTML = question_content;
     document.getElementById("title").innerText = title_content;
     
@@ -60,23 +62,24 @@ function RemoveHierachy()
 
 function AddHierachy(entry, id)
 {
-  if(entry.getElementsByTagName("TYPE")[0].childNodes[0].nodeValue == 'Frage' && entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue != 0 && parseInt(entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue) <= id)
+  if(entry.getElementsByTagName("TYPE")[0].childNodes[0].nodeValue != 'Frage'){return;}
+  if(entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue == 0){return;}
+  if(parseInt(entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue) > id){return;}
+
+  let page_link = entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue;
+
+  const newDiv = document.createElement('div');
+  if(parseInt(entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue) == id)
   {
-    let page_link = entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue;
-
-    const newDiv = document.createElement('div');
-    if(parseInt(entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue) == id)
-    {
-      newDiv.className = "circle active";
-    }else{
-      newDiv.className = "circle passive";
-    }
-    newDiv.id ="circle";
-    newDiv.innerText = entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue;
-    newDiv.onclick = function(){loadDoc(page_link);};
-
-    document.getElementById("container hierarchy").appendChild(newDiv);
+    newDiv.className = "circle active";
+  }else{
+    newDiv.className = "circle passive";
   }
+  newDiv.id ="circle";
+  newDiv.innerText = entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue;
+  newDiv.onclick = function(){loadDoc(page_link);};
+
+  document.getElementById("container hierarchy").appendChild(newDiv);
 }
 
 function AddButtons(entry)
@@ -104,6 +107,34 @@ function AddButtons(entry)
 
     // document.getElementById("demo").innerText = "Fun" + buttons_content.length;
     return;
+}
+
+function UpdateProgressBar(entries, id)
+{
+  var progressBar = document.getElementById("progress bar");
+
+    let questionCounter = 0;
+    let type;
+    for (var i = 0; i <entries.length; i++) 
+    {
+      if(entries[i].getElementsByTagName("TYPE")[0].childNodes[0].nodeValue == "Frage")
+      {
+        questionCounter++;
+      }
+
+      if(entries[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue == id)
+      {
+        if(entries[i].getElementsByTagName("TYPE")[0].childNodes[0].nodeValue == "Frage")
+        {
+          progressBar.value = id-1;
+        }else if(entries[i].getElementsByTagName("BUTTON_LINK").length == 0)
+        {
+          progressBar.value = parseInt(progressBar.value) + 1;
+        }
+      }
+    }
+    
+    progressBar.max = questionCounter;
 }
 
 function SetQuestionBorderColour(entry)
