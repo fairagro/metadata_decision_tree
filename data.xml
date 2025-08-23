@@ -11,7 +11,7 @@
     <ENTRY>
         <ID>1</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Motivation der Datendokumentation - Frage 1</CATEGORY>
+        <CATEGORY>Motivation der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Möchten Sie Ihre Daten organisiert und verständlich halten?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -21,9 +21,9 @@
 
     <ENTRY>
         <ID>1-1</ID>
-        <TYPE>Antwort</TYPE>
+        <TYPE>Exitfrage</TYPE>
         <CATEGORY>Motivation der Datendokumentation - Exitfrage</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine Nachnutzung kaum möglich, zudem sind <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912">Metadaten</a> zentral für die FAIR-Prinzipien (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine Nachnutzung kaum möglich, zudem sind <a target="_blank" href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912">Metadaten</a> zentral für die FAIR-Prinzipien (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a target="_blank" href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>2</BUTTON_LINK>
@@ -33,7 +33,7 @@
     <ENTRY>
         <ID>2</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Motivation der Datendokumentation - Frage 2</CATEGORY>
+        <CATEGORY>Motivation der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Sind Ihre Daten für andere relevant (z.B. bei Zusammenarbeit mit Kolleg:innen, Projektpartnern, Nachnutzung von Dritten)?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -44,7 +44,7 @@
     <ENTRY>
         <ID>3</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Motivation der Datendokumentation - Frage 3</CATEGORY>
+        <CATEGORY>Motivation der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Möchten Sie Ihre Daten zu einem späteren Zeitpunkt selber noch verstehen?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -55,8 +55,8 @@
     <ENTRY>
         <ID>3-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Motivation der Datendokumentation - Frage 3</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Eine umfangreiche Datendokumentation ist nicht notwendig, legen Sie bestenfalls trotzdem eine grundlegende <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c790488">README-Datei</a> an.</p>]]></QUESTION_TEXT>
+        <CATEGORY>Motivation der Datendokumentation</CATEGORY>
+        <QUESTION_TEXT><![CDATA[<p>Eine umfangreiche Datendokumentation ist nicht notwendig, legen Sie bestenfalls trotzdem eine grundlegende <a target="_blank" href="https://forschungsdaten.info/praxis-kompakt/glossar/#c790488">README-Datei</a> an.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Neustart</BUTTON_TEXT>
         <BUTTON_LINK>1</BUTTON_LINK>
     </ENTRY>
@@ -64,7 +64,7 @@
     <ENTRY>
         <ID>4</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 1</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Enthalten Ihre Daten Quellcode?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -75,7 +75,7 @@
     <ENTRY>
         <ID>4-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 1</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Kommentieren Sie den Quellcode, um eine bessere Nachvollziehbarkeit zu erreichen.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>5</BUTTON_LINK>
@@ -84,7 +84,7 @@
     <ENTRY>
         <ID>5</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 2</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie Daten mit nicht selbsterklärenden Variablennamen oder auch viele Abkürzungen oder Codierungen?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -95,7 +95,7 @@
     <ENTRY>
         <ID>5-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 2</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Erstellen Sie ein Data Dictionary, ggf. ergänzt durch ein Codebook, um ihre Daten besser verständlich zu machen</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>6</BUTTON_LINK>
@@ -104,7 +104,7 @@
     <ENTRY>
         <ID>6</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 3</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Folgen sie routinemäßig einem standardisierten Arbeitsablauf zur Datenerhebung bzw. -verarbeitung?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -115,7 +115,7 @@
     <ENTRY>
         <ID>6-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 3</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie bereits bestehende Standard Operating Procedures (SOP) oder erstellen Sie ggf. einen neuen SOP, um einheitliche Arbeitsabläufe und die Reproduzierbarkeit sicher zu stellen.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>7</BUTTON_LINK>
@@ -124,7 +124,7 @@
     <ENTRY>
         <ID>7</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 4</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Möchten Sie Ihre Daten veröffentlichen oder anderweitig auffindbar und nachnutzbar machen?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -135,7 +135,7 @@
     <ENTRY>
         <ID>7-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Formen und Formate der Datendokumentation - Frage 4</CATEGORY>
+        <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Erfassen Sie Metadaten. Legen Sie bestenfalls zudem eine zusätzliche Datendokumentation (z.B. in Form einer grundlegenden README-Datei oder eines Datenmanagementplans) an, um ihre Daten leicht verständlich zu halten und somit die richtige Interpretation sicherzustellen.</QUESTION_TEXT>
         <BUTTON_TEXT>Verstanden</BUTTON_TEXT>
         <BUTTON_LINK>8</BUTTON_LINK>
@@ -143,7 +143,7 @@
 
     <ENTRY>
         <ID>7-2</ID>
-        <TYPE>Antwort</TYPE>
+        <TYPE>Exitfrage</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation - Exitfrage</CATEGORY>
         <QUESTION_TEXT>Eine gute Dokumentation kann auch für Ihre eigene Arbeit innerhalb des Projektes oder an ihrer Institution hilfreich sein. Möchten Sie dafür strukturierte Metadaten erfassen?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
@@ -155,7 +155,7 @@
     <ENTRY>
         <ID>8</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 1</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es ein konkretes Repositorium, in dem Sie veröffentlichen möchten?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
@@ -166,7 +166,7 @@
     <ENTRY>
         <ID>8-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 1</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Recherchieren Sie geeignete Repositorien, um die Sichtbarkeit und Auffindbarkeit ihrer Daten bei einer Veröffentlichung zu maximieren.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>9</BUTTON_LINK>
@@ -175,7 +175,7 @@
     <ENTRY>
         <ID>9</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 2</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es Vorgaben zum Metadatenschema durch dieses Repositorium?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein / Unsicher</BUTTON_TEXT>
@@ -186,7 +186,7 @@
     <ENTRY>
         <ID>9-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 2</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie dieses Schema, um sicherzustellen, dass Sie alle relevanten Metadaten erfassen.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
@@ -195,7 +195,7 @@
     <ENTRY>
         <ID>10</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 3</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es im Rahmen Ihres Projektes Vorgaben zum Metadatenschema (z.B. im Datenmanagementplan festgehalten)?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein / Unsicher</BUTTON_TEXT>
@@ -206,7 +206,7 @@
     <ENTRY>
         <ID>10-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 3</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie das vorgegebene Schema, um sicherzustellen, dass Sie alle relevanten Metadaten erfassen.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
@@ -215,7 +215,7 @@
     <ENTRY>
         <ID>11</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 4</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es ein etabliertes Metadatenschema (Metadatenstandard) für Ihre Disziplin oder Datentyp?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja, eines</BUTTON_TEXT>
         <BUTTON_TEXT>Ja, mehrere</BUTTON_TEXT>
@@ -228,7 +228,7 @@
     <ENTRY>
         <ID>11-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 4</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie den gewählten Standard und passen Sie diesen ggf. an, um sicherzustellen, dass Sie alle relevanten Metadaten erfassen.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
@@ -237,7 +237,7 @@
     <ENTRY>
         <ID>11-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 4</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Überprüfen Sie, welches am besten zu ihren Daten passt und verwenden Sie dieses, um sicherzustellen, dass sie alle relevanten Metadaten erfassen. Kombinieren Sie ggf. bei Bedarf mehrere passende Standards. Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. FAIRagro Helpdesk) kann hilfreich sein.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
@@ -246,7 +246,7 @@
     <ENTRY>
         <ID>11-3</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 4</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. FAIRagro Helpdesk) kann hilfreich sein, um ein passendes Schema zu finden bzw. selbst (weiter-) zu entwickeln.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
@@ -255,7 +255,7 @@
     <ENTRY>
         <ID>12</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 5</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es hinsichtlich der Metadaten Richtlinien oder Vorgaben Ihrer Einrichtung, Ihrer Förderorganisation oder von Zeitschriften/Journals?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja, eines</BUTTON_TEXT>
         <BUTTON_TEXT>Ja, mehrere</BUTTON_TEXT>
@@ -266,7 +266,7 @@
     <ENTRY>
         <ID>12-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadatenschema auswählen - Frage 5</CATEGORY>
+        <CATEGORY>Metadatenschema auswählen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob die Vorgaben durch das gewählte Schema abgedeckt werden. Passen sie das Schema ggf. an und dokumentieren Sie dies.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>13</BUTTON_LINK>
@@ -275,7 +275,7 @@
     <ENTRY>
         <ID>13</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 1</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>In welcher Projektphase befinden Sie sich?</QUESTION_TEXT>
         <BUTTON_TEXT>Planung oder Datenerhebung</BUTTON_TEXT>
         <BUTTON_TEXT>Datenveröffentlichung </BUTTON_TEXT>
@@ -286,7 +286,7 @@
     <ENTRY>
         <ID>13-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 1</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Beachten Sie, dass die Datendokumentation direkt bei der Datenerhebung erfolgen und dafür in der Planungsphase bereits berücksichtigt werden sollte.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>14</BUTTON_LINK>
@@ -295,7 +295,7 @@
     <ENTRY>
         <ID>13-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 1</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Nutzen Sie die Erfassungsmaske Ihres Repositoriums zur Speicherung der Metadaten.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>22</BUTTON_LINK>
@@ -304,7 +304,7 @@
     <ENTRY>
         <ID>14</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 2</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Werden Metadaten automatisch erfasst (z.B. Dateigröße, Datum, ISO-Wert etc. bei Fotos)?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -315,7 +315,7 @@
     <ENTRY>
         <ID>14-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 2</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Stellen Sie sicher, dass die relevanten Metadaten gespeichert werden und überprüfen Sie die Vollständigkeit. Erfassen Sie ggf. weitere relevante Metadaten.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>15</BUTTON_LINK>
@@ -324,7 +324,7 @@
     <ENTRY>
         <ID>15</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 3</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Können Metadaten aus anderen Systemen übernommen werden (z.B. ELNs, DMPs, Geräte-Software, Labordokumentation)?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -335,7 +335,7 @@
     <ENTRY>
         <ID>15-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 3</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Stellen Sie sicher, dass die relevanten Metadaten übernommen und gespeichert werden und überprüfen Sie die Vollständigkeit. Erfassen Sie ggf. weitere relevante Metadaten.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>16</BUTTON_LINK>
@@ -344,7 +344,7 @@
     <ENTRY>
         <ID>16</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 4</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Müssen (weitere) Metadaten manuell erhoben werden?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -355,7 +355,7 @@
     <ENTRY>
         <ID>16-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten erfassen - Frage 4</CATEGORY>
+        <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Erheben Sie alle relevanten Metadaten und tauschen Sie sich ggf. mit Fachkolleg*innen über die Vollständigkeit aus.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>17</BUTTON_LINK>
@@ -364,7 +364,7 @@
     <ENTRY>
         <ID>17</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 1</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Nutzen Sie bereits Tools zur Metadatenspeicherung (z.B. Datenmanagementtools, elektronische Laborbücher, digitale Feldbücher)?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -375,7 +375,7 @@
     <ENTRY>
         <ID>17-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 1</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Nutzen Sie diese Tools weiter</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>22</BUTTON_LINK>
@@ -384,7 +384,7 @@
     <ENTRY>
         <ID>17-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 1</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob eine Installation von Datenmanagementtools, elektronischen Laborbüchern oder digitalen Feldbüchern für sie sinnvoll ist.</QUESTION_TEXT>
         <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
         <BUTTON_TEXT>Wenn nein, oder zur Entscheiddungsfindung</BUTTON_TEXT>
@@ -395,7 +395,7 @@
     <ENTRY>
         <ID>17-2-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 1</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Nutzen Sie diese.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>22</BUTTON_LINK>
@@ -404,7 +404,7 @@
     <ENTRY>
         <ID>18</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 2</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Ist ihr Datensatz umfangreich und komplex strukturiert?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -415,7 +415,7 @@
     <ENTRY>
         <ID>18-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 2</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Eine klare Zuordnung von zentral gespeicherten Metadaten zur jeweiligen Datendatei kann bei komplexen Datensätzen schwierig sein, daher wird eine dezentrale Speicherung der Metadaten empfohlen. Soll eine zentrale Metadatenspeicherung trotzdem in Betracht gezogen werden?</QUESTION_TEXT>
         <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
         <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
@@ -426,7 +426,7 @@
     <ENTRY>
         <ID>18-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 2</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob eine einfache Begleitdatei (z.B. README-Datei) sinnvoll ist, um die Metadaten zu ihrem Datensatz zentral zu sammeln und auf einen Blick verfügbar zu machen.</QUESTION_TEXT>
         <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
         <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
@@ -437,7 +437,7 @@
     <ENTRY>
         <ID>18-2-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 2</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Stellen Sie sicher, dass die Metadatendatei klar mit dem Datensatz verknüpft ist (z.B. durch eindeutige Namensgebung) und die Metadaten den einzelnen Datensätzen eindeutig zugeordnet werden können, um Datenverluste zu vermeiden.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
@@ -446,7 +446,7 @@
     <ENTRY>
         <ID>19</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 3</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Werden ihre Datendateien häufig verschoben oder kopiert?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -457,7 +457,7 @@
     <ENTRY>
         <ID>19-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 3</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob eine zentrale Metadatendatei für den gesamten Datensatz sinnvoll ist.</QUESTION_TEXT>
         <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
         <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
@@ -468,7 +468,7 @@
     <ENTRY>
         <ID>19-1-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 3</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Stellen Sie sicher, dass die Metadatendatei klar mit dem Datensatz verknüpft ist (z.B. durch eindeutige Namensgebung) und die Metadaten den einzelnen Datensätzen eindeutig zugeordnet werden können, um Datenverluste zu vermeiden.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
@@ -477,7 +477,7 @@
     <ENTRY>
         <ID>19-1-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 3</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob dezentrale Metadatendateien sinnvoll sind.</QUESTION_TEXT>
         <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
         <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
@@ -488,7 +488,7 @@
     <ENTRY>
         <ID>19-1-2-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 3</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Stellen Sie sicher, dass die einzelnen Metadatendateien klar mit den jeweiligen Datendateien verknüpft sind.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
@@ -497,7 +497,7 @@
     <ENTRY>
         <ID>20</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 4</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Ist es technisch möglich, dass alle relevanten Metadaten innerhalb der Datendateien gespeichert werden?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja, vollständig</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -510,7 +510,7 @@
     <ENTRY>
         <ID>20-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 4</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob Sie ihre Metadaten direkt in den Datendateien speichern, um Datenverluste durch kopieren oder verschieben der Datendateien zu verhindern.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
@@ -519,7 +519,7 @@
     <ENTRY>
         <ID>20-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 4</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob Sie dezentrale Metadatendateien neben den Datendateien anlegen, um umfangreiche Metadaten zu einzelnen Datendateien speichern zu können. Achten Sie darauf, diese Dateien gut mit den Datendateien zu verknüpfen, sodass Datenverluste bei verschieben oder kopieren der Daten vermieden werden.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
@@ -528,7 +528,7 @@
     <ENTRY>
         <ID>20-3</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 4</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie, ob Sie die technisch möglichen Metadaten direkt in der Datendatei speichern und ergänzen Sie diese mit dezentralen Metadatendateien oder einer zentralen Metadatendatei.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
@@ -537,7 +537,7 @@
     <ENTRY>
         <ID>21</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 5</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Ist Ihnen eine schnelles und automatisiertes Durchsuchen der Metadaten wichtig?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -548,7 +548,7 @@
     <ENTRY>
         <ID>21-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 5</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie maschinenlesbare Formate (XML, JSON, Datenbanken) zur Speicherung der Metadaten, um diese maschinenlesbar zu machen.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>22</BUTTON_LINK>
@@ -557,7 +557,7 @@
     <ENTRY>
         <ID>21-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Metadaten speichern und verknüpfen - Frage 5</CATEGORY>
+        <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Sie können einfache Textdateien oder Tabellen nutzen.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>22</BUTTON_LINK>
@@ -566,7 +566,7 @@
     <ENTRY>
         <ID>22</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 1</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Haben Sie die Struktur der Metadaten geprüft?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -577,7 +577,7 @@
     <ENTRY>
         <ID>22-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 1</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Je nach Dateiformat Ihrer Metadaten-Datei(en), können Sie automatisch überprüfen, ob sie konform zu Ihrem gewählten Metadatenstandard sind. Verwenden Sie dafür ggf. existierende Tools zur Validierung.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>23</BUTTON_LINK>
@@ -586,7 +586,7 @@
     <ENTRY>
         <ID>23</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 2</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Haben Sie die inhaltliche Korrektheit der Metadaten geprüft?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -597,7 +597,7 @@
     <ENTRY>
         <ID>23-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 2</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Prüfen Sie die Metadaten und passen Sie sie ggf. an.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>24</BUTTON_LINK>
@@ -606,7 +606,7 @@
     <ENTRY>
         <ID>24</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 3</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie kontrollierte Vokabulare oder Terminologien?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -617,7 +617,7 @@
     <ENTRY>
         <ID>24-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 3</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Nutzen Sie Begriffe aus kontrollierten Vokabularen, um die Metadaten verständlicher zu machen. Reichern Sie die Metadaten ggf. mit Terminologie-Konzepten an. Dadurch werden sie eindeutig und können leichter für automatisierte Prozesse genutzt werden.</QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>25</BUTTON_LINK>
@@ -626,7 +626,7 @@
     <ENTRY>
         <ID>25</ID>
         <TYPE>Frage</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 4</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Sind Metadaten mit den Daten verknüpft und dokumentiert?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein </BUTTON_TEXT>
@@ -637,14 +637,14 @@
     <ENTRY>
         <ID>25-1</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 4</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Herzlichen Glückwunsch! Sie haben erfolgreich Metadaten für Ihr Forschungsprojekt erstellt und verwaltet.</QUESTION_TEXT>
     </ENTRY>
 
     <ENTRY>
         <ID>25-2</ID>
         <TYPE>Antwort</TYPE>
-        <CATEGORY>Qualität der Metadaten sicherstellen - Frage 4</CATEGORY>
+        <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Stellen Sie sicher, dass Sie die Metadaten mit den entsprechenden Daten verknüpfen und alle verwendeten Namenskonventionen, Abkürzungen und Definitionen von Metadatenfeldern dokumentieren.</QUESTION_TEXT>
     </ENTRY>
 

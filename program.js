@@ -114,7 +114,14 @@ function UpdateProgressBar(entries, id)
   var progressBar = document.getElementById("progress bar");
 
     let questionCounter = 0;
-    let type;
+
+    //Festlegung des Fortschritts nach einer Exitfrage auf 0
+    if(id == 0)
+    {
+      progressBar.value = 0;
+    }
+
+    //Dynamische Bestimmung des Maximalwertes und des aktuellen Wertes der Fortschrittsleiste
     for (var i = 0; i <entries.length; i++) 
     {
       if(entries[i].getElementsByTagName("TYPE")[0].childNodes[0].nodeValue == "Frage")
@@ -126,7 +133,7 @@ function UpdateProgressBar(entries, id)
       {
         if(entries[i].getElementsByTagName("TYPE")[0].childNodes[0].nodeValue == "Frage")
         {
-          progressBar.value = id-1;
+          progressBar.value = id-1;          
         }else if(entries[i].getElementsByTagName("BUTTON_LINK").length == 0)
         {
           progressBar.value = parseInt(progressBar.value) + 1;
@@ -134,6 +141,8 @@ function UpdateProgressBar(entries, id)
       }
     }
     
+
+
     progressBar.max = questionCounter;
 }
 
