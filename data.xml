@@ -23,7 +23,7 @@
         <ID>1-1</ID>
         <TYPE>Exitfrage</TYPE>
         <CATEGORY>Motivation der Datendokumentation - Exitfrage</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine Nachnutzung kaum möglich, zudem sind <a target="_blank" href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912">Metadaten</a> zentral für die FAIR-Prinzipien (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a target="_blank" href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine <a target="_blank" href="">Nachnutzung</a> kaum möglich, zudem sind <a target="_blank" href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912">Metadaten</a> zentral für die FAIR-Prinzipien (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a target="_blank" href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
         <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>2</BUTTON_LINK>
