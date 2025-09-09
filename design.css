@@ -61,7 +61,7 @@ a:active {
     text-align: center;
     box-shadow: inset 0 0 0 0 var(--main_colour_dark);
     transition: ease-out 500ms;
-    color: var(--bg_contrast_colour);
+    color: var(--bg_colour);
     background-color: var(--contrast_colour_light);
     min-width: 10px;
     max-height: 103.2px;
@@ -70,6 +70,7 @@ a:active {
 
 .button:hover{
     box-shadow: inset 10em 0 0 0 var(--main_colour_dark);
+    color: var(--bg_contrast_colour);
 }
 
 .container{
