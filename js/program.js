@@ -1,20 +1,26 @@
+var prevID = [];
+const defaultDataPath = "./data_german.xml";
+let currentDataPath = defaultDataPath;
 // Load data from XML file and start main process
-function loadDoc(id) {
+function LoadDoc(id) {
   var xmlRequest = new XMLHttpRequest();
   xmlRequest.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        loadQuestion(this,id); //Call to main fuction
+        LoadQuestion(this,id); //Call to main fuction
     }
   };
-  xmlRequest.open("GET", "./data.xml", true);
+  xmlRequest.open("GET", currentDataPath, true);
   xmlRequest.send();
 }
 
 //Update page with the data for the provided question index
-function loadQuestion(xml,id)
+function LoadQuestion(xml,id)
 {
     var xmlDoc = xml.responseXML; //Get XML document
     var entries = xmlDoc.getElementsByTagName("ENTRY"); //List of all "ENTRY" entries in the XML document
+    if(prevID.at(-1) == 0 && id == 1){prevID = []}
+    prevID.push(id);
+ 
 
     RemoveButtons();
     UpdateProgressBar(entries, id);
@@ -32,6 +38,7 @@ function loadQuestion(xml,id)
             title_content = entries[i].getElementsByTagName("CATEGORY")[0].childNodes[0].nodeValue;
             
             AddButtons(entries[i]);
+            ResizeResponseButtons();
             SetQuestionBorderColour(entries[i]);
             break;
         }
@@ -88,7 +95,7 @@ function AddHierachy(entry, id)
   }
   newDiv.id ="circle";
   newDiv.innerText = entry.getElementsByTagName("ID")[0].childNodes[0].nodeValue;
-  newDiv.onclick = function(){loadDoc(page_link);};
+  newDiv.onclick = function(){LoadDoc(page_link);};
 
   document.getElementById("container hierarchy").appendChild(newDiv);
 }
@@ -110,9 +117,9 @@ function AddButtons(entry)
       newButton.id = "button";
       newButton.className = "button";
 
-      newButton.onclick = function(){loadDoc(page_link);};
+      newButton.onclick = function(){LoadDoc(page_link);};
       /*newButton.addEventListener('click', () => {
-        loadDoc(page_link);
+        LoadDoc(page_link);
       }); */
 
       container.appendChild(newButton);
@@ -158,9 +165,7 @@ function UpdateProgressBar(entries, id)
         }
       }
     }
-    
-
-
+  //Set the maximum value of the progress bar
     progressBar.max = questionCounter;
 }
 
@@ -178,4 +183,76 @@ function SetQuestionBorderColour(entry)
   {
     document.getElementById("container question").className = "container question"; //default case: hsl(0, 0%, 100%) - white
   }
+}
+
+function LoadPrev()
+{
+  if(prevID.length >= 2)
+  {
+    //removes the current entry
+    prevID.pop();
+    //loads previous entry and removes it from the list as loading it adds it to the list again
+    LoadDoc(prevID.pop());
+  }
+}
+
+function ResizeResponseButtons()
+{
+  let maxWidth = 0;
+  let maxHeight = 0;
+  let buttons = document.getElementsByTagName("button")
+
+  for(let i = 0; i < buttons.length; i++)
+  {
+      if(buttons[i].id == "button")
+      {
+          if(buttons[i].getBoundingClientRect().width > maxWidth)
+          {
+              maxWidth = buttons[i].getBoundingClientRect().width;
+          }
+
+          if(buttons[i].getBoundingClientRect().height > maxHeight)
+          {
+              maxHeight = buttons[i].getBoundingClientRect().height;
+          }
+      }
+  }
+
+  for(let i = 0; i < buttons.length; i++)
+  {
+      if(buttons[i].id == "button")
+      {
+          if(parseFloat(GetTextWidth(buttons[i].innerText, buttons[i].style.fontSize + buttons[i].style.fontFamily)) > 40)
+          {
+            buttons[i].className = "SmallPadding button";
+          }
+
+          buttons[i].style.width = maxWidth + "px";
+          buttons[i].style.height = maxHeight + "px";
+          //buttons[i].innerText = buttons[i].getBoundingClientRect().height;
+        /*
+          if (!buttons[i].style.fontSize) 
+          {
+            buttons[i].style.fontSize = "3em";
+          }
+        */
+          //buttons[i].innerText = GetTextWidth(buttons[i].innerText, buttons[i].style.fontSize + buttons[i].style.fontFamily);
+          
+      }
+  }
+
+  function GetTextWidth(text, font){
+    // Create a canvas element
+    const canvas = document.createElement("canvas");
+    const context = canvas.getContext("2d");
+
+    // Set the font
+    context.font = font;
+
+    // Measure the text width
+    const metrics = context.measureText(text);
+    return metrics.width;
+  }
+
+
 }

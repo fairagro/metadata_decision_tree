@@ -1,27 +1,53 @@
-<html>
+<html lang="de-DE">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Entscheidungsbaum</title>
         <link rel="stylesheet" href="design.css">
-        <script src="program.js"></script>
-        <script>loadDoc("1")</script>
+        <script src="js/program.js"></script>
+
+        <nav>
+            <div class="logoHeader">
+                <a href="https://fairagro.net/" target="_blank"><img src="./Fairagro_Logo.png" alt="FAIRagro Logo"></a>
+            </div>
+
+            <div class="stack">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="navLinks">
+                <li><a href="./index.html">Entscheidungsbaum</a></li>
+                <li><a href="./glossary.html">Glossar</a></li>
+                <li><a href="./metadata_guide.html">Metadatenguide</a></li>
+                <li><a href="https://fairagro.net/kontakt/">Kontakt</a></li>
+                <li><a id="language german" class="language-selected" onclick="SetLanguage('german')">DE</a></li>
+                <li><a id="language english" class="language" onclick="SetLanguage('english')">EN</a></li>
+                <!-- <div class="gtranslate_wrapper" style="display: flex;"></div>
+                    <script>window.gtranslateSettings = {"default_language":"de","languages":["de","en"],"wrapper_selector":".gtranslate_wrapper"}</script>
+                    <script src="https://cdn.gtranslate.net/widgets/latest/lc.js" defer></script> -->
+            </ul>
+
+        </nav>
+        <script src="js/language_selector.js"></script>
+        <script src="js/navigation.js"></script>
+        <script>LoadDoc("1")</script>
     </head>
     <body>
         <h1 id="title">Default Title</h1>
         <hr class ="hr">
         <div id="container question" class="container question">Default Question</div>
         <progress id="progress bar" max="25" min="0" value="18"></progress>
-        <div id="container hierarchy" class="container hierarchy center">
-            <div id="circle" class="circle active"></div>
-        </div>
+
         <div id="container answer" class="container answer">
-            <button id="button" class="button" onclick="loadDoc(1)">Default Answer 1</button>
-            <button id="button" class="button" onclick="loadDoc(2)">Default Answer 2</button>
+            <button id="button" class="button" onclick="LoadDoc(1)">Default Answer 1</button>
+            <button id="button" class="button" onclick="LoadDoc(2)">Default Answer 2</button>
         </div>
+        <button id="back" class="button" style="margin-top:40px" onclick="LoadPrev()">Zurück</button>
     </body>
     <div id="demo"></div>
     <footer>
-        <a  href="https://fairagro.net/" target="_blank"><img src="./Fairagro_Logo.png" alt="FAIRagro_Logo" class="logo"></a>
+        <a  href="https://fairagro.net/" target="_blank"><img src="./Fairagro_Logo.png" alt="FAIRagro Logo" class="logoFooter"></a>
     </footer>
 </html>
+
