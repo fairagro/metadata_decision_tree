@@ -8,6 +8,10 @@
 --bg_colour: hsl(252, 7%, 14%);
 --bg_contrast_colour: hsl(0, 0%, 100%);
 }
+head{
+    background-color: var(--bg_contrast_colour);
+    width: 100%;
+}
 
 body {
     display: block;
@@ -41,19 +45,6 @@ a:hover {
 }
 a:active {
     color: var(--contrast_colour_dark);
-}
-
-
-#myDesign {
-    width: 400px;
-    height: 400px;
-
-    background-color: #5f3763;
-    border: 6px solid #ffb108;
-
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .button{
