@@ -220,7 +220,7 @@ footer{
 
 /*desktop version*/
 nav{
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -276,6 +276,20 @@ ul {
     font-weight: bold;
 }
 
+.navLinks .glink{
+    padding: 10px 18px;
+    margin-left: 16px;
+    border: var(--main_colour) solid 2px;
+    border-radius: 50px;
+}
+.navLinks .gt-current-lang{
+    padding: 10px 18px;
+    margin-left: 16px;
+    border: var(--main_colour) solid 2px;
+    background-color: #def8d6;
+    border-radius: 50px;
+    font-weight: bold;
+}
 
 
 /*Used for logo without a company name in the image */

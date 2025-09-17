@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Metadata Guide</title>
+        <link rel="stylesheet" href="design.css">
+        <style>
+            .guide_container{
+                display: block;
+                align-items: center;
+                max-width: 860px;
+                width: 100%;
+                text-align: left;
+                margin:auto;
+            }
+            h2{color: hsl(171, 82%, 33%); margin-top: 2em; margin-bottom: 0.75em;}
+            h3{color: hsl(171, 82%, 33%); margin-top: 1em; margin-bottom: 0.5em;}
+            .guide_container ul{
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                padding-inline-start: 40px;
+                unicode-bidi: isolate;
+            }
+            .guide_container li{margin-bottom: 1.5em;}
+        </style>
+
+        <nav>
+            <div class="logoHeader">
+                <a href="https://fairagro.net/" target="_blank"><img src="./Fairagro_Logo.png" alt="FAIRagro Logo"></a>
+            </div>
+
+            <div class="stack">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="navLinks">
+                <li><a target="_self" href="/index.html">Entscheidungsbaum</a></li>
+                <li><a target="_self" href="./glossary.html">Glossar</a></li>
+                <li><a target="_self" href="./metadata_guide.html">Metadatenguide</a></li>
+                <li><a target="_self" href="https://fairagro.net/kontakt/">Kontakt</a></li>
+                <!--<li><a id="language german" class="language-selected" onclick="SetLanguage('german')">DE</a></li>
+                <li><a id="language english" class="language" onclick="SetLanguage('english')">EN</a></li>-->
+                 <div class="gtranslate_wrapper" style="display: flex;"></div>
+                    <script>window.gtranslateSettings = {"default_language":"de","languages":["de","en"],"wrapper_selector":".gtranslate_wrapper"}</script>
+                    <script src="https://cdn.gtranslate.net/widgets/latest/lc.js" defer></script> 
+            </ul>
+            <base target="_blank">
+        </nav>
+        <script src="js/language_selector.js"></script>
+        <script src="js/navigation.js"></script>
+
+    </head>
+    <body>
+        <h1 id="title">Metadata Guide</h1>
+        <hr class ="hr">
+        <div class="guide_container">
+            <p>This Guide is intended to provide a simple generic working-level view of the needs, issues, and processes around metadata collection and creation as it relates to research data [7].</p>
+            <p>It is based on: Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. <a target="_blank" href="https://doi.org/10.5281/zenodo.6459832">https://doi.org/10.5281/zenodo.6459832</a></p>
+            
+            <h2 id="what-is-metadata">What is metadata?</h2>
+                <p>While generally ‘meta-data’ is summarised as ‘data about data’, the following provides examples of what this actually means:</p>
+                <ul>
+                    <li>Metadata is information about an object or resource that describes characteristics of that object, such as content, quality, format, location and access rights.</li>
+                    <li>Metadata can be used to describe physical objects (e.g. soil samples, plant material and crop seeds) as well as digital objects (e.g. documents, images, data sets and software).</li>
+                    <li>Metadata can take many different forms, from free text (e.g. a README file) to standardised, structured, machine-readable, extensible content.</li>
+                    <li>Metadata is analogous to any other form of data, in terms of how it is created, managed, linked and stored.</li>
+                    <li>Metadata is associated with the data it describes. It can be embedded within the data file, or recorded a separate text/spreadsheet file that is linked to the collection of data files it describes, or contained in a catalogue record that points to the research data collection.</li>
+                    <li>Metadata enables and enhances the discovery and reuse of data [7].</li>
+                </ul>
+
+            <h3 id="finding-data">Finding data</h3>
+                <p>Data formats such as text can be indexed and searched themselves (as in a simple Google search). However, the ability to search formats like audio, images and video is limited, and discoverability relies on searching the metadata. Discovery metadata helps researchers find data that, for example:</p>
+                <ul>
+                    <li>relates to a research discipline of interest via field of research, keyword or vocabulary  metadata.</li>
+                    <li>is generated by another researcher whose work is of interest via lead researcher or contributor metadata.</li>
+                    <li>relates to a geographical area of interest via geospatial metadata.</li>
+                    <li>relates to a specific crop species/variety of interest, a specific phenotypic trait of interest (e.g. root architecture, biomass growth), a specific environmental impact or field management aspect of interest ( e.g. fertilisation, crop rotation, erosion control) or a specific soil class of interest via descriptive and discipline-specific metadata.</li>
+                    <li>Is generated using a specific method of interest (e.g. a specific sensor used, a specific depth of measurement, a specific software/analysis method used) via process metadata [7].</li>
+                </ul>
+
+            <h3 id="determining-the-value-of-data">Determining the value of data</h3>
+
+            <h3 id="accessing-data">Accessing data</h3>
+
+            <h3 id="using-and-reusing-data">Using and reusing data</h3>
+
+            <h3 id="levels-of-metadata">Levels of metadata</h3>
+                <p>There are three levels of data groupings: data objects (Datasets and Components) can be collected into groups (Collections):</p>
+                <ol>
+                    <li><b>Collection level metadata</b> describes the collection as a whole. For example, the BonaRes database (https://maps.bonares.de) collects soil data from various long-term experiments (LTEs). The collection-level metadata describe, among other things, the objective, geographical coverage, participating institutes, licensing and interfaces for subsequent use (e.g. via APIs or download formats).</li>
+                    <li><b>Dataset level metadata</b> describes individual objects. For example, within an LTE, the metadata describing the soil measurements of a specific year are on dataset level.</li>
+                    <li><b>Component level metadata</b> - sometimes single objects can be made up of component parts: For example, a soil dataset can consist of several layer measurements per soil profile (e.g. 0-10 cm, 10-30 cm, 30-60 cm). Each layer represents a component and requires its own metadata - such as sample depth, analysis type or storage.</li>
+                </ol>
+                <p>The collection approach and subsequent level of description impacts on discoverability, and cost and effort of management. Metadata ideally should be based on the needs of those for whom the collection is created [7].</p>
+                <p><b>EXAMPLE:</b> Collection, dataset and component metadata</p>
+                <p>An agricultural research institute operates a central archive with data from multi-year field trials on crop rotation. To enable effective use and targeted reuse of this data, the data sets are described at several levels:</p>
+                <ul>
+                    <li><b>Collection level:</b> The data is organized in collections according to trial type - e.g. “Crop rotation trials under conservation tillage”, “Soil monitoring on organically farmed land” or “Long-term trials on nitrogen fertilization in winter wheat”.<br> The collection level describes overarching metadata such as the locations of the trial sites, duration of the trial series, objectives, participating institutes and available data types (e.g. soil data, yield data, climate data).</li>
+                    <li><b>Dataset level:</b> This level describes a specific trial year at a location, e.g. “Groß Kreutz long-term trial - year 2020”.<br> Metadata such as tillage method, cultivated crop rotation element (e.g. spring barley), sowing date, fertilization strategy, weather pattern and harvest date are documented here.</li>
+                    <li><b>Component level:</b> Within a trial year, the data consists of several individual measurements, e.g. per plot or measurement time. For each plot, for example, yield data, disease infestation, nutrient analyses or drone images are recorded - each with specific metadata such as plot ID, GPS coordinates, measurement date, sensor parameters, laboratory methods used or scoring criteria.</li>
+                </ul>
+                <p>This hierarchical structure makes it possible to find specific data - e.g. all plot yields of spring barley in 2020 under reduced tillage - without having to manually search through countless individual files. It also supports automatic linking with other data sets, such as weather or soil condition [7].</p>
+            
+            <h3 id="types-of-metadata">Types of metadata</h3>
+
+            <h2 id="metadata-language">Metadata language</h2>
+                <p>Understanding commonly used metadata terminology will help you better plan, collect and apply metadata [7].</p>
+            
+            <h3 id="elements-and-schemas">Elements and schemas</h3>
+                <p>Metadata schemas are an overall structure for metadata about a particular information resource or for a specific domain. A schema specifies a set of metadata concepts or terms (called elements), and their associated definitions (semantics) and relationships. The value given to each element is the content.</p>
+                <p>Metadata schemas often emerge from a single community group (e.g. the agrosystem science community) or can be developed to describe a specific type of experiment or domain. For example, MIAPPE (<a target="_blank" href="https://www.miappe.org">https://www.miappe.org</a>) is a standard for describing plant phenotyping experiments and ISO 19115 (<a target="_blank" href="http://www.dcc.ac.uk/resources/metadata-standards/iso-19115">http://www.dcc.ac.uk/resources/metadata-standards/iso-19115</a>) is an international standard for describing geographic information and services.</p>
+                <p>A schema may also specify:</p>
+                <ul>
+                    <li><b>content rules</b> e.g. required formats and controlled vocabularies</li>
+                    <li>the <b>syntax</b> in which elements must be encoded (or expressed), such as XML (Extensible Markup Language) [7].</li>
+                </ul>
+                <p>EXAMPLE</p>
+                <p>One of the most common generic schemas is the Dublin Core Metadata Initiative (<a target="_blank" href="http://dublincore.org">http://dublincore.org</a>), which is the most widely adopted schema for descriptive metadata to date.</p>
+                <p>It is simple and generic, with just 15 elements in the original Dublin Core Metadata Element Set, including Title, Date, Type, Format, Creator, Coverage and Rights. Dublin Core has since been extended to 55 terms in the DCMI terms (<a target="_blank" href="http://dublincore.org/documents/dcmi-terms">http://dublincore.org/documents/dcmi-terms</a>) namespace.</p>
+                <p>Each field can be basically free-form text, with some restrictions.</p>
+                <p>Dublin Core is used a lot on web pages, with the “dc” namespace – so you will often see things like “dc.Title” as a metadata tag inside a webpage’s HTML headers. If you are working with video, you may use Dublin Core and the MPe.g. 7 standard for video archives, and so get the “dc.Title” and the “MPe.g.7.Title” fields. Each has its own rules for how you can use them, found in the schema’s namespace (see below) [7].</p>
+            
+            <h3 id="content-rules-and-controlled-vocabularies">Content rules and controlled vocabularies</h3>
+            
+            <h3 id="namespaces">Namespaces</h3>
+
+            <h3 id="finding-and-choosing-a-metadata-schema">Finding and choosing a metadata schema</h3>
+            
+            <h3 id="adopt">Adopt, adapt, or create your schema?</h3>
+                <p>Although it is possible to develop a metadata schema from scratch, it is preferable to use or adapt existing standards and/or widely-established schemas, as they offer:</p>
+                <ul>
+                    <li>Cost savings - the schema and its usage guidelines have been developed, thus saving time and effort.</li>
+                    <li>Access to help and advice - a standard is likely to have a community of users.</li>
+                    <li>Usability - users are likely to be familiar with a standard and its terminology.</li>
+                    <li>Interoperability - information can be easily shared between systems.</li>
+                    <li>Sustainability - schemas need maintenance and updating if they are to remain usable.</li>
+                </ul>
+                <p>Your choices are:</p>
+                <ol>
+                    <li>If there is just one obvious metadata standard, and it meets your needs, use it.</li>
+                    <li>If there are several obvious schemas that meet your needs, follow models of ‘good practice’ within your community.</li>
+                    <li>Where you can find no single appropriate schema:</li>
+                        <ol type="a">
+                            <li>Adapt or extend an existing schema to better fit your needs, and document the changes you make very carefully using the documentation methods and mappings deployed by existing standards as a guide. Contact the ‘owners’ of the schema and attempt to work with them, as others may benefit from your changes.</li>
+                            <li>Alternatively, develop a new ‘application profile’, where various metadata elements (and the elements’ guidelines and documentation) are taken from different metadata schemas and mixed together.</li>
+                        </ol>
+                </ol>
+                <p>If there is absolutely no schema you can use, check again; it’s a rare situation nowadays. If there is still no schema to be found, then you may have to develop one. However, it takes a fair bit of work, and you should bring together as many interested people in your discipline as you can [7].</p>
+            
+            <h2 id="collectiong-and-linking-metadata">Collecting and linking Metadata</h2>
+            
+            <h3 id="collecting-metadata">Collecting Metadata</h3>
+            
+            <h3 id="linking-metadata-and-data">Linking metadata and data</h3>
+                <h4 id="metadata-within-the-data-file">Metadata within the data file</h4>
+                    <p>The first place that metadata can go is inside the file with the data itself. There are many digital file formats that include a range of metadata fields, and some can be extended to hold almost anything. These include:</p>
+                    <ul>
+                        <li>text formats e.g. DOCX and PDF</li>
+                        <li>tabular formats e.g. XLSX</li>
+                        <li>image formats e.g. TIFF and JPEG</li>
+                        <li>video formats e.g. MPEG</li>
+                        <li>audio formats e.g. WAV</li>
+                        <li>specialist discipline formats e.g. HDF (Remote sensing).</li>
+                    </ul>
+                    <p>A benefit of storing metadata inside the file is that it moves with the file; the association between the data and its metadata is easy to maintain.</p>
+                    <p>However, the downsides are:</p>
+                    <ul>
+                        <li>Not every metadata field you want may be able to be added.</li>
+                        <li>Searching the collection is slow, as the computer has to open every single file for every single query, especially as the number of files and queries grows.</li>
+                        <li>Collection-level metadata is not easily managed. If you write a collection reference into each file and then decide to make a change to it, you have to edit every single affected file [7].</li>
+                    </ul>
+                <h4 id="metadata-as-separate-files">Metadata as separate files</h4>
+                    <p>This solution will give you infinite flexibility for storing any and all kinds of metadata without restriction: write the metadata into a separate, well-structured file, (perhaps using XML or JSON), and associate that with the data file. A common approach to strengthen the file-metadata file association is to use the same filename stem, e.g. cat1.tiff is the image and cat1.xml is the metadata. This can improve the performance for searching and metadata modifications slightly. A well-organized folder structure and naming conventions are essential here!</p>
+                    <p>However, the downsides are:</p>
+                    <ul>
+                        <li>the data is still on the same storage medium, and you still have to open the same number of files to make queries or changes</li>
+                        <li>it increases the risk of separating the data and the metadata when files are moved [7].</li>
+                    </ul>
+                <h4 id="spreadsheets-and-databases">Spreadsheets and databases</h4>
+                    <p>Aggregating metadata for multiple datasets into a single spreadsheet or database gives you a lot more flexibility in searching, making changes, and in the metadata fields recorded.</p>
+                    <p>Collection-level changes are very easy to make in a database, as datasets that belong to a certain collection are just flagged and pointed to the collection-level record. Only one record (the collection-level record) in the database has to be changed for every dataset in that collection to be changed.</p>
+                    <p>The metadata is associated with the data by recording the filename and location (or URI) for the data within the metadata record, and updating this anytime the data location is changed [7].</p>
+        </div>
+    </body>
+    <footer>
+        <a  href="https://fairagro.net/" target="_blank"><img src="./Fairagro_Logo.png" alt="FAIRagro_Logo" class="logoFooter"></a>
+    </footer>
+</html>
