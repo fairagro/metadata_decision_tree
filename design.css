@@ -5,9 +5,17 @@
 --contrast_colour_dark: hsl(352, 49%, 40%);
 --contrast_colour: 	hsl(6, 85%, 66%);
 --contrast_colour_light:hsl(228, 3%, 67%);
---bg_colour: hsl(252, 7%, 14%);
---bg_contrast_colour: hsl(0, 0%, 100%);
+--bg_colour: hsl(0, 0%, 100%);
+--bg_contrast_colour: hsl(252, 7%, 14%); 
 }
+
+@font-face {
+  font-family: 'FirSans';
+  src: url('/fonts/FiraSans-Regular.woff2') format('woff2'),
+       url('/fonts/FiraSans-Regular.woff') format('woff'),
+       url('/fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
 head{
     background-color: var(--bg_contrast_colour);
     width: 100%;
@@ -15,7 +23,7 @@ head{
 
 body {
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: FirSans, Helvetica, sans-serif;
     text-align: center;
     background-color: var(--bg_colour);
     color: var(--bg_contrast_colour);
@@ -24,7 +32,8 @@ body {
     margin: 0px;
 }
 h1 {
-    margin-top: 20px; 
+    margin-top: 20px;
+    font-family: FirSans, Helvetica, sans-serif;
     background-image:linear-gradient(35deg, #9acb4e, #0f9884 75%); 
     -webkit-text-fill-color: transparent; 
     background-clip: text;
@@ -51,6 +60,7 @@ a:active {
 .button{
     font-size: 3em;
     font-weight: bold;
+    font-family: FirSans, Helvetica, sans-serif;
     display: inline-flex;
     cursor: pointer;
     text-decoration: none;
@@ -86,6 +96,13 @@ a:active {
     color: var(--bg_contrast_colour);
 }
 
+.banner{
+    height: 35px;
+    position: sticky;
+    top: 0px;
+    background-image:linear-gradient(35deg, #9acb4e, #0f9884 100%);
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -104,7 +121,7 @@ a:active {
     margin: auto;
     min-height: 100px;
     font-size: xx-large;
-    border-color: white;
+    border-color: var(--bg_contrast_colour);
 }
 
 progress{
@@ -221,13 +238,16 @@ footer{
 
 /*desktop version*/
 nav{
-    /*position: sticky;*/
-    top: 0;
+    position: sticky;
+    top: 35;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
-    background-color: white;
+    background-color: var(--bg_colour);
+    font-family: FirSans, Helvetica, sans-serif;
+    border-bottom: 1px solid var(--contrast_colour_light);
+    border-color: var(--contrast_colour_light);
 }
 .navLinks{
     display: flex;
@@ -299,7 +319,7 @@ ul {
     color: black;
     text-decoration: none;
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: FirSans, Helvetica, sans-serif;
 }
 
 .stack{
@@ -322,6 +342,9 @@ ul {
 {
     nav{
         flex-wrap: wrap;
+        font-family: FirSans, Helvetica, sans-serif;
+        border-bottom: 1px solid var(--contrast_colour);
+        border-color: var(--contrast_colour_light);
     }
 
     .stack{
