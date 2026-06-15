@@ -1,4 +1,16 @@
 <CATALOG>
+    <UI>
+        <NAVIGATOR>
+            <DECISIONTREE>ENTSCHEIDUNGSBAUM</DECISIONTREE>
+            <GLOSSARY>GLOSSAR</GLOSSARY>
+            <METADATAGUIDE>METADATENGUIDE</METADATAGUIDE>
+            <CONTACT>KONTAKT</CONTACT>
+            <BIBLIOGRAPHY>LITERATURVERZEICHNIS</BIBLIOGRAPHY>
+        </NAVIGATOR>
+        <TEXTELEMENT>
+            <BACKBUTTON>Zurück</BACKBUTTON>
+        </TEXTELEMENT>
+    </UI>
     <ENTRY>
         <ID>0</ID>
         <TYPE>Antwort</TYPE>
@@ -238,7 +250,7 @@
         <ID>11-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Verwenden Sie des gewählte <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> und <a target="_blank" href="./metadata_guide.html#adopt">passen Sie dieses ggf. an</a>, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Verwenden Sie des gewählte <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> und <a target="_blank" href="./metadata_guide.html#adapt">passen Sie dieses ggf. an</a>, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -247,7 +259,7 @@
         <ID>11-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Überprüfen Sie, welches <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> am besten zu ihren Daten passt und verwenden Sie dieses, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen. <a target="_blank" href="./metadata_guide.html#adopt">Kombinieren Sie ggf. bei Bedarf mehrere passende Schemata</a>. Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Überprüfen Sie, welches <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> am besten zu ihren Daten passt und verwenden Sie dieses, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen. <a target="_blank" href="./metadata_guide.html#adapt">Kombinieren Sie ggf. bei Bedarf mehrere passende Schemata</a>. Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -256,7 +268,7 @@
         <ID>11-3</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein, um ein passendes <a target="_blank" href="./glossary.html#metadata-standards">Schema zu finden</a> bzw. <a target="_blank" href="./metadata_guide.html#adopt">selbst (weiter-) zu entwickeln</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein, um ein passendes <a target="_blank" href="./glossary.html#metadata-standards">Schema zu finden</a> bzw. <a target="_blank" href="./metadata_guide.html#adapt">selbst (weiter-) zu entwickeln</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -276,7 +288,7 @@
         <ID>12-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob die Vorgaben durch das gewählte <a target="_blank" href="./glossary.html#metadata-standards">Metadatenschema</a> abgedeckt werden. <a target="_blank" href="./metadata_guide.html#adopt">Passen Sie das Schema ggf. an</a> und dokumentieren Sie dies.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob die Vorgaben durch das gewählte <a target="_blank" href="./glossary.html#metadata-standards">Metadatenschema</a> abgedeckt werden. <a target="_blank" href="./metadata_guide.html#adapt">Passen Sie das Schema ggf. an</a> und dokumentieren Sie dies.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>13</BUTTON_LINK>
     </ENTRY>

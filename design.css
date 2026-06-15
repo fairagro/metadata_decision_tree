@@ -10,8 +10,10 @@
 }
 
 @font-face {
-  font-family: 'FirSans';
-  src: url('/fonts/FiraSans-Regular.woff2') format('woff2'),
+    font-family: 'FirSans';
+    font-variant-ligatures: none; 
+    font-feature-settings: "liga" 0;
+    src: url('/fonts/FiraSans-Regular.woff2') format('woff2'),
        url('/fonts/FiraSans-Regular.woff') format('woff'),
        url('/fonts/FiraSans-Regular.ttf') format('truetype');
 }
