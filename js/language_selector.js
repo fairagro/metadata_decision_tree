@@ -48,24 +48,19 @@ function SetNavigatorLabels() {
     xmlRequest.send();
 }
 
-// Load data from XML and aplly to Decision Tree UI
+// Load data from XML and set Decision Tree UI contents to current language
 function ApplyLanguageToUI() {
     var xmlRequest = new XMLHttpRequest();
     xmlRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var xmlDoc = this.responseXML; //Get XML document
             var ui = xmlDoc.getElementsByTagName("UI"); //List of all "UI" entries in the XML document
-            SetUILabels(ui);
+            var textElement = ui[0].getElementsByTagName("TEXTELEMENT");
+            if (document.getElementById("back") != null) {
+                document.getElementById("back").innerText = textElement[0].getElementsByTagName("BACKBUTTON")[0].childNodes[0].nodeValue;
+            }
         }
     };
     xmlRequest.open("GET", currentDataPath, true);
     xmlRequest.send();
-}
-
-//Set Decision Tree UI contents to current language
-function SetUILabels(ui) {
-    var textElement = ui[0].getElementsByTagName("TEXTELEMENT");
-    if (document.getElementById("back") != null) {
-        document.getElementById("back").innerText = textElement[0].getElementsByTagName("BACKBUTTON")[0].childNodes[0].nodeValue;
-    }
 }

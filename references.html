@@ -4,40 +4,8 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Bibliography</title>
         <link rel="stylesheet" href="design.css">
-        <style>
-            .container
-            {
-                display: block;
-                align-items: center;
-                max-width: 860px;
-                width: 100%;
-                text-align: left;
-                margin:auto;
-            }
-            .container ol 
-            {
-                counter-reset: item;
-                margin-left: 0;
-                padding-left: 0;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                padding-inline-start: 40px;
-                unicode-bidi: isolate;
-            }
-            .container li 
-            {
-                display: block;
-                margin-left: 2em;
-                margin-bottom: 1.5em;
-            }
-            .container li::before 
-            {
-                display: inline-block;
-                content: "[" counter(item) "]";
-                counter-increment: item;
-                width: 3em;
-                margin-left: -3em;
-            }
+        <link rel="stylesheet" href="references_style.css">
+
         </style>
 
         <div class="banner"></div>
@@ -52,21 +20,19 @@
                 <div class="bar"></div>
             </div>
             <ul class="navLinks">
-                <li><a target="_self" href="./index.html">Entscheidungsbaum</a></li>
-                <li><a target="_self" href="./glossary.html">Glossar</a></li>
-                <li><a target="_self" href="./metadata_guide.html">Metadatenguide</a></li>
-                <li><a target="_self" href="https://fairagro.net/kontakt/">Kontakt</a></li>
-                <li><a target="_self" href="./references.html">Bibliography</a></li>
-                <!--<li><a id="language german" class="language-selected" onclick="SetLanguage('german')">DE</a></li>
-                <li><a id="language english" class="language" onclick="SetLanguage('english')">EN</a></li>-->
-                 <div class="gtranslate_wrapper" style="display: flex;"></div>
-                    <script>window.gtranslateSettings = {"default_language":"de","languages":["de","en"],"wrapper_selector":".gtranslate_wrapper"}</script>
-                    <script src="https://cdn.gtranslate.net/widgets/latest/lc.js" defer></script> 
+                <li><a id="nav_decisiontree" target="_self" href="./index.html">Entscheidungsbaum</a></li>
+                <li><a id="nav_glossar" target="_self" href="./glossary.html">Glossar</a></li>
+                <li><a id="nav_metadataguide" target="_self" href="./metadata_guide.html">Metadatenguide</a></li>
+                <li><a id="nav_contact" target="_self" href="https://fairagro.net/kontakt/">Kontakt</a></li>
+                <li><a id="nav_bibliography" target="_self" href="./references.html">Literaturverzeichnis</a></li>
+                <li><a id="language german" class="language-selected" href="literaturverzeichnis.html" target="_self">DE</a></li>
+                <li><a id="language english" class="language" href="references.html" target="_self">EN</a></li>
             </ul>
             <base target="_blank">
         </nav>
         <script src="js/language_selector.js"></script>
         <script src="js/navigation.js"></script>
+        <script>SetLanguage('english')</script>
 
     </head>
     <body>
@@ -74,16 +40,16 @@
         <hr class ="hr">
         <div class="container">
             <ol>
-                <li id="source-1">Longwood Research Data Management, „Data Dictionary“. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary">https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary</a></li>
-                <li id="source-2">Data Documentation Initiative Alliance, „Create a Codebook“. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://ddialliance.org/create-a-codebook">https://ddialliance.org/create-a-codebook</a></li>
-                <li id="source-3">Bibliothek der Universität Zürich, „Daten dokumentieren“. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/mit-daten-arbeiten/daten-dokumentieren.html">https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/mit-daten-arbeiten/daten-dokumentieren.html</a></li>
-                <li id="source-4">„Datendokumentation - Warum, was und wie?“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/</a></li>
-                <li id="source-5">„Glossar“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/praxis-kompakt/glossar/">https://forschungsdaten.info/praxis-kompakt/glossar/</a></li>
-                <li id="source-6">„Elektronische Laborbücher“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/elektronische-laborbuecher/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/elektronische-laborbuecher/</a></li>
+                <li id="source-1">Longwood Research Data Management, „Data Dictionary“. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary">https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary</a></li>
+                <li id="source-2">Data Documentation Initiative Alliance, „Create a Codebook“. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://ddialliance.org/create-a-codebook">https://ddialliance.org/create-a-codebook</a></li>
+                <li id="source-3">Bibliothek der Universität Zürich, „Daten dokumentieren“. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/mit-daten-arbeiten/daten-dokumentieren.html">https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/mit-daten-arbeiten/daten-dokumentieren.html</a></li>
+                <li id="source-4">„Datendokumentation - Warum, was und wie?“, forschungsdaten.info. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/</a></li>
+                <li id="source-5">„Glossar“, forschungsdaten.info. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://forschungsdaten.info/praxis-kompakt/glossar/">https://forschungsdaten.info/praxis-kompakt/glossar/</a></li>
+                <li id="source-6">„Elektronische Laborbücher“, forschungsdaten.info. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/elektronische-laborbuecher/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/elektronische-laborbuecher/</a></li>
                 <li id="source-7">Australian Research Data Commons (ARDC), „ARDC Metadata Guide“, 1. März 2020, Zenodo. doi: <a href="https://zenodo.org/records/6459832">10.5281/ZENODO.6459832</a>.</li>
-                <li id="source-8">„Metadaten und Metadatenstandards“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/</a></li>
-                <li id="source-9">D. Faria, K. Bösl, und M. Englund, „Data life cycle - Reusing“, RDMkit Elixir Europe. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://rdmkit.elixir-europe.org/reusing#what-is-data-reuse">https://rdmkit.elixir-europe.org/reusing#what-is-data-reuse</a></li>
-                <li id="source-10">„standard operating procedure“, Merriam-Webster. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://www.merriam-webster.com/dictionary/standard%20operating%20procedure">https://www.merriam-webster.com/dictionary/standard%20operating%20procedure</a></li>
+                <li id="source-8">„Metadaten und Metadatenstandards“, forschungsdaten.info. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/</a></li>
+                <li id="source-9">D. Faria, K. Bösl, und M. Englund, „Data life cycle - Reusing“, RDMkit Elixir Europe. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://rdmkit.elixir-europe.org/reusing#what-is-data-reuse">https://rdmkit.elixir-europe.org/reusing#what-is-data-reuse</a></li>
+                <li id="source-10">„standard operating procedure“, Merriam-Webster. Accessed: 18th of August 2025. [Online]. Available at: <a href="https://www.merriam-webster.com/dictionary/standard%20operating%20procedure">https://www.merriam-webster.com/dictionary/standard%20operating%20procedure</a></li>
             </ol>
         </div>
 
