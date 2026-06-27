@@ -1,0 +1,32 @@
+ .guide_container {
+     display: block;
+     align-items: center;
+     max-width: 860px;
+     width: 100%;
+     text-align: left;
+     margin: auto;
+ }
+
+ h2 {
+     color: hsl(171, 82%, 33%);
+     margin-top: 2em;
+     margin-bottom: 0.75em;
+ }
+
+ h3 {
+     color: hsl(171, 82%, 33%);
+     margin-top: 1em;
+     margin-bottom: 0.5em;
+ }
+
+ .guide_container ul {
+     display: block;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     padding-inline-start: 40px;
+     unicode-bidi: isolate;
+ }
+
+ .guide_container li {
+     margin-bottom: 1.5em;
+ }

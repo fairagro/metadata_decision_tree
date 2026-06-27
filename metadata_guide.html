@@ -4,26 +4,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Metadata Guide</title>
         <link rel="stylesheet" href="design.css">
-        <style>
-            .guide_container{
-                display: block;
-                align-items: center;
-                max-width: 860px;
-                width: 100%;
-                text-align: left;
-                margin:auto;
-            }
-            h2{color: hsl(171, 82%, 33%); margin-top: 2em; margin-bottom: 0.75em;}
-            h3{color: hsl(171, 82%, 33%); margin-top: 1em; margin-bottom: 0.5em;}
-            .guide_container ul{
-                display: block;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                padding-inline-start: 40px;
-                unicode-bidi: isolate;
-            }
-            .guide_container li{margin-bottom: 1.5em;}
-        </style>
+        <link rel="stylesheet" href="metadata_guide_style.css">
         
         <div class="banner"></div>
         <nav>
@@ -42,19 +23,25 @@
                 <li><a id="nav_metadataguide" target="_self" href="./metadata_guide.html">Metadatenguide</a></li>
                 <li><a id="nav_contact" target="_self" href="https://fairagro.net/kontakt/">Kontakt</a></li>
                 <li><a id="nav_bibliography" target="_self" href="./references.html">Literaturverzeichnis</a></li>
-                <li><a id="language german" class="language-selected" onclick="SetLanguage('german')">DE</a></li>
-                <li><a id="language english" class="language" onclick="SetLanguage('english')">EN</a></li>
+                <li><a id="language german" class="language-selected" onclick="SetLanguage('german');SetPath('metadata_guide'); LoadPage();">DE</a></li>
+                <li><a id="language english" class="language" onclick="SetLanguage('english'); SetPath('metadata_guide'); LoadPage();">EN</a></li>
             </ul>
             <base target="_blank">
         </nav>
         <script src="js/language_selector.js"></script>
         <script src="js/navigation.js"></script>
+        <script src="js/page_builder.js"></script>
+        <script>
+            LoadUI();
+            SetPath("metadata_guide");
+            LoadPage();
+        </script>
 
     </head>
     <body>
         <h1 id="title">Metadata Guide</h1>
         <hr class ="hr">
-        <div class="guide_container">
+        <div class="guide_container" id="container">
             <p>This Guide is intended to provide a simple generic working-level view of the needs, issues, and processes around metadata collection and creation as it relates to research data <a target="_blank" href="./references.html#source-7">[7]</a></p>
             <p>It is based on: Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. <a target="_blank" href="https://doi.org/10.5281/zenodo.6459832">https://doi.org/10.5281/zenodo.6459832</a></p>
             
