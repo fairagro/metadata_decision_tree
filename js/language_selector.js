@@ -1,22 +1,33 @@
 const languageButtons = document.querySelectorAll('a[id*="language"]'); //Array of all language buttons
-let currentLanguage = "german";
 
 //Sets the current language and updates the UI
 function SetLanguage(language) {
-    currentLanguage = language;
+    sessionStorage.setItem("currentLanguage", language);
+    //document.getElementById("demo").innerText = sessionStorage.getItem("currentLanguage");
+    LoadUI()
+}
+
+function LoadUI(){
+    //Set current data path to the selected language
+    let language = sessionStorage.getItem("currentLanguage");
+    if(language == null)
+    {
+        SetLanguage('german');
+        language = 'german';
+    }
+
+    currentDataPath = `./xml/data_${language}.xml`;
     ResetSelectedButton();
     document.getElementById(`language ${language}`).className = "language-selected";
-    //document.getElementById("demo").innerText = currentLanguage;
-
-    //Set current data path to the selected language
-    currentDataPath = `./data_${language}.xml`;
     SetNavigatorLabels();
+    ApplyLanguageToDTUI();
 }
 
 //Sets the current language and updates the Decision Tree UI
 function SetLanguageAndRefreshDT(language) {
+
+    //Update session storage and navigator UI
     SetLanguage(language);
-    ApplyLanguageToUI();
     LoadDoc(prevID.at(-1));
 }
 
@@ -49,7 +60,7 @@ function SetNavigatorLabels() {
 }
 
 // Load data from XML and set Decision Tree UI contents to current language
-function ApplyLanguageToUI() {
+function ApplyLanguageToDTUI() {
     var xmlRequest = new XMLHttpRequest();
     xmlRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {

@@ -2,21 +2,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Glossar</title>
+        <title>Glossary</title>
         <link rel="stylesheet" href="design.css">
-        <style>
-            h2{color: hsl(171, 82%, 33%); margin-top: 2em; margin-bottom: 2em;}
-            .glossary_container{
-                display: block;
-                align-items: center;
-                max-width: 860px;
-                width: 100%;
-                text-align: left;
-                margin:auto;
-            }
-            h3{margin-top: 2em;}
-            ul{padding-left: 30px;}
-        </style>
+        <link rel="stylesheet" href="glossary_style.css">
         
         <div class="banner"></div>
         <nav>
@@ -35,19 +23,25 @@
                 <li><a id="nav_metadataguide" target="_self" href="./metadata_guide.html">Metadatenguide</a></li>
                 <li><a id="nav_contact" target="_self" href="https://fairagro.net/kontakt/">Kontakt</a></li>
                 <li><a id="nav_bibliography" target="_self" href="./references.html">Literaturverzeichnis</a></li>
-                <li><a id="language german" class="language-selected" onclick="SetLanguage('german')">DE</a></li>
-                <li><a id="language english" class="language" onclick="SetLanguage('english')">EN</a></li>
+                <li><a id="language german" class="language-selected" onclick="SetLanguage('german');SetPath('glossary'); LoadPage();">DE</a></li>
+                <li><a id="language english" class="language" onclick="SetLanguage('english'); SetPath('glossary'); LoadPage();">EN</a></li>
             </ul>
             <base target="_blank">
         </nav>
         <script src="js/language_selector.js"></script>
         <script src="js/navigation.js"></script>
+        <script src="js/page_builder.js"></script>
+        <script>
+            LoadUI();
+            SetPath("glossary");
+            LoadPage();
+        </script>
 
     </head>
     <body>
-        <h1 id="title">Glossar</h1>
+        <h1 id="title">Glossary</h1>
         <hr class ="hr">
-        <div class="glossary_container">
+        <div class="glossary_container" id="container">
             <div>
                 <h2 id="C">C</h2>
                 <h3 id="codebook">Codebook / Data Dictionary</h3>

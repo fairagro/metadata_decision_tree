@@ -1,5 +1,5 @@
 var prevID = [];
-const defaultDataPath = "./data_german.xml";
+const defaultDataPath = "./xml/data_german.xml";
 let currentDataPath = defaultDataPath;
 // Load data from XML file and start main process
 function LoadDoc(id) {
