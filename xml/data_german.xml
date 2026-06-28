@@ -117,7 +117,7 @@
         <ID>5-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Erstellen Sie ein <a target="_blank" href="./glossary.html#data-dictionary">Data Dictionary</a> bzw. <a target="_blank"href="./glossary.html#codebook">Codebook</a>, um Ihre Daten besser verständlich zu machen.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Erstellen Sie ein <a target="_blank" href="./glossary.html#codebook">Data Dictionary</a> bzw. <a target="_blank"href="./glossary.html#codebook">Codebook</a>, um Ihre Daten besser verständlich zu machen.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>6</BUTTON_LINK>
     </ENTRY>

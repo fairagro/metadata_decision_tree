@@ -286,19 +286,19 @@
         <parentID>ol-1</parentID>
         <type>li</type>
         <id>li-25</id>
-        <text><![CDATA[<b>Metadaten auf Sammlungsebene</b> beschreiben die Sammlung als Ganzes. Beispielsweise sammelt die BonaRes-Datenbank (https://maps.bonares.de) Bodendaten aus verschiedenen Langzeitversuchen (LTEs). Die Metadaten auf Sammlungsebene beschreiben unter anderem das Ziel, die geografische Abdeckung, die beteiligten Institute, die Lizenzbedingungen und die Schnittstellen für die weitere Nutzung (z. B. über APIs oder Download-Formate).]]></text>
+        <text><![CDATA[<b>Metadaten auf Sammlungsebene</b> beschreiben die Sammlung als Ganzes. Beispielsweise sammelt die BonaRes-Datenbank (<a href="https://maps.bonares.de">https://maps.bonares.de</a>) Bodendaten aus verschiedenen Langzeitversuchen (LTEs). Die Metadaten auf Sammlungsebene beschreiben unter anderem das Ziel, die geografische Abdeckung, die beteiligten Institute, die Lizenzbedingungen und die Schnittstellen für die weitere Nutzung (z. B. über APIs oder Download-Formate).]]></text>
     </entry>
     <entry>
         <parentID>ol-1</parentID>
         <type>li</type>
         <id>li-26</id>
-        <text><![CDATA[<b>Metadaten auf Datensatzebene</b> beschreiben einzelne Objekte. Innerhalb eines Langzeitversuchs (LTE) befinden sich beispielsweise die Metadaten, die die SOIL-Messungen eines bestimmten Jahres beschreiben, auf Datensatzebene.]]></text>
+        <text><![CDATA[<b>Metadaten auf Datensatzebene</b> beschreiben einzelne Objekte. Beispielsweise befinden sich die Metadaten innerhalb eines Langzeitversuchs (LTE), die die SOIL-Messungen eines bestimmten Jahres beschreiben, auf Datensatzebene.]]></text>
     </entry>
     <entry>
         <parentID>ol-1</parentID>
         <type>li</type>
         <id>li-27</id>
-        <text><![CDATA[<b>Metadaten auf Komponentenebene</b> – manchmal können einzelne Objekte aus mehreren Komponenten bestehen: So kann beispielsweise ein SOIL-Datensatz aus mehreren Schichtmessungen pro Bodenprofil (z. B. 0–10 cm, 10–30 cm, 30–60 cm). Jede Schicht stellt eine Komponente dar und erfordert eigene Metadaten – wie Probenentnahmetiefe, Analysetyp oder Lagerung.]]></text>
+        <text><![CDATA[<b>Metadaten auf Komponentenebene</b> – manchmal können einzelne Objekte aus mehreren Komponenten bestehen: So kann beispielsweise ein SOIL-Datensatz aus mehreren Schichtmessungen pro Bodenprofil (z. B. 0–10 cm, 10–30 cm, 30–60 cm) bestehen. Jede Schicht stellt eine Komponente dar und erfordert eigene Metadaten, wie Probenentnahmetiefe, Analysetyp oder Lagerung.]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
@@ -310,7 +310,7 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>p-12</id>
-        <text><![CDATA[<b>BEISPIEL:</b> Metadaten zu Sammlung, Datensatz und Komponenten]]></text>
+        <text><![CDATA[<b>BEISPIEL:</b> Sammlungs, Datensatz und Komponenten Metadaten]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
@@ -346,7 +346,7 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>p-14</id>
-        <text><![CDATA[Diese hierarchische Struktur ermöglicht es, bestimmte Daten zu finden – z. B. alle Parzellenerträge von Sommergerste im Jahr 2020 unter reduzierter Bodenbearbeitung –, ohne unzählige einzelne Dateien manuell durchsuchen zu müssen. Sie unterstützt zudem die automatische Verknüpfung mit anderen Datensätzen, wie beispielsweise Wetter- oder Bodenzustandsdaten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+        <text><![CDATA[Diese hierarchische Struktur ermöglicht es, bestimmte Daten, z. B. alle Parzellenerträge von Sommergerste im Jahr 2020 unter reduzierter Bodenbearbeitung, zu finden ohne unzählige einzelne Dateien manuell durchsuchen zu müssen. Sie unterstützt zudem die automatische Verknüpfung mit anderen Datensätzen, wie beispielsweise Wetter- oder Bodenzustandsdaten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
     </entry>
 
     <entry>
@@ -529,7 +529,7 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>p-21</id>
-        <text><![CDATA[BEISPIEL]]></text>
+        <text><![CDATA[<b>BEISPIEL</b>]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
@@ -590,13 +590,13 @@
         <parentID>ul-14</parentID>
         <type>li</type>
         <id>li-44</id>
-        <text><![CDATA[lokal definiert (z. B. nur die Auswahl von Namen aus einer Mitarbeiterliste zulassen) oder ein etablierter Standard (z. B. AGROVOC (<a target="_blank" href="https://agrovoc.fao.org/browse/agrovoc/en/">https://agrovoc.fao.org/browse/agrovoc/en</a>) als Thesaurus für landwirtschaftsbezogene Begriffe, einschließlich Begriffe für Kulturpflanzenarten) oder Bodenbeschaffenheiten]]></text>
+        <text><![CDATA[lokal definiert (z. B. nur die Auswahl von Namen aus einer Mitarbeiterliste zulassen) oder ein etablierter Standard (z. B. AGROVOC (<a target="_blank" href="https://agrovoc.fao.org/browse/agrovoc/en/">https://agrovoc.fao.org/browse/agrovoc/en</a>) als Thesaurus für landwirtschaftsbezogene Begriffe, einschließlich Begriffe für Kulturpflanzenarten oder Bodenbeschaffenheiten)]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
         <type>p</type>
         <id>S. 29</id>
-        <text><![CDATA[Ebenso können Formate sein:]]></text>
+        <text><![CDATA[Ebenso können Formate:]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
@@ -608,13 +608,13 @@
         <parentID>ul-15</parentID>
         <type>li</type>
         <id>li-45</id>
-        <text><![CDATA[lokal festgelegt (d. h., die Namen werden im Format Vorname Nachname eingegeben) oder]]></text>
+        <text><![CDATA[lokal festgelegt sein (d. h., die Namen werden im Format Vorname Nachname eingegeben) oder]]></text>
     </entry>
     <entry>
         <parentID>ul-15</parentID>
         <type>li</type>
         <id>li-46</id>
-        <text><![CDATA[einen internationalen Standard verwenden (d. h. die empfohlene Vorgehensweise für das Dublin-Core-Element „date“ (<a target="_blank" href="http://purl.org/dc/elements/1.1/">http://purl.org/dc/elements/1.1/date</a>) ist die Verwendung eines Kodierungsschemas wie beispielsweise W3CDTF (<a target="_blank" href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>) Profil der ISO 8601 (<a target="_blank" href="https://www.iso.org/iso-8601-date-and-time-format.html">http://www.iso.org/iso/home/standards/iso8601.html</a>) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+        <text><![CDATA[einen internationalen Standard verwenden (d. h. die empfohlene Vorgehensweise für das Dublin-Core-Datums-Element (<a target="_blank" href="http://purl.org/dc/elements/1.1/">http://purl.org/dc/elements/1.1/date</a>) ist die Verwendung eines Kodierungsschemas wie beispielsweise das W3CDTF (<a target="_blank" href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>) Profil der ISO 8601 (<a target="_blank" href="https://www.iso.org/iso-8601-date-and-time-format.html">http://www.iso.org/iso/home/standards/iso8601.html</a>) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
     </entry>
 
     <entry>
@@ -633,7 +633,7 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>p-31</id>
-        <text><![CDATA[Beispielsweise kommt der Begriff „Datum“ in vielen Schemata vor. Die Art und Weise, wie ein „Datum“ definiert oder erfasst wird, kann jedoch je nach Schema unterschiedlich sein; „Datum“ kann sich in einem Schema auf das Datum der Veröffentlichung der Daten beziehen, in einem anderen Schema hingegen auf das Datum der Erfassung der Daten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+        <text><![CDATA[Beispielsweise kommt der Begriff „Datum“ in vielen Schemata vor. Die Art und Weise, wie ein „Datum“ definiert oder erfasst wird, kann jedoch je nach Schema unterschiedlich sein: „Datum“ kann sich in einem Schema auf das Datum der Veröffentlichung der Daten beziehen, in einem anderen Schema hingegen auf das Datum der Erfassung der Daten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
     </entry>
 
     <entry>
@@ -664,7 +664,7 @@
         <parentID>ul-16</parentID>
         <type>li</type>
         <id>li-48</id>
-        <text><![CDATA[Fachspezifische Schemata bieten eine reichhaltigere und gezieltere Struktur sowie ein Vokabular, das es ermöglicht, detaillierte Informationen in einem strukturierteren, granulareren Format bereitzustellen. Diese zu finden kann so einfach sein wie die Suche im Internet nach „[Fachgebiet] Metadatenschema“, wobei man zunächst auf einer sehr allgemeinen Ebene beginnt (z. B. „Metadatenschema Landwirtschaft“) und bei Bedarf dann schrittweise spezifischer wird (z. B. „Metadatenschema CROP-Ernteertrag“). Sie können auch in Metadatenschema-Registern suchen, wie beispielsweise der Liste der Metadatenstandards des Data Curation Centre (<a href="http://www.dcc.ac.uk/resources/metadata-standards/list">http://www.dcc.ac.uk/resources/metadata-standards/list</a>) oder dem Metadatenstandards-Verzeichnis der Research Data Alliance (<a href="http://rd-alliance.github.io/metadata-directory">http://rd-alliance.github.io/metadata-directory</a>) sowie das FAIRsharing-Register (<a href="https://fairsharing.org">https://fairsharing.org</a>) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+        <text><![CDATA[Fachspezifische Schemata bieten eine reichhaltigere und gezieltere Struktur sowie ein Vokabular, das es ermöglicht, detaillierte Informationen in einem strukturierteren, granulareren Format bereitzustellen. Diese zu finden kann so einfach sein, wie die Suche im Internet nach „[Fachgebiet] Metadatenschema“, wobei man zunächst auf einer sehr allgemeinen Ebene beginnt (z. B. „Metadatenschema Landwirtschaft“) und bei Bedarf dann schrittweise spezifischer wird (z. B. „Metadatenschema CROP-Ernteertrag“). Sie können auch in Metadatenschema-Registern suchen, wie beispielsweise der Liste der Metadatenstandards des Data Curation Centre (<a href="http://www.dcc.ac.uk/resources/metadata-standards/list">http://www.dcc.ac.uk/resources/metadata-standards/list</a>) oder dem Metadatenstandards-Verzeichnis der Research Data Alliance (<a href="http://rd-alliance.github.io/metadata-directory">http://rd-alliance.github.io/metadata-directory</a>) sowie das FAIRsharing-Register (<a href="https://fairsharing.org">https://fairsharing.org</a>) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
@@ -809,7 +809,7 @@
         <parentID>ol-3</parentID>
         <type>li</type>
         <id>li-64</id>
-        <text><![CDATA[Passen Sie ein bestehendes Schema an Ihre Bedürfnisse an oder erweitern Sie es und dokumentieren Sie die vorgenommenen Änderungen sehr sorgfältig, wobei Sie sich an den Dokumentationsmethoden und Zuordnungen orientieren, die in bestehenden Standards vorgesehen sind. Nehmen Sie Kontakt zu den „Eigentümern“ des Schemas auf und versuchen Sie, mit ihnen zusammenzuarbeiten, da andere von Ihren Änderungen profitieren könnten.]]></text>
+        <text><![CDATA[Passen Sie ein bestehendes Schema an Ihre Bedürfnisse an oder erweitern Sie es und dokumentieren Sie die vorgenommenen Änderungen sehr sorgfältig. Orientieren Sie sich an den Dokumentationsmethoden und Zuordnungen, die in bestehenden Standards vorgesehen sind. Nehmen Sie Kontakt zu den „Eigentümern“ des Schemas auf und versuchen Sie, mit ihnen zusammenzuarbeiten, da andere von Ihren Änderungen profitieren könnten.]]></text>
     </entry>
     <entry>
         <parentID>ol-3</parentID>
@@ -1026,13 +1026,13 @@
         <parentID>container</parentID>
         <type>h4</type>
         <id>h4-6</id>
-        <text><![CDATA[Tabellenkalkulationen und Datenbanken]]></text>
+        <text><![CDATA[Tabellen und Datenbanken]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
         <type>p</type>
         <id>S. 47</id>
-        <text><![CDATA[Das Zusammenführen von Metadaten aus mehreren Datensätzen in einer einzigen Tabellenkalkulation oder Datenbank bietet Ihnen deutlich mehr Flexibilität bei der Suche, bei Änderungen und bei den erfassten Metadatenfeldern.]]></text>
+        <text><![CDATA[Das Zusammenführen von Metadaten aus mehreren Datensätzen in einer einzigen Tabelle oder Datenbank bietet Ihnen deutlich mehr Flexibilität bei der Suche, bei Änderungen und bei den erfassten Metadatenfeldern.]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>

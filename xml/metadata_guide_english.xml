@@ -286,7 +286,7 @@
         <parentID>ol-1</parentID>
         <type>li</type>
         <id>li-25</id>
-        <text><![CDATA[<b>Collection level metadata</b> describes the collection as a whole. For example, the BonaRes database (https://maps.bonares.de) collects soil data from various long-term experiments (LTEs). The collection-level metadata describe, among other things, the objective, geographical coverage, participating institutes, licensing and interfaces for subsequent use (e.g. via APIs or download formats).]]></text>
+        <text><![CDATA[<b>Collection level metadata</b> describes the collection as a whole. For example, the BonaRes database (<a href="https://maps.bonares.de">https://maps.bonares.de</a>) collects soil data from various long-term experiments (LTEs). The collection-level metadata describe, among other things, the objective, geographical coverage, participating institutes, licensing and interfaces for subsequent use (e.g. via APIs or download formats).]]></text>
     </entry>
     <entry>
         <parentID>ol-1</parentID>
@@ -529,7 +529,7 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>p-21</id>
-        <text><![CDATA[EXAMPLE]]></text>
+        <text><![CDATA[<b>EXAMPLE</b>]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
@@ -590,7 +590,7 @@
         <parentID>ul-14</parentID>
         <type>li</type>
         <id>li-44</id>
-        <text><![CDATA[locally defined (e.g. only allowing names to be selected from a list of employees), or an established standard (e.g. AGROVOC (<a target="_blank" href="https://agrovoc.fao.org/browse/agrovoc/en/">https://agrovoc.fao.org/browse/agrovoc/en</a>) as a thesaurus for agriculture related terms, including terms for crop species) or soil textures]]></text>
+        <text><![CDATA[locally defined (e.g. only allowing names to be selected from a list of employees), or an established standard (e.g. AGROVOC (<a target="_blank" href="https://agrovoc.fao.org/browse/agrovoc/en/">https://agrovoc.fao.org/browse/agrovoc/en</a>) as a thesaurus for agriculture related terms, including terms for crop species or soil textures)]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
@@ -633,7 +633,7 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>p-31</id>
-        <text><![CDATA[For example, the term “date” appears in many schemas. However, the way a “date” is defined or recorded may be different depending on the schema; “date” might refer variously to the date the data were published in one schema, or the date the data were collected in another schema <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+        <text><![CDATA[For example, the term “date” appears in many schemas. However, the way a “date” is defined or recorded may be different depending on the schema: “date” might refer variously to the date the data were published in one schema, or the date the data were collected in another schema <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
     </entry>
 
     <entry>

@@ -286,38 +286,6 @@
         <id>p-20</id>
         <text><![CDATA[→ Further information on metadata schemas can be found in the “Metadata” section in the Metadata Guide.]]></text>
     </entry>
-
-    <entry>
-        <parentID>container</parentID>
-        <type>div</type>
-        <id>div-6</id>
-        <text></text>
-    </entry>
-    <entry>
-        <parentID>div-6</parentID>
-        <type>h2</type>
-        <id>N</id>
-        <text><![CDATA[N]]></text>
-    </entry>
-    <entry>
-        <parentID>div-6</parentID>
-        <type>h3</type>
-        <id>further-use</id>
-        <text><![CDATA[Reuse]]></text>
-    </entry>
-    <entry>
-        <parentID>div-6</parentID>
-        <type>p</type>
-        <id>p-21</id>
-        <text><![CDATA[Data reuse is understood as the use of data for purposes other than those for which it was originally collected. The reuse of data is particularly important in science, as it allows different researchers to independently analyze and publish results based on the same data. Reusability is a key component of the FAIR principles <a target="_blank" href="./references.html#source-9">[9]</a>.]]></text>
-    </entry>
-    <entry>
-        <parentID>div-6</parentID>
-        <type>p</type>
-        <id>p-22</id>
-        <text><![CDATA[→ You can read why metadata plays a key role for reusability in the “Using and reusing data” section in the Metadata Guide.]]></text>
-    </entry>
-
     <entry>
         <parentID>container</parentID>
         <type>div</type>
@@ -353,6 +321,24 @@
         <type>p</type>
         <id>p-24</id>
         <text><![CDATA[A repository can be considered a special form of <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269827">archive</a>. In the digital age, the term repository is understood to mean a managed storage location for digital objects. Since repositories are mostly accessible to the public or a restricted group of users, this term is closely linked to <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269854">Open Access</a> <a target="_blank" href="./references.html#source-5">[5]</a>.]]></text>
+    </entry>
+        <entry>
+        <parentID>div-7</parentID>
+        <type>h3</type>
+        <id>further-use</id>
+        <text><![CDATA[Reuse]]></text>
+    </entry>
+    <entry>
+        <parentID>div-7</parentID>
+        <type>p</type>
+        <id>p-21</id>
+        <text><![CDATA[Data reuse is understood as the use of data for purposes other than those for which it was originally collected. The reuse of data is particularly important in science, as it allows different researchers to independently analyze and publish results based on the same data. Reusability is a key component of the FAIR principles <a target="_blank" href="./references.html#source-9">[9]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-7</parentID>
+        <type>p</type>
+        <id>p-22</id>
+        <text><![CDATA[→ You can read why metadata plays a key role for reusability in the “Using and reusing data” section in the Metadata Guide.]]></text>
     </entry>
 
     <entry>

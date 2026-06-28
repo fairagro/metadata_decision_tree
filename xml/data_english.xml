@@ -44,7 +44,7 @@
         <ID>1-1-1</ID>
         <TYPE>Exitfrage</TYPE>
         <CATEGORY>Motivation for data documentation - Exit question</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Without comprehensible data, <a target="_blank" href="./glossary.html#further-use">re-use</a> by yourself or third parties is virtually impossible; moreover, <a target="_blank" href="./glossary.html# metadata">metadata</a> is central to the <a target="_blank" href="./glossary.html#fair-principles">FAIR principles</a> (Findability, Accessibility, Interoperability, Reusability). Would you therefore like to create <a target="_blank" href="./glossary.html#data-documentation">data documentation</a> as recommended?</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Without comprehensible data, <a target="_blank" href="./glossary.html#further-use">re-use</a> by yourself or third parties is virtually impossible; moreover, <a target="_blank" href="./glossary.html#metadata">metadata</a> is central to the <a target="_blank" href="./glossary.html#fair-principles">FAIR principles</a> (Findability, Accessibility, Interoperability, Reusability). Would you therefore like to create <a target="_blank" href="./glossary.html#data-documentation">data documentation</a> as recommended?</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Yes</BUTTON_TEXT>
         <BUTTON_TEXT>No</BUTTON_TEXT>
         <BUTTON_LINK>2</BUTTON_LINK>
@@ -117,7 +117,7 @@
         <ID>5-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Forms and formats of data documentation</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Create a <a target="_blank" href="./glossary.html#data-dictionary">data dictionary</a> or <a target="_blank" href="./glossary.html#codebook">codebook</a> to make your data easier to understand.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Create a <a target="_blank" href="./glossary.html#codebook">data dictionary</a> or <a target="_blank" href="./glossary.html#codebook">codebook</a> to make your data easier to understand.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>6</BUTTON_LINK>
     </ENTRY>
@@ -217,7 +217,7 @@
         <ID>9-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Select the metadata to be collected</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Use this <a target="_blank" href="./glossary.html#metadata-standards">metadata schema</a> to determine which <a target="_blank" href="./glossary.html# metadata‘>metadata</a> you must collect (all mandatory fields or mandatory <a target="_blank" href="./metadata-guide.html#elements-and-schemes">metadata elements</a>), and which <a target="_blank" href=’./glossary.html# metadata">metadata</a> you can and wish to collect (from the recommended and optional <a target="_blank" href="./metadata-guide.html#elements-and-schemes">metadata elements</a>). Ensure that you capture <a target="_blank" href="./metadata-guide.html#levels-of-metadata">all relevant metadata</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Use this <a target="_blank" href="./glossary.html#metadata-standards">metadata schema</a> to determine which <a target="_blank" href="./glossary.html#metadata>metadata</a> you must collect (all mandatory fields or mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">metadata elements</a>), and which <a target="_blank" href="./glossary.html#metadata">metadata</a> you can and wish to collect (from the recommended and optional <a target="_blank" href="./metadata_guide.html#elements-and-schemas">metadata elements</a>). Ensure that you capture <a target="_blank" href="./metadata_guide.html#levels-of-metadata">all relevant metadata</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -250,7 +250,7 @@
         <ID>11-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Select the metadata to be collected</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Use the selected <a target="_blank" href="./glossary.html#metadata-standards">schema</a> and <a target="_blank" href="./metadata-guide.html#adapt">adapt it if necessary</a> to specify which <a target="_blank" href="./ glossary.html#metadata‘>metadata</a> you must collect (all mandatory fields or mandatory <a target="_blank" href="./metadata-guide.html#elements-and-schemes">metadata elements</a>), and which <a target="_blank" href=’./glossary.html# metadata">metadata</a> you can and wish to collect (from the recommended and optional <a target="_blank" href="./metadata-guide.html#elements-and-schemes">metadata elements</a>). Ensure that you capture <a target="_blank" href="./metadata-guide.html#levels-of-metadata">all relevant metadata</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Use the selected <a target="_blank" href="./glossary.html#metadata-standards">schema</a> and <a target="_blank" href="./metadata_guide.html#adapt">adapt it if necessary</a> to specify which <a target="_blank" href="./glossary.html#metadata">metadata</a> you must collect (all mandatory fields or mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">metadata elements</a>), and which <a target="_blank" href="./glossary.html#metadata">metadata</a> you can and wish to collect (from the recommended and optional <a target="_blank" href="./metadata_guide.html#elements-and-schemas">metadata elements</a>). Ensure that you capture <a target="_blank" href="./metadata_guide.html#levels-of-metadata">all relevant metadata</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -259,7 +259,7 @@
         <ID>11-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Select the metadata to be collected</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Check which <a target="_blank" href="./glossary.html#metadata-standards">schema</a> best suits your data and use it to determine which <a target="_blank" href="./glossary.html# metadata‘>metadata</a> you must collect (all mandatory fields or mandatory <a target="_blank" href="./metadata-guide.html#elements-and-schemes">metadata elements</a>), and which <a target="_blank" href=’./glossary.html# metadata">metadata</a> you can and wish to collect (from the recommended and optional <a target="_blank" href="./metadata-guide.html#elements-and-schemes">metadata elements</a>). Ensure that you record <a target="_blank" href="./metadata-guide.html#levels-of-metadata">all relevant metadata</a>. <a target="_blank" href="./metadata-guide.html#adapt">If necessary, combine several suitable schemas</a>. Discussing the matter with colleagues or seeking expert advice (e.g. via the <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) may be helpful.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Check which <a target="_blank" href="./glossary.html#metadata-standards">schema</a> best suits your data and use it to determine which <a target="_blank" href="./glossary.html#metadata">metadata</a> you must collect (all mandatory fields or mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">metadata elements</a>), and which <a target="_blank" href="./glossary.html#metadata">metadata</a> you can and wish to collect (from the recommended and optional <a target="_blank" href="./metadata_guide.html#elements-and-schemas">metadata elements</a>). Ensure that you record <a target="_blank" href="./metadata_guide.html#levels-of-metadata">all relevant metadata</a>. <a target="_blank" href="./metadata_guide.html#adapt">If necessary, combine several suitable schemas</a>. Discussing the matter with colleagues or seeking expert advice (e.g. via the <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) may be helpful.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -268,7 +268,7 @@
         <ID>11-3</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Select the metadata to be collected</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Discussing the matter with colleagues in the field or seeking expert advice (e.g. via the <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) may be helpful in finding a suitable <a target="_blank" href="./glossary.html# metadata standards">schema</a> or to <a target="_blank" href="./metadata-guide.html#adapt">develop or refine one yourself</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Discussing the matter with colleagues in the field or seeking expert advice (e.g. via the <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) may be helpful in finding a suitable <a target="_blank" href="./glossary.html#metadata-standards">schema</a> or to <a target="_blank" href="./metadata_guide.html#adapt">develop or refine one yourself</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -288,7 +288,7 @@
         <ID>12-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Select the metadata to be collected</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Check whether the requirements are covered by the selected <a target="_blank" href="./glossary.html#metadata-standards">metadata schema</a>. <a target="_blank" href="./metadata-guide.html#adapt">If necessary, adapt the schema</a> and document your changes.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Check whether the requirements are covered by the selected <a target="_blank" href="./glossary.html#metadata-standards">metadata schema</a>. <a target="_blank" href="./metadata_guide.html#adapt">If necessary, adapt the schema</a> and document your changes.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>13</BUTTON_LINK>
     </ENTRY>
@@ -308,7 +308,7 @@
         <ID>13-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Record metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Please note that the <a target="_blank" href="./glossary.html#data-documentation">data documentation</a> should be carried out directly during data collection and should therefore be taken into account (e.g. in the <a target="_blank" href="./ glossary.html#dmp">Data Management Plan</a>) during the planning phase .</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Please note that the <a target="_blank" href="./glossary.html#data-documentation">data documentation</a> should be carried out directly during data collection and should therefore be taken into account (e.g. in the <a target="_blank" href="./glossary.html#dmp">Data Management Plan</a>) during the planning phase .</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>14</BUTTON_LINK>
     </ENTRY>
@@ -337,7 +337,7 @@
         <ID>14-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Record metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a> is saved, and verify that it is complete. If necessary, capture further <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a> is saved, and verify that it is complete. If necessary, capture further <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>15</BUTTON_LINK>
     </ENTRY>
@@ -357,7 +357,7 @@
         <ID>15-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Record metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a> is imported and saved, and verify that it is complete. If necessary, enter further <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a> is imported and saved, and verify that it is complete. If necessary, enter further <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>16</BUTTON_LINK>
     </ENTRY>
@@ -377,7 +377,7 @@
         <ID>16-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Record metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Gather <a target="_blank" href="./metadata-guide.html#levels-of-metadata">all relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a> and, if necessary, consult with colleagues to ensure it is complete. </p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Gather <a target="_blank" href="./metadata_guide.html#levels-of-metadata">all relevant</a> <a target="_blank" href="./glossary.html#metadata">metadata</a> and, if necessary, consult with colleagues to ensure it is complete. </p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>17</BUTTON_LINK>
     </ENTRY>
@@ -437,7 +437,7 @@
         <ID>18-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Clearly linking <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">centrally stored metadata</a> to the relevant data record can be difficult with complex datasets, therefore <a target="_blank" href="./metadata-guide.html#metadata-as-separate-files">decentralised storage of metadata</a> is recommended</a>. Should centralised metadata storage</a> still be considered?</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Clearly linking <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">centrally stored metadata</a> to the relevant data record can be difficult with complex datasets, therefore <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">decentralised storage of metadata</a> is recommended</a>. Should centralised metadata storage</a> still be considered?</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>If yes</BUTTON_TEXT>
         <BUTTON_TEXT>If no</BUTTON_TEXT>
         <BUTTON_LINK>19</BUTTON_LINK>
@@ -448,7 +448,7 @@
         <ID>18-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Check whether a simple <a target="_blank" href="./metadata-guide.html#metadata-as-separate-files">accompanying file</a> (e.g. <a target="_blank" href="./glossary.html#readme">README file</a>) would be useful for centrally collecting the <a target="_blank" href="./glossary.html#metadata">metadata</a> for your dataset and making it available at a glance.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Check whether a simple <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">accompanying file</a> (e.g. <a target="_blank" href="./glossary.html#readme">README file</a>) would be useful for centrally collecting the <a target="_blank" href="./glossary.html#metadata">metadata</a> for your dataset and making it available at a glance.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>If yes</BUTTON_TEXT>
         <BUTTON_TEXT>If no</BUTTON_TEXT>
         <BUTTON_LINK>18-2-1</BUTTON_LINK>
@@ -459,7 +459,7 @@
         <ID>18-2-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata-guide.html# metadata-as-separate-files">metadata file</a> is clearly linked to the dataset (e.g. through unique naming) and that the <a target="_blank" href="./glossary.html#metadata">metadata</a> can be unambiguously assigned to the individual datasets in order to avoid data loss.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">metadata file</a> is clearly linked to the dataset (e.g. through unique naming) and that the <a target="_blank" href="./glossary.html#metadata">metadata</a> can be unambiguously assigned to the individual datasets in order to avoid data loss.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -479,7 +479,7 @@
         <ID>19-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>A central <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">metadata file</a> is not recommended.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>A central <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">metadata file</a> is not recommended.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>20</BUTTON_LINK>
     </ENTRY>
@@ -488,7 +488,7 @@
         <ID>19-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Check whether a central <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">metadata file</a> for the entire dataset would be useful.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Check whether a central <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">metadata file</a> for the entire dataset would be useful.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>If Yes</BUTTON_TEXT>
         <BUTTON_TEXT>If no</BUTTON_TEXT>
         <BUTTON_LINK>19-1-1</BUTTON_LINK>
@@ -499,7 +499,7 @@
         <ID>19-1-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata-guide.html# spreadsheets-and-databases">metadata file</a> is clearly linked to the dataset (e.g. through unique naming) and that the <a target="_blank" href="./glossary.html#metadata">metadata</a> can be unambiguously assigned to the individual datasets to prevent data loss.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ensure that the <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">metadata file</a> is clearly linked to the dataset (e.g. through unique naming) and that the <a target="_blank" href="./glossary.html#metadata">metadata</a> can be unambiguously assigned to the individual datasets to prevent data loss.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -508,7 +508,7 @@
         <ID>19-1-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Check whether decentralised <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">metadata files</a> are appropriate.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Check whether decentralised <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">metadata files</a> are appropriate.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>If yes</BUTTON_TEXT>
         <BUTTON_TEXT>If no</BUTTON_TEXT>
         <BUTTON_LINK>19-1-2-1</BUTTON_LINK>
@@ -519,7 +519,7 @@
         <ID>19-1-2-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ensure that each <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">metadata file</a> is clearly linked to the corresponding data files, in order to prevent data loss when moving or copying the data.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ensure that each <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">metadata file</a> is clearly linked to the corresponding data files, in order to prevent data loss when moving or copying the data.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -541,7 +541,7 @@
         <ID>20-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Check whether you wish to store your metadata directly <a target="_blank" href="./metadata-guide.html#metadata-within-the-data-file">within the data files</a> to prevent data loss when copying or moving the data files.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Check whether you wish to store your metadata directly <a target="_blank" href="./metadata_guide.html#metadata-within-the-data-file">within the data files</a> to prevent data loss when copying or moving the data files.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -559,7 +559,7 @@
         <ID>20-3</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Store and link metadata</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Check whether you wish to store the technically feasible <a target="_blank" href="./glossary.html#metadata">metadata</a> directly in the data file, and supplement this with <a target="_blank" href="./ metadata-guide.html#metadata-in-separate-files">decentralised metadata files</a> or a <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">central metadata file</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Check whether you wish to store the technically feasible <a target="_blank" href="./glossary.html#metadata">metadata</a> directly in the data file, and supplement this with <a target="_blank" href="./ metadata_guide.html#metadata-in-separate-files">decentralised metadata files</a> or a <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">central metadata file</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Continue</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
