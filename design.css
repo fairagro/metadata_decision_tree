@@ -6,7 +6,10 @@
 --contrast_colour: 	hsl(6, 85%, 66%);
 --contrast_colour_light:hsl(228, 3%, 67%);
 --bg_colour: hsl(0, 0%, 100%);
---bg_contrast_colour: hsl(252, 7%, 14%); 
+--bg_contrast_colour: hsl(252, 7%, 14%);
+--text-gradient: linear-gradient(35deg, #0f9884, #9acb4e 75%);
+--area-gradient: linear-gradient(35deg, #0f9884, #9acb4e 35%);
+--button-gradient: linear-gradient(30deg, #0f9884, #9acb4e 45%);
 }
 
 @font-face {
@@ -36,7 +39,7 @@ body {
 h1 {
     margin-top: 20px;
     font-family: FirSans, Helvetica, sans-serif;
-    background-image:linear-gradient(35deg, #9acb4e, #0f9884 75%); 
+    background-image: var(--text-gradient);
     -webkit-text-fill-color: transparent; 
     background-clip: text;
 }
@@ -61,27 +64,29 @@ a:active {
 
 .button{
     font-size: 3em;
-    font-weight: bold;
+    font-weight: bold   ;
     font-family: FirSans, Helvetica, sans-serif;
     display: inline-flex;
+    justify-content: center;
+    align-items: center; /*Horizontal center*/
     cursor: pointer;
     text-decoration: none;
-    padding: 24px 72px;
+
+    transition: all 0.2s ease-in-out 0s;
     border: none; /*var(--main_colour) 0.125em solid;*/
-    border-radius: 6px;
+    border-radius: 14px 0 14px 0; /*twice as strong as the default design from the FAIRagro homepage*/
     text-align: center;
-    box-shadow: inset 0 0 0 0 var(--main_colour_dark);
-    transition: ease-out 500ms;
-    color: var(--bg_colour);
-    background-color: var(--contrast_colour_light);
+    color: var(--bg_contrast_colour);
+    background-color: var(--main_colour_light);
+    background-image: var(--button-gradient);
     min-width: 10px;
     /*max-height: 103.2px;*/
     max-width: 375px;
     min-height: 103.2px;
-    justify-content: center;
-    align-items: center; /*Horizontal center*/
     margin-left: 15px;
     margin-right: 15px;
+    padding: 24px 72px;
+
     -webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
@@ -94,15 +99,15 @@ a:active {
 
 
 .button:hover{
-    box-shadow: inset 10em 0 0 0 var(--main_colour_dark);
-    color: var(--bg_contrast_colour);
+    transition: all 0.2s ease-in-out 0s;
+    box-shadow: 12px 12px 18px rgba(0, 0, 0, 0.5);;
 }
 
 .banner{
     height: 35px;
     position: sticky;
     top: 0px;
-    background-image:linear-gradient(35deg, #9acb4e, #0f9884 100%);
+    background-image: var(--area-gradient);
 }
 
 .container{
