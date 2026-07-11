@@ -16,7 +16,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h2</type>
-        <id>h2-1</id>
+        <id>what-is-metadata</id>
         <text><![CDATA[What is metadata?]]></text>
     </entry>
     <entry>
@@ -70,8 +70,8 @@
 
     <entry>
         <parentID>container</parentID>
-        <type>h2</type>
-        <id>h2-1</id>
+        <type>h3</type>
+        <id>finding-data</id>
         <text><![CDATA[Finding data]]></text>
     </entry>
     <entry>
@@ -120,7 +120,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-1</id>
+        <id>determining-the-value-of-data</id>
         <text><![CDATA[Determining the value of data]]></text>
     </entry>
     <entry>
@@ -169,7 +169,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-2</id>
+        <id>accessing-data</id>
         <text><![CDATA[Accessing data]]></text>
     </entry>
     <entry>
@@ -200,7 +200,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-3</id>
+        <id>using-and-reusing-data</id>
         <text><![CDATA[Using and reusing data]]></text>
     </entry>
     <entry>
@@ -267,7 +267,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-4</id>
+        <id>levels-of-metadata</id>
         <text><![CDATA[Levels of metadata]]></text>
     </entry>
     <entry>
@@ -352,7 +352,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-5</id>
+        <id>types-of-metadata</id>
         <text><![CDATA[Types of metadata]]></text>
     </entry>
     <entry>
@@ -473,7 +473,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h2</type>
-        <id>h2-2</id>
+        <id>metadata-language</id>
         <text><![CDATA[Metadata language]]></text>
     </entry>
     <entry>
@@ -486,7 +486,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-6</id>
+        <id>elements-and-schemas</id>
         <text><![CDATA[Elements and schemas]]></text>
     </entry>
     <entry>
@@ -559,7 +559,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-7</id>
+        <id>content-rules-and-controlled-vocabularies</id>
         <text><![CDATA[Content rules and controlled vocabularies]]></text>
     </entry>
     <entry>
@@ -620,7 +620,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-8</id>
+        <id>namespaces</id>
         <text><![CDATA[Namespaces]]></text>
     </entry>
     <entry>
@@ -639,7 +639,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-9</id>
+        <id>finding-and-choosing-a-metadata-schema</id>
         <text><![CDATA[Finding and choosing a metadata schema]]></text>
     </entry>
     <entry>
@@ -724,7 +724,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-10</id>
+        <id>adapt</id>
         <text><![CDATA[Adopt, adapt, or create your schema?]]></text>
     </entry>
     <entry>
@@ -827,20 +827,20 @@
     <entry>
         <parentID>container</parentID>
         <type>h2</type>
-        <id>h2-3</id>
+        <id>collectiong-and-linking-metadata</id>
         <text><![CDATA[Collecting and linking Metadata]]></text>
     </entry>
 
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-11</id>
+        <id>collecting-metadata</id>
         <text><![CDATA[Collecting Metadata]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
         <type>h4</type>
-        <id>h4-1</id>
+        <id>automatic-metadata-collection</id>
         <text><![CDATA[Automatic metadata collection]]></text>
     </entry>
     <entry>
@@ -859,7 +859,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h4</type>
-        <id>h4-2</id>
+        <id>extracted-metadata-collection</id>
         <text><![CDATA[Extracted metadata collection]]></text>
     </entry>
     <entry>
@@ -872,7 +872,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h4</type>
-        <id>h4-3</id>
+        <id>manual-metadata-collection</id>
         <text><![CDATA[Manual metadata collection]]></text>
     </entry>
     <entry>
@@ -891,13 +891,13 @@
     <entry>
         <parentID>container</parentID>
         <type>h3</type>
-        <id>h3-12</id>
+        <id>linking-metadata-and-data</id>
         <text><![CDATA[Linking metadata and data]]></text>
     </entry>
     <entry>
         <parentID>container</parentID>
         <type>h4</type>
-        <id>h4-4</id>
+        <id>metadata-within-the-data-file</id>
         <text><![CDATA[Metadata within the data file]]></text>
     </entry>
     <entry>
@@ -988,7 +988,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h4</type>
-        <id>h4-5</id>
+        <id>metadata-as-separate-files</id>
         <text><![CDATA[Metadata as separate files]]></text>
     </entry>
     <entry>
@@ -1025,7 +1025,7 @@
     <entry>
         <parentID>container</parentID>
         <type>h4</type>
-        <id>h4-6</id>
+        <id>spreadsheets-and-databases</id>
         <text><![CDATA[Spreadsheets and databases]]></text>
     </entry>
     <entry>
