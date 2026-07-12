@@ -1,0 +1,1049 @@
+<data>
+    <headline>Metadata Guide</headline>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-1</id>
+        <text><![CDATA[Dieser Leitfaden soll einen einfachen, allgemeinen Überblick auf praktischer Ebene über die Anforderungen, Probleme und Prozesse im Zusammenhang mit der Erfassung und Erstellung von Metadaten für Forschungsdaten bieten <a target="_blank" href="./references.html#source-7">[7]</a>]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-2</id>
+        <text><![CDATA[Er basiert auf: Australian Research Data Commons (ARDC). (2020). ARDC Metadata Guide. Zenodo. <a target="_blank" href="https://doi.org/10.5281/zenodo.6459832">https://doi.org/10.5281/zenodo.6459832</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h2</type>
+        <id>what-is-metadata</id>
+        <text><![CDATA[Was sind Metadaten?]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-3</id>
+        <text><![CDATA[Während „Metadaten“ im Allgemeinen als „Daten über Daten“ zusammengefasst werden, finden Sie im Folgenden Beispiele dafür, was dies konkret bedeutet:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-1</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-1</id>
+        <text><![CDATA[Metadaten sind Informationen über ein Objekt oder eine Ressource, die dessen bzw. deren Eigenschaften beschreiben, wie beispielsweise Inhalt, Qualität, Format, Speicherort und Zugriffsrechte.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-2</id>
+        <text><![CDATA[Metadaten können zur Beschreibung sowohl physischer Objekte (z. B. Bodenproben, Pflanzenmaterial und Saatgut) als auch digitaler Objekte (z. B. Dokumente, Bilder, Datensätze und Software) verwendet werden.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-3</id>
+        <text><![CDATA[Metadaten können viele verschiedene Formen annehmen, von Freitext (z. B. einer README-Datei) bis hin zu standardisierten, strukturierten, maschinenlesbaren und erweiterbaren Inhalten.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-4</id>
+        <text><![CDATA[Metadaten sind hinsichtlich ihrer Erstellung, Verwaltung, Verknüpfung und Speicherung mit jeder anderen Datenform vergleichbar.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-5</id>
+        <text><![CDATA[Metadaten sind mit den Daten verknüpft, die sie beschreiben. Sie können in die Datendatei eingebettet sein, in einer separaten Text- oder Tabellenkalkulationsdatei erfasst werden, die mit der Sammlung der von ihr beschriebenen Datendateien verknüpft ist, oder in einem Katalogdatensatz enthalten sein, der auf die Forschungsdatensammlung verweist.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-6</id>
+        <text><![CDATA[Metadaten ermöglichen und verbessern das Auffinden und die Wiederverwendung von Daten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>finding-data</id>
+        <text><![CDATA[Daten finden]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-4</id>
+        <text><![CDATA[Datenformate wie Text können selbst indexiert und durchsucht werden (wie bei einer einfachen Google-Suche). Die Suchmöglichkeiten für Formate wie Audio, Bilder und Videos sind jedoch begrenzt, und die Auffindbarkeit hängt von der Suche in den Metadaten ab. Metadaten zur Datensuche helfen Forschern dabei, Daten zu finden, die beispielsweise:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-2</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-2</parentID>
+        <type>li</type>
+        <id>li-7</id>
+        <text><![CDATA[im Zusammenhang mit einem Forschungsgebiet von Interesse stehen – sei es über Forschungsgebiete, Schlüsselwörter oder Vokabular-Metadaten.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-2</parentID>
+        <type>li</type>
+        <id>li-8</id>
+        <text><![CDATA[von einem anderen Forscher erstellt wurden, dessen Arbeit für Sie von Interesse ist und anhand der Metadaten über den Forschungsleiter oder der Mitwirkenden gefunden werden konnten.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-2</parentID>
+        <type>li</type>
+        <id>li-9</id>
+        <text><![CDATA[auf ein geografisches Gebiet von Interesse über Geodaten verweisen.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-2</parentID>
+        <type>li</type>
+        <id>li-10</id>
+        <text><![CDATA[auf eine bestimmte Kulturpflanzart bzw. -sorte, ein bestimmtes phänotypisches Merkmal (z. B. Wurzelarchitektur, Biomassewachstum), einen bestimmten Aspekt der Umweltbelastung oder der Feldbewirtschaftung (z. B. Düngung, Fruchtfolge, Erosionsschutz) oder eine bestimmte Bodenklasse verweisen und mithilfe beschreibender und fachspezifischer Metadaten gefunden werden können.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-2</parentID>
+        <type>li</type>
+        <id>li-11</id>
+        <text><![CDATA[unter Verwendung einer bestimmten, für Sie relevanten Methode generiert wurden (z. B. unter Einsatz eines bestimmten Sensors, bei einer bestimmten Messtiefe oder unter Verwendung einer bestimmten Software bzw. Analysemethode), und zwar mithilfe von Prozessmetadaten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>determining-the-value-of-data</id>
+        <text><![CDATA[Bestimmung des Werts von Daten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-5</id>
+        <text><![CDATA[Um den Nutzen, den Wert und die Qualität eines Datensatzes beurteilen zu können, müssen Forscher den Kontext der Daten verstehen. Dieser wird in Metadaten angegeben, die:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-3</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-3</parentID>
+        <type>li</type>
+        <id>li-12</id>
+        <text><![CDATA[das Versuchsdesign, die Methoden der Datenerhebung und den Grund für die Datenerhebung beschreiben]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-3</parentID>
+        <type>li</type>
+        <id>li-13</id>
+        <text><![CDATA[auf die beteiligten Forscher*innen und Einrichtungen verweisen]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-3</parentID>
+        <type>li</type>
+        <id>li-14</id>
+        <text><![CDATA[das Forschungsprogramm oder den Förderzuschuss identifizieren]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-3</parentID>
+        <type>li</type>
+        <id>li-15</id>
+        <text><![CDATA[auf Veröffentlichungen, die aus den Forschungsdaten hervorgegangen sind, verweisen]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-3</parentID>
+        <type>li</type>
+        <id>li-16</id>
+        <text><![CDATA[explizit Informationen zu Herkunft, Lizenzierung, Rechten und technischen Aspekten liefern <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>accessing-data</id>
+        <text><![CDATA[Zugriff auf Daten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-6</id>
+        <text><![CDATA[Der Zugriff auf Forschungsdaten erfordert:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-4</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-4</parentID>
+        <type>li</type>
+        <id>li-17</id>
+        <text><![CDATA[einen direkten Download-Link zu den Online-Daten für Open Access oder]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-4</parentID>
+        <type>li</type>
+        <id>li-18</id>
+        <text><![CDATA[Kontaktdaten des Datenverwalters für den vermittelten Zugriff <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>using-and-reusing-data</id>
+        <text><![CDATA[Nutzung und Wiederverwendung von Daten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-7</id>
+        <text><![CDATA[Um einen Datensatz nutzen zu können, benötigen Forscher Metadaten zu folgenden Punkten:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-5</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-5</parentID>
+        <type>li</type>
+        <id>li-19</id>
+        <text><![CDATA[wie die Daten strukturiert sind (z. B. Tabellenstruktur, Zeiteinheiten, Messreihen)]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-5</parentID>
+        <type>li</type>
+        <id>li-20</id>
+        <text><![CDATA[was beschrieben wird (z. B. Nährstoffgehalt, Krankheitsbefall, Ertragsdaten)]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-5</parentID>
+        <type>li</type>
+        <id>li-21</id>
+        <text><![CDATA[wie sie zu lesen sind (z. B. Spaltenüberschriften, Maßeinheiten, Kodierung)?]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-5</parentID>
+        <type>li</type>
+        <id>li-22</id>
+        <text><![CDATA[wie die Daten erhoben wurden – einschließlich methodischer Details wie Gerätetypen, Kalibrierungen, Wetterbedingungen, Geräteeinstellungen oder Fragen des Fragebogens]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-5</parentID>
+        <type>li</type>
+        <id>li-23</id>
+        <text><![CDATA[was mit den Daten gemacht werden kann (z. B. Informationen zu Lizenzen, Nutzungsrechten, Public-Domain-Kennzeichnung)]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-5</parentID>
+        <type>li</type>
+        <id>li-24</id>
+        <text><![CDATA[wie die ursprünglichen Urheber durch die Zitierung der Daten gewürdigt werden sollen]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-8</id>
+        <text><![CDATA[Die korrekte Erfassung dieser Informationen ist sowohl für die Ersteller der Daten als auch für zukünftige Nutzer wichtig <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-9</id>
+        <text><![CDATA[In landwirtschaftlichen Feldversuchen ist es gängige Praxis, Bodenproben unter standardisierten Bedingungen zu entnehmen und diese mithilfe spezifischer Analysemethoden zu evaluieren. Werden wichtige Metadaten wie der genaue Standort der Proben (GPS-Koordinaten), das Entnahmedatum, die Entnahmetiefe, die Bodenfeuchte zum Zeitpunkt der Probenahme oder die verwendeten Analysemethoden (z. B. Kaliumbestimmung nach der CAL-Methode) nicht dokumentiert, lassen sich die Daten später nicht zuverlässig interpretieren oder mit anderen Datensätzen vergleichen. Auch Satelliten- oder Drohnenbilder verlieren ihren Informationswert, wenn Metadaten zum Aufnahmzeitpunkt, zu den Sensorparametern oder zu den Wetterbedingungen fehlen.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>levels-of-metadata</id>
+        <text><![CDATA[Stufen bei Metadaten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-10</id>
+        <text><![CDATA[Es gibt drei Ebenen der Datengruppierung: Datenobjekte (Datensätze und Komponenten) können zu Gruppen (Sammlungen) zusammengefasst werden:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ol</type>
+        <id>ol-1</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>li-25</id>
+        <text><![CDATA[<b>Metadaten auf Sammlungsebene</b> beschreiben die Sammlung als Ganzes. Beispielsweise sammelt die BonaRes-Datenbank (<a href="https://maps.bonares.de">https://maps.bonares.de</a>) Bodendaten aus verschiedenen Langzeitversuchen (LTEs). Die Metadaten auf Sammlungsebene beschreiben unter anderem das Ziel, die geografische Abdeckung, die beteiligten Institute, die Lizenzbedingungen und die Schnittstellen für die weitere Nutzung (z. B. über APIs oder Download-Formate).]]></text>
+    </entry>
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>li-26</id>
+        <text><![CDATA[<b>Metadaten auf Datensatzebene</b> beschreiben einzelne Objekte. Beispielsweise befinden sich die Metadaten innerhalb eines Langzeitversuchs (LTE), die die SOIL-Messungen eines bestimmten Jahres beschreiben, auf Datensatzebene.]]></text>
+    </entry>
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>li-27</id>
+        <text><![CDATA[<b>Metadaten auf Komponentenebene</b> – manchmal können einzelne Objekte aus mehreren Komponenten bestehen: So kann beispielsweise ein SOIL-Datensatz aus mehreren Schichtmessungen pro Bodenprofil (z. B. 0–10 cm, 10–30 cm, 30–60 cm) bestehen. Jede Schicht stellt eine Komponente dar und erfordert eigene Metadaten, wie Probenentnahmetiefe, Analysetyp oder Lagerung.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-11</id>
+        <text><![CDATA[Der Erfassungsansatz und die daraus resultierende Beschreibungsebene wirken sich auf die Auffindbarkeit sowie auf die Kosten und den Aufwand der Verwaltung aus. Metadaten sollten idealerweise auf den Bedürfnissen derjenigen basieren, für die die Sammlung erstellt wird <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-12</id>
+        <text><![CDATA[<b>BEISPIEL:</b> Sammlungs, Datensatz und Komponenten Metadaten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-13</id>
+        <text><![CDATA[Ein landwirtschaftliches Forschungsinstitut betreibt ein zentrales Archiv mit Daten aus mehrjährigen Feldversuchen zur Fruchtfolge. Um eine effektive Nutzung und gezielte Wiederverwendung dieser Daten zu ermöglichen, werden die Datensätze auf mehreren Ebenen beschrieben:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-6</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-6</parentID>
+        <type>li</type>
+        <id>li-28</id>
+        <text><![CDATA[<b>Sammlungsebene:</b> Die Daten sind nach Versuchstyp in Sammlungen gegliedert – z. B. „Fruchtfolgeversuche unter konservierender Bodenbearbeitung“, „Bodenüberwachung auf ökologisch bewirtschafteten Flächen“ oder „Langzeitversuche zur Stickstoffdüngung bei Winterweizen“.<br> Die Sammlungsebene beschreibt übergreifende Metadaten wie die Standorte der Versuchsflächen, die Dauer der Versuchsreihen, die Ziele, die beteiligten Institute und die verfügbaren Datentypen (z. B. SOIL-Daten, Ertragsdaten, Klimadaten).]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-6</parentID>
+        <type>li</type>
+        <id>li-29</id>
+        <text><![CDATA[<b>Datensatzebene:</b> Diese Ebene beschreibt ein bestimmtes Versuchsjahr an einem Standort, z. B. „Langzeitversuch Groß Kreutz – Jahr 2020“.<br> Hier werden Metadaten wie Bodenbearbeitungsmethode, angebautes Fruchtfolgeelement (z. B. Sommergerste), Aussaatdatum, Düngungsstrategie, Wetterverlauf und Erntedatum dokumentiert.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-6</parentID>
+        <type>li</type>
+        <id>li-30</id>
+        <text><![CDATA[<b>Komponentenebene:</b> Innerhalb eines Versuchsjahres bestehen die Daten aus mehreren Einzelmessungen, z. B. pro Parzelle oder Messzeitpunkt. Für jede Parzelle werden beispielsweise Ertragsdaten, Krankheitsbefall, Nährstoffanalysen oder Drohnenbilder erfasst – jeweils mit spezifischen Metadaten wie Parzellen-ID, GPS-Koordinaten, Messdatum, Sensorparametern, verwendeten Labormethoden oder Bewertungskriterien.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-14</id>
+        <text><![CDATA[Diese hierarchische Struktur ermöglicht es, bestimmte Daten, z. B. alle Parzellenerträge von Sommergerste im Jahr 2020 unter reduzierter Bodenbearbeitung, zu finden ohne unzählige einzelne Dateien manuell durchsuchen zu müssen. Sie unterstützt zudem die automatische Verknüpfung mit anderen Datensätzen, wie beispielsweise Wetter- oder Bodenzustandsdaten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>types-of-metadata</id>
+        <text><![CDATA[Arten von Metadaten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-15</id>
+        <text><![CDATA[Metadatentypen werden oft nach ihren Funktionen gruppiert, wobei zu beachten ist, dass manche Elemente mehrere Funktionen erfüllen können.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-16</id>
+        <text><![CDATA[Die gängigsten Typen sind:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-7</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>li</type>
+        <id>li-31</id>
+        <text><![CDATA[<b>Beschreibende Metadaten</b>. Informationen, die für die Erschließung und Bewertung der Sammlung erforderlich sind]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>ul</type>
+        <id>ul-8</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-8</parentID>
+        <type>li</type>
+        <id>li-32</id>
+        <text><![CDATA[z. B. Titel, Mitwirkende, Thema oder Stichwörter, Beschreibung der Studie sowie Ort und Zeitraum der Studie.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>li</type>
+        <id>li-33</id>
+        <text><![CDATA[<b>Provenienz-Metadaten</b>. Diese beziehen sich auf die Herkunft und Verarbeitung der Daten und ermöglichen deren Interpretation und Wiederverwendung. Sie reichen von leicht lesbaren bis hin zu hochtechnischen Angaben und erfordern in der Regel gewisse Fachkenntnisse, um erstellt zu werden.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>ul</type>
+        <id>ul-9</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-9</parentID>
+        <type>li</type>
+        <id>li-34</id>
+        <text><![CDATA[z. B. Woher stammen die Daten? Warum wurden sie erhoben? Wer hat sie erhoben, wann und wo? Welche Instrumente/Technologien wurden zur Datenerhebung verwendet und wie wurden sie eingesetzt? Wie wurden die Daten verarbeitet?]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>li</type>
+        <id>li-35</id>
+        <text><![CDATA[<b>Technische Metadaten</b>. Grundlegende Informationen, die eine Person oder eine Computeranwendung benötigt, um die Daten lesen zu können.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>ul</type>
+        <id>ul-10</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-10</parentID>
+        <type>li</type>
+        <id>li-36</id>
+        <text><![CDATA[z. B. Wie sind die Daten aufgebaut? Welche Formate und Formatversionen werden verwendet? Wie ist die Datenbank konfiguriert? In welcher Beziehung stehen sie zu anderen Daten?]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>li</type>
+        <id>li-37</id>
+        <text><![CDATA[<b>Metadaten zu Rechten und Zugriff</b>. Informationen zum Zugriff sowie Lizenz- oder Nutzungsregeln.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>ul</type>
+        <id>ul-11</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-11</parentID>
+        <type>li</type>
+        <id>li-38</id>
+        <text><![CDATA[z. B. Wie kann jemand auf die Daten zugreifen? Wer darf die Daten oder die Metadaten einsehen oder ändern, und unter welchen Bedingungen? Wer hat eine gewisse Befugnis über die Daten? Sind mit dem Zugriff Kosten verbunden? Unter welcher Lizenz werden die Daten zur Verfügung gestellt?]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>li</type>
+        <id>li-39</id>
+        <text><![CDATA[<b>Metadaten zur Langzeitarchivierung</b>. Diese bauen auf den Informationen aus den Metadaten zu Herkunft, Rechten und technischen Aspekten auf und enthalten zudem Informationen, die eine Verwaltung der Daten im Hinblick auf ihre langfristige Zugänglichkeit ermöglichen.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>ul</type>
+        <id>ul-12</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-12</parentID>
+        <type>li</type>
+        <id>li-40</id>
+        <text><![CDATA[z. B. Gab es Umstrukturierungen oder andere Änderungen an den Dateien, z. B. aufgrund einer Umstellung auf neue Dateiformate? Welche Software wurde für den Zugriff auf die Daten verwendet?]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-7</parentID>
+        <type>li</type>
+        <id>li-41</id>
+        <text><![CDATA[<b>Zitiermetadaten</b>. Informationen, die erforderlich sind, damit jemand die Daten zitieren kann, z. B. Urheber, Erscheinungsjahr, Titel, Herausgeber, Identifikator <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h2</type>
+        <id>metadata-language</id>
+        <text><![CDATA[Metadaten-Sprache]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-17</id>
+        <text><![CDATA[Das Verständnis der gängigen Metadaten-Terminologie hilft Ihnen dabei, Metadaten besser zu planen, zu erfassen und anzuwenden <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>elements-and-schemas</id>
+        <text><![CDATA[Elemente und Schemata]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-18</id>
+        <text><![CDATA[Metadatenschemata bilden eine übergeordnete Struktur für Metadaten zu einer bestimmten Informationsressource oder für einen bestimmten Bereich. Ein Schema legt eine Reihe von Metadatenkonzepten oder -begriffen (sogenannte Elemente) sowie die dazugehörigen Definitionen (Semantik) und Beziehungen fest. Der jedem Element zugewiesene Wert stellt den Inhalt dar.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-19</id>
+        <text><![CDATA[Metadatenschemata entstehen häufig aus einer einzelnen Fachgemeinschaft (z. B. der Agrosystemwissenschaft) oder können entwickelt werden, um eine bestimmte Art von Experiment oder einen bestimmten Fachbereich zu beschreiben. Beispielsweise ist MIAPPE (<a target="_blank" href="https://www.miappe.org">https://www.miappe.org</a>) ein Standard zur Beschreibung von Pflanzenphänotypisierungsexperimenten, und ISO 19115 (<a target="_blank" href="http://www.dcc.ac.uk/resources/metadata-standards/iso-19115">http://www.dcc.ac.uk/resources/metadata-standards/iso-19115</a>) ein internationaler Standard zur Beschreibung von Geoinformationen und -diensten.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-20</id>
+        <text><![CDATA[Ein Schema kann außerdem Folgendes festlegen:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-13</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-13</parentID>
+        <type>li</type>
+        <id>li-42</id>
+        <text><![CDATA[<b>Inhaltsregeln</b> z. B. vorgeschriebene Formate und kontrollierte Vokabulare]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-13</parentID>
+        <type>li</type>
+        <id>li-43</id>
+        <text><![CDATA[die <b>Syntax</b>, in der Elemente kodiert (oder ausgedrückt) werden müssen, wie z. B. XML (Extensible Markup Language) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-21</id>
+        <text><![CDATA[<b>BEISPIEL</b>]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-22</id>
+        <text><![CDATA[Eines der gängigsten generischen Schemata ist die Dublin Core Metadata Initiative (<a target="_blank" href="http://dublincore.org">http://dublincore.org</a>), das bislang am weitesten verbreitete Schema für beschreibende Metadaten.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-23</id>
+        <text><![CDATA[Es ist einfach und generisch und umfasst im ursprünglichen Dublin-Core-Metadaten-Element-Set lediglich 15 Elemente, darunter Titel, Datum, Typ, Format, Urheber, Umfang und Rechte. Dublin Core wurde inzwischen im Namensraum der DCMI-Begriffe (<a target="_blank" href="http://dublincore.org/documents/dcmi-terms">http://dublincore.org/documents/dcmi-terms</a>) auf 55 Begriffe erweitert.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-24</id>
+        <text><![CDATA[Jedes Feld kann grundsätzlich frei formatierten Text enthalten, wobei einige Einschränkungen gelten.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-25</id>
+        <text><![CDATA[Dublin Core wird häufig auf Webseiten verwendet, und zwar mit dem Namensraum „dc“ – daher werden Sie oft Angaben wie „dc.Title“ als Metadaten-Tag in den HTML-Headern einer Webseite finden. Wenn Sie mit Videos arbeiten, können Sie Dublin Core und den Standard MPe.g. 7 für Videoarchive verwenden und erhalten so die Felder „dc.Title“ und „MPe.g.7.Title“. Für beide gelten eigene Regeln zur Verwendung, die im Namespace des Schemas zu finden sind (siehe unten) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>content-rules-and-controlled-vocabularies</id>
+        <text><![CDATA[Inhaltsregeln und kontrollierte Vokabulare]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-26</id>
+        <text><![CDATA[Die Festlegung von Regeln für den zulässigen Inhalt und das Format von Werten in jedem Metadatenelement verbessert die Genauigkeit und Maschinenlesbarkeit von Metadaten und damit die Auffindbarkeit von Sammlungen. Die freie Texteingabe kann zu mehrdeutigen Daten führen; so könnte beispielsweise das Datum „3/10/15“ sich auf den 3. Oktober oder den 10. März beziehen, und zwar entweder im Jahr 1915 oder 2015.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-27</id>
+        <text><![CDATA[Ein spezifischer Satz von Begriffen, die in einem Feld verwendet werden können – also ein kontrolliertes Vokabular –, ermöglicht das Filtern und Facettieren der Daten und verbessert so die Suchfunktion.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-28</id>
+        <text><![CDATA[Kontrollierte Vokabulare können sein:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-14</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-14</parentID>
+        <type>li</type>
+        <id>li-44</id>
+        <text><![CDATA[lokal definiert (z. B. nur die Auswahl von Namen aus einer Mitarbeiterliste zulassen) oder ein etablierter Standard (z. B. AGROVOC (<a target="_blank" href="https://agrovoc.fao.org/browse/agrovoc/en/">https://agrovoc.fao.org/browse/agrovoc/en</a>) als Thesaurus für landwirtschaftsbezogene Begriffe, einschließlich Begriffe für Kulturpflanzenarten oder Bodenbeschaffenheiten)]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>S. 29</id>
+        <text><![CDATA[Ebenso können Formate:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-15</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-15</parentID>
+        <type>li</type>
+        <id>li-45</id>
+        <text><![CDATA[lokal festgelegt sein (d. h., die Namen werden im Format Vorname Nachname eingegeben) oder]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-15</parentID>
+        <type>li</type>
+        <id>li-46</id>
+        <text><![CDATA[einen internationalen Standard verwenden (d. h. die empfohlene Vorgehensweise für das Dublin-Core-Datums-Element (<a target="_blank" href="http://purl.org/dc/elements/1.1/">http://purl.org/dc/elements/1.1/date</a>) ist die Verwendung eines Kodierungsschemas wie beispielsweise das W3CDTF (<a target="_blank" href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>) Profil der ISO 8601 (<a target="_blank" href="https://www.iso.org/iso-8601-date-and-time-format.html">http://www.iso.org/iso/home/standards/iso8601.html</a>) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>namespaces</id>
+        <text><![CDATA[Namensräume]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-30</id>
+        <text><![CDATA[Der „Namensraum“ eines Metadatenschemas definiert eine eindeutige Menge von Elementen und Definitionen. Durch die Angabe des Namensraums bzw. der Namensräume der von Ihnen verwendeten Metadatenschemata können Sie festlegen, zu welchem Schema jedes Element gehört, und auf die akzeptierte Definition dieses Elements verweisen.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-31</id>
+        <text><![CDATA[Beispielsweise kommt der Begriff „Datum“ in vielen Schemata vor. Die Art und Weise, wie ein „Datum“ definiert oder erfasst wird, kann jedoch je nach Schema unterschiedlich sein: „Datum“ kann sich in einem Schema auf das Datum der Veröffentlichung der Daten beziehen, in einem anderen Schema hingegen auf das Datum der Erfassung der Daten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>finding-and-choosing-a-metadata-schema</id>
+        <text><![CDATA[Suche und Auswahl eines Metadatenschemas]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-32</id>
+        <text><![CDATA[Die Schemata reichen von sehr allgemein gehaltenen bis hin zu äußerst fach- oder ressourcenspezifischen:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-16</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-16</parentID>
+        <type>li</type>
+        <id>li-47</id>
+        <text><![CDATA[Generische Schemata wie die DCMI-Metadatenbegriffe (<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-term">https://www.dublincore.org/specifications/dublin-core/dcmi-term</a>) und das DataCite-Metadatenschema (<a href="https://schema.datacite.org">https://schema.datacite.org</a>) sind weit verbreitet und einfach zu verwenden – doch sie sind so allgemein gehalten, dass jeder sie auf ganz unterschiedliche Weise nutzen kann, je spezialisierter die Beschreibung wird.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-16</parentID>
+        <type>li</type>
+        <id>li-48</id>
+        <text><![CDATA[Fachspezifische Schemata bieten eine reichhaltigere und gezieltere Struktur sowie ein Vokabular, das es ermöglicht, detaillierte Informationen in einem strukturierteren, granulareren Format bereitzustellen. Diese zu finden kann so einfach sein, wie die Suche im Internet nach „[Fachgebiet] Metadatenschema“, wobei man zunächst auf einer sehr allgemeinen Ebene beginnt (z. B. „Metadatenschema Landwirtschaft“) und bei Bedarf dann schrittweise spezifischer wird (z. B. „Metadatenschema CROP-Ernteertrag“). Sie können auch in Metadatenschema-Registern suchen, wie beispielsweise der Liste der Metadatenstandards des Data Curation Centre (<a href="http://www.dcc.ac.uk/resources/metadata-standards/list">http://www.dcc.ac.uk/resources/metadata-standards/list</a>) oder dem Metadatenstandards-Verzeichnis der Research Data Alliance (<a href="http://rd-alliance.github.io/metadata-directory">http://rd-alliance.github.io/metadata-directory</a>) sowie das FAIRsharing-Register (<a href="https://fairsharing.org">https://fairsharing.org</a>) <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-33</id>
+        <text><![CDATA[Zu den Schemata, die in der Agrosystemforschung häufig verwendet werden, gehören die folgenden:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-17</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-17</parentID>
+        <type>li</type>
+        <id>li-49</id>
+        <text><![CDATA[<a href="https://www.iso.org/standard/53798.html">ISO 19115</a> – internationale Norm für geografische Informationen]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-17</parentID>
+        <type>li</type>
+        <id>li-50</id>
+        <text><![CDATA[<a href="https://inspire.ec.europa.eu/">INSPIRE</a> – europäischer Standard für Geoinformationen]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-17</parentID>
+        <type>li</type>
+        <id>li-51</id>
+        <text><![CDATA[<a href="https://www.tdwg.org/standards/dwc/">Darwin Core</a> – Standard für Informationen zur biologischen Vielfalt]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-17</parentID>
+        <type>li</type>
+        <id>li-52</id>
+        <text><![CDATA[<a href="https://abcd.tdwg.org/">ABCD (Access to Biological Collection Data)</a> – für Daten zu Exemplaren und Beobachtungen]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-17</parentID>
+        <type>li</type>
+        <id>li-53</id>
+        <text><![CDATA[<a href="https://www.miappe.org/">MIAPPE</a> – Mindestangaben zu Pflanzenphänotypisierungsexperimenten]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-17</parentID>
+        <type>li</type>
+        <id>li-54</id>
+        <text><![CDATA[<a href="https://alliancebioversityciat.org/">MCPD</a> (Multi-Crop Passport Descriptor) – Pflanzengenetik]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-17</parentID>
+        <type>li</type>
+        <id>li-55</id>
+        <text><![CDATA[<a href="https://tools.bonares.de/doi/doc/16/">BonaRes-Metadatenschema</a> – für das BonaRes-Repository]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>adapt</id>
+        <text><![CDATA[Schema übernehmen, anpassen oder erstellen?]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-34</id>
+        <text><![CDATA[Obwohl es möglich ist, ein Metadatenschema von Grund auf neu zu entwickeln, ist es vorzuziehen, bestehende Standards und/oder allgemein etablierte Schemata zu verwenden oder anzupassen, da diese folgende Vorteile bieten:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-18</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-18</parentID>
+        <type>li</type>
+        <id>li-56</id>
+        <text><![CDATA[Kosteneinsparungen – das Schema und die entsprechenden Anwendungsrichtlinien wurden entwickelt, was Zeit und Aufwand spart.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-18</parentID>
+        <type>li</type>
+        <id>li-57</id>
+        <text><![CDATA[Zugang zu Hilfe und Beratung – ein Standard verfügt in der Regel über eine Anwendergemeinschaft.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-18</parentID>
+        <type>li</type>
+        <id>li-58</id>
+        <text><![CDATA[Benutzerfreundlichkeit – Benutzer sind wahrscheinlich mit einem Standard und dessen Terminologie vertraut.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-18</parentID>
+        <type>li</type>
+        <id>li-59</id>
+        <text><![CDATA[Interoperabilität – Informationen können problemlos zwischen Systemen ausgetauscht werden.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-18</parentID>
+        <type>li</type>
+        <id>li-60</id>
+        <text><![CDATA[Nachhaltigkeit – Schemata müssen gepflegt und aktualisiert werden, damit sie weiterhin nutzbar bleiben.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-35</id>
+        <text><![CDATA[Sie haben folgende Auswahlmöglichkeiten:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ol</type>
+        <id>ol-2</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ol-2</parentID>
+        <type>li</type>
+        <id>li-61</id>
+        <text><![CDATA[Wenn es nur einen offensichtlichen Metadatenstandard gibt und dieser Ihren Anforderungen entspricht, nutzen Sie ihn.]]></text>
+    </entry>
+    <entry>
+        <parentID>ol-2</parentID>
+        <type>li</type>
+        <id>li-62</id>
+        <text><![CDATA[Wenn es mehrere naheliegende Schemata gibt, die Ihren Anforderungen entsprechen, orientieren Sie sich an den „Best-Practice“-Modellen Ihrer Community.]]></text>
+    </entry>
+    <entry>
+        <parentID>ol-2</parentID>
+        <type>li</type>
+        <id>li-63</id>
+        <text><![CDATA[Wenn Sie kein einziges geeignetes Schema finden können:]]></text>
+    </entry>
+    <entry>
+        <parentID>ol-2</parentID>
+        <type>ol</type>
+        <id>ol-3</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ol-3</parentID>
+        <type>li</type>
+        <id>li-64</id>
+        <text><![CDATA[Passen Sie ein bestehendes Schema an Ihre Bedürfnisse an oder erweitern Sie es und dokumentieren Sie die vorgenommenen Änderungen sehr sorgfältig. Orientieren Sie sich an den Dokumentationsmethoden und Zuordnungen, die in bestehenden Standards vorgesehen sind. Nehmen Sie Kontakt zu den „Eigentümern“ des Schemas auf und versuchen Sie, mit ihnen zusammenzuarbeiten, da andere von Ihren Änderungen profitieren könnten.]]></text>
+    </entry>
+    <entry>
+        <parentID>ol-3</parentID>
+        <type>li</type>
+        <id>li-65</id>
+        <text><![CDATA[Alternativ können Sie ein neues „Anwendungsprofil“ entwickeln, bei dem verschiedene Metadatenelemente (sowie die zugehörigen Richtlinien und Dokumentationen) aus unterschiedlichen Metadatenschemata entnommen und miteinander kombiniert werden.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-36</id>
+        <text><![CDATA[Falls es absolut kein Schema gibt, das Sie verwenden können, prüfen Sie dies noch einmal; das ist heutzutage eine seltene Situation. Wenn sich immer noch kein Schema finden lässt, müssen Sie möglicherweise eines entwickeln. Dies ist jedoch mit einem erheblichen Arbeitsaufwand verbunden, und Sie sollten so viele interessierte Personen aus Ihrem Fachgebiet wie möglich zusammenbringen <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h2</type>
+        <id>collectiong-and-linking-metadata</id>
+        <text><![CDATA[Erfassung und Verknüpfung von Metadaten]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>collecting-metadata</id>
+        <text><![CDATA[Erfassung von Metadaten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>h4</type>
+        <id>automatic-metadata-collection</id>
+        <text><![CDATA[Automatische Metadatenerfassung]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-37</id>
+        <text><![CDATA[Während des Datenerfassungsprozesses können zahlreiche Metadaten automatisch erstellt werden. Viele wissenschaftliche Instrumente generieren neben den Daten selbst auch Metadaten. Ein naheliegendes Beispiel sind Digitalkameras, bei denen bestimmte Provenienz-Metadaten gleichzeitig mit der Aufnahme des Fotos geschrieben werden, z. B. Ort, Uhrzeit und Datum. Gleiches gilt auch für UAV-Bilder oder Sensordaten.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-38</id>
+        <text><![CDATA[Die automatische Metadatenerfassung vermeidet Fehler bei der Dateneingabe und reduziert den erforderlichen Aufwand. Sie können zudem einen automatisierten Prozess einrichten, um die Metadaten bei Eingang der Daten auf ihre Plausibilität zu überprüfen.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h4</type>
+        <id>extracted-metadata-collection</id>
+        <text><![CDATA[Erfasste Metadaten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-39</id>
+        <text><![CDATA[Einige Metadaten können aus anderen Systemen extrahiert werden. So können beispielsweise die Systeme für die Personalverwaltungs-, Fördermittelverwaltungs- oder Forschungsmanagementsysteme einer Universität die besten Informationsquellen in Bezug auf Forscher, Forschungsfördermittel oder Forschungsprojekte sein.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h4</type>
+        <id>manual-metadata-collection</id>
+        <text><![CDATA[Manuelle Metadatenerfassung]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-40</id>
+        <text><![CDATA[Die Erstellung einiger Metadaten erfordert menschliches Eingreifen, und der dabei angewandte Prozess hängt stark von den zur Datenerfassung verwendeten Werkzeugen ab, beispielsweise bei Metadaten, die in elektronischen Labor-Notizbüchern (ELNs) oder digitalen Feldbüchern erfasst werden. Es ist auch möglich, Werkzeuge wie Formulare zu entwickeln, die die Metadatenfelder anzeigen (und einige davon sogar vorab ausfüllen, wenn eine Anbindung an andere institutionelle Systeme besteht) und automatisch die richtigen Vokabulare und Datenstrukturen für jeden Metadatensatz durchsetzen. Metadatensätze können bereits während der Datenerfassung erstellt werden – was vorzuziehen ist – oder später, wenn der Forscher die über einen bestimmten Zeitraum gesammelten Daten ordnet, z. B. nach einer Exkursion.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-41</id>
+        <text><![CDATA[Metadaten sind oft in Spezifikationsangaben, Datenbankstrukturen, Datenmodellen, Programmcode oder Stammdatenreferenzstrukturen verborgen. Diese Metadaten müssen explizit und für Menschen lesbar gemacht werden, um nutzbar zu sein <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h3</type>
+        <id>linking-metadata-and-data</id>
+        <text><![CDATA[Verknüpfung von Metadaten und Daten]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>h4</type>
+        <id>metadata-within-the-data-file</id>
+        <text><![CDATA[Metadaten innerhalb der Datendatei]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-42</id>
+        <text><![CDATA[Metadaten können zunächst einmal direkt in der Datei zusammen mit den Daten selbst gespeichert werden. Es gibt viele digitale Dateiformate, die eine Reihe von Metadatenfeldern enthalten, und einige lassen sich so erweitern, dass sie nahezu alles aufnehmen können. Dazu gehören:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-19</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-19</parentID>
+        <type>li</type>
+        <id>li-66</id>
+        <text><![CDATA[Textformate, z. B. DOCX und PDF]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-19</parentID>
+        <type>li</type>
+        <id>li-67</id>
+        <text><![CDATA[Tabellenformate, z. B. XLSX]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-19</parentID>
+        <type>li</type>
+        <id>li-68</id>
+        <text><![CDATA[Bildformate, z. B. TIFF und JPEG]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-19</parentID>
+        <type>li</type>
+        <id>li-69</id>
+        <text><![CDATA[Videoformate, z. B. MPEG]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-19</parentID>
+        <type>li</type>
+        <id>li-70</id>
+        <text><![CDATA[Audioformate, z. B. WAV]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-19</parentID>
+        <type>li</type>
+        <id>li-71</id>
+        <text><![CDATA[Fachgebietsformate, z. B. HDF (Fernerkundung).]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-43</id>
+        <text><![CDATA[Ein Vorteil der Speicherung von Metadaten innerhalb der Datei besteht darin, dass sie mit der Datei mitwandert; die Zuordnung zwischen den Daten und ihren Metadaten lässt sich leicht aufrechterhalten.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-44</id>
+        <text><![CDATA[Die Nachteile sind jedoch:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-20</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-20</parentID>
+        <type>li</type>
+        <id>li-72</id>
+        <text><![CDATA[Möglicherweise können nicht alle gewünschten Metadatenfelder hinzugefügt werden.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-20</parentID>
+        <type>li</type>
+        <id>li-73</id>
+        <text><![CDATA[Die Suche in der Sammlung ist langsam, da der Computer bei jeder einzelnen Abfrage jede einzelne Datei öffnen muss, insbesondere wenn die Anzahl der Dateien und Abfragen zunimmt.]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-20</parentID>
+        <type>li</type>
+        <id>li-74</id>
+        <text><![CDATA[Metadaten auf Sammlungsebene lassen sich nicht einfach verwalten. Wenn Sie in jede Datei einen Verweis auf die Sammlung einfügen und dann beschließen, diesen zu ändern, müssen Sie jede einzelne betroffene Datei bearbeiten <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h4</type>
+        <id>metadata-as-separate-files</id>
+        <text><![CDATA[Metadaten als separate Dateien]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-45</id>
+        <text><![CDATA[Diese Lösung bietet Ihnen unbegrenzte Flexibilität bei der Speicherung aller Arten von Metadaten ohne Einschränkungen: Schreiben Sie die Metadaten in eine separate, gut strukturierte Datei (beispielsweise im XML- oder JSON-Format) und verknüpfen Sie diese mit der Datendatei. Ein gängiger Ansatz, um die Zuordnung zwischen Datei und Metadaten zu stärken, ist die Verwendung desselben Dateinamensstamms, z. B. „cat1.tiff“ für das Bild und „cat1.xml“ für die Metadaten. Dies kann die Leistung bei der Suche und bei Änderungen an den Metadaten geringfügig verbessern. Eine gut organisierte Ordnerstruktur und einheitliche Namenskonventionen sind hier unerlässlich!]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-46</id>
+        <text><![CDATA[Die Nachteile sind jedoch:]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>ul</type>
+        <id>ul-21</id>
+        <text></text>
+    </entry>
+    <entry>
+        <parentID>ul-21</parentID>
+        <type>li</type>
+        <id>li-75</id>
+        <text><![CDATA[Die Daten befinden sich weiterhin auf demselben Speichermedium, und Sie müssen nach wie vor dieselbe Anzahl an Dateien öffnen, um Abfragen durchzuführen oder Änderungen vorzunehmen]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-21</parentID>
+        <type>li</type>
+        <id>li-76</id>
+        <text><![CDATA[Es erhöht das Risiko, dass Daten und Metadaten voneinander getrennt werden, wenn Dateien verschoben werden <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>h4</type>
+        <id>spreadsheets-and-databases</id>
+        <text><![CDATA[Tabellen und Datenbanken]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>S. 47</id>
+        <text><![CDATA[Das Zusammenführen von Metadaten aus mehreren Datensätzen in einer einzigen Tabelle oder Datenbank bietet Ihnen deutlich mehr Flexibilität bei der Suche, bei Änderungen und bei den erfassten Metadatenfeldern.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-48</id>
+        <text><![CDATA[Änderungen auf Sammlungsebene lassen sich in einer Datenbank sehr einfach vornehmen, da Datensätze, die zu einer bestimmten Sammlung gehören, lediglich gekennzeichnet und auf den Datensatz auf Sammlungsebene verwiesen werden. Es muss nur ein einziger Datensatz (der Datensatz auf Sammlungsebene) in der Datenbank geändert werden, damit alle Datensätze dieser Sammlung entsprechend angepasst werden.]]></text>
+    </entry>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>p-49</id>
+        <text><![CDATA[Die Metadaten werden mit den Daten verknüpft, indem der Dateiname und der Speicherort (oder die URI) der Daten im Metadatensatz erfasst und bei jeder Änderung des Speicherorts der Daten aktualisiert werden <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+</data>

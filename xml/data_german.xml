@@ -1,4 +1,16 @@
 <CATALOG>
+    <UI>
+        <NAVIGATOR>
+            <DECISIONTREE>ENTSCHEIDUNGSBAUM</DECISIONTREE>
+            <GLOSSARY>GLOSSAR</GLOSSARY>
+            <METADATAGUIDE>METADATENGUIDE</METADATAGUIDE>
+            <CONTACT>KONTAKT</CONTACT>
+            <BIBLIOGRAPHY>LITERATURVERZEICHNIS</BIBLIOGRAPHY>
+        </NAVIGATOR>
+        <TEXTELEMENT>
+            <BACKBUTTON>Zurück</BACKBUTTON>
+        </TEXTELEMENT>
+    </UI>
     <ENTRY>
         <ID>0</ID>
         <TYPE>Antwort</TYPE>
@@ -13,8 +25,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Motivation der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Möchten Sie Ihre Daten organisiert und verständlich halten?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>2</BUTTON_LINK>
         <BUTTON_LINK>1-1</BUTTON_LINK>
     </ENTRY>
@@ -33,8 +45,8 @@
         <TYPE>Exitfrage</TYPE>
         <CATEGORY>Motivation der Datendokumentation - Exitfrage</CATEGORY>
         <QUESTION_TEXT><![CDATA[<p>Ohne verständliche Daten ist eine <a target="_blank" href="./glossary.html#further-use">Nachnutzung</a> durch Sie selbst oder Dritte kaum möglich, zudem sind <a target="_blank" href="./glossary.html#metadata">Metadaten</a> zentral für die <a target="_blank" href="./glossary.html#fair-principles">FAIR-Prinzipien</a> (Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit). Möchten Sie daher doch, wie empfohlen, eine <a target="_blank" href="./glossary.html#data-documentation">Datendokumentation</a> anlegen?</p>]]></QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>2</BUTTON_LINK>
         <BUTTON_LINK>0</BUTTON_LINK>
     </ENTRY>
@@ -44,8 +56,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Motivation der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Sind Ihre Daten für andere relevant (z.B. bei Zusammenarbeit mit Kolleg*innen, Projektpartnern, Nachnutzung von Dritten)?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>4</BUTTON_LINK>
         <BUTTON_LINK>3</BUTTON_LINK>
     </ENTRY>
@@ -55,8 +67,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Motivation der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Möchten Sie Ihre Daten zu einem späteren Zeitpunkt noch nachvollziehen und verstehen?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>4</BUTTON_LINK>
         <BUTTON_LINK>3-1</BUTTON_LINK>
     </ENTRY>
@@ -75,8 +87,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Enthalten Ihre Daten Quellcode?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>4-1</BUTTON_LINK>
         <BUTTON_LINK>5</BUTTON_LINK>
     </ENTRY>
@@ -95,8 +107,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie Daten mit nicht selbsterklärenden Variablennamen oder auch viele Abkürzungen oder Codierungen?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>5-1</BUTTON_LINK>
         <BUTTON_LINK>6</BUTTON_LINK>
     </ENTRY>
@@ -105,7 +117,7 @@
         <ID>5-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Erstellen Sie ein <a target="_blank" href="./glossary.html#data-dictionary">Data Dictionary</a> bzw. <a target="_blank"href="./glossary.html#codebook">Codebook</a>, um Ihre Daten besser verständlich zu machen.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Erstellen Sie ein <a target="_blank" href="./glossary.html#codebook">Data Dictionary</a> bzw. <a target="_blank"href="./glossary.html#codebook">Codebook</a>, um Ihre Daten besser verständlich zu machen.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>6</BUTTON_LINK>
     </ENTRY>
@@ -115,8 +127,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Folgen sie routinemäßig einem standardisierten Arbeitsablauf zur Datenerhebung bzw. -verarbeitung?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>6-1</BUTTON_LINK>
         <BUTTON_LINK>7</BUTTON_LINK>
     </ENTRY>
@@ -135,8 +147,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation</CATEGORY>
         <QUESTION_TEXT>Möchten Sie Ihre Daten veröffentlichen oder anderweitig auffindbar und nachnutzbar machen?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>7-1</BUTTON_LINK>
         <BUTTON_LINK>7-2</BUTTON_LINK>
     </ENTRY>
@@ -164,8 +176,8 @@
         <TYPE>Exitfrage</TYPE>
         <CATEGORY>Formen und Formate der Datendokumentation - Exitfrage</CATEGORY>
         <QUESTION_TEXT><![CDATA[<p>Eine gute <a target="_blank" href="./glossary.html#data-documentation">Datendokumentation</a> kann auch für Ihre eigene Arbeit innerhalb des Projektes oder an ihrer Institution hilfreich sein. Möchten Sie dafür strukturierte <a target="_blank" href="./glossary.html#metadata">Metadaten</a> erfassen?</p>]]></QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>8</BUTTON_LINK>
         <BUTTON_LINK>0</BUTTON_LINK>
     </ENTRY>
@@ -175,8 +187,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es ein konkretes Repositorium, in dem Sie veröffentlichen möchten?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>9</BUTTON_LINK>
         <BUTTON_LINK>8-1</BUTTON_LINK>
     </ENTRY>
@@ -195,8 +207,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es Vorgaben zum Metadatenschema durch dieses Repositorium?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No / Unsure</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein / Unischer</BUTTON_TEXT>
         <BUTTON_LINK>9-1</BUTTON_LINK>
         <BUTTON_LINK>10</BUTTON_LINK>
     </ENTRY>
@@ -205,7 +217,7 @@
         <ID>9-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Legen Sie anhand dieses <a target="_blank" href="./glossary.html#metadata-standards">Metadatenschemas</a> fest, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata-guide.html#elements-and-schemes">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata-guide.html#elements-and-schemes">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata-guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Legen Sie anhand dieses <a target="_blank" href="./glossary.html#metadata-standards">Metadatenschemas</a> fest, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -215,8 +227,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es im Rahmen Ihres Projektes Vorgaben zum Metadatenschema (z. B. im Datenmanagementplan festgehalten)?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No / Unsure</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein / Unsicher</BUTTON_TEXT>
         <BUTTON_LINK>9-1</BUTTON_LINK>
         <BUTTON_LINK>11</BUTTON_LINK>
     </ENTRY>
@@ -226,9 +238,9 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es ein etabliertes Metadatenschema (Metadatenstandard) für Ihre Disziplin oder Datentyp?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes, one</BUTTON_TEXT>
-        <BUTTON_TEXT>Yes, multiple</BUTTON_TEXT>
-        <BUTTON_TEXT>No / Unsure</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja, eines</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja, mehrere</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein / Unsicher</BUTTON_TEXT>
         <BUTTON_LINK>11-1</BUTTON_LINK>
         <BUTTON_LINK>11-2</BUTTON_LINK>
         <BUTTON_LINK>11-3</BUTTON_LINK>
@@ -238,7 +250,7 @@
         <ID>11-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Verwenden Sie des gewählte <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> und <a target="_blank" href="./metadata-guide.html#adopt">passen Sie dieses ggf. an</a>, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata-guide.html#elements-and-schemes">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata-guide.html#elements-and-schemes">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata-guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Verwenden Sie des gewählte <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> und <a target="_blank" href="./metadata_guide.html#adapt">passen Sie dieses ggf. an</a>, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -247,7 +259,7 @@
         <ID>11-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Überprüfen Sie, welches <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> am besten zu ihren Daten passt und verwenden Sie dieses, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata-guide.html#elements-and-schemes">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata-guide.html#elements-and-schemes">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata-guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen. <a target="_blank" href="./metadata-guide.html#adopt">Kombinieren Sie ggf. bei Bedarf mehrere passende Schemata</a>. Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Überprüfen Sie, welches <a target="_blank" href="./glossary.html#metadata-standards">Schema</a> am besten zu ihren Daten passt und verwenden Sie dieses, um festzulegen, welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben müssen (alle Pflichtfelder oder mandatory <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelemente</a>), und welche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> Sie erheben können und wollen (aus den empfohlenen und optionalen <a target="_blank" href="./metadata_guide.html#elements-and-schemas">Metadatenelementen</a>). Stellen Sie sicher, dass Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten Metadaten</a> erfassen. <a target="_blank" href="./metadata_guide.html#adapt">Kombinieren Sie ggf. bei Bedarf mehrere passende Schemata</a>. Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -256,7 +268,7 @@
         <ID>11-3</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein, um ein passendes <a target="_blank" href="./glossary.html#metadata-standards">Schema zu finden</a> bzw. <a target="_blank" href="./metadata-guide.html#adopt">selbst (weiter-) zu entwickeln</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Ein Austausch mit Fachkolleg*innen oder eine kompetente Beratung (z.B. über den <a target="_blank" href="https://fairagro.net/helpdesk/">FAIRagro Helpdesk</a>) kann hilfreich sein, um ein passendes <a target="_blank" href="./glossary.html#metadata-standards">Schema zu finden</a> bzw. <a target="_blank" href="./metadata_guide.html#adapt">selbst (weiter-) zu entwickeln</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>12</BUTTON_LINK>
     </ENTRY>
@@ -266,8 +278,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es hinsichtlich der Metadaten Richtlinien (z.B. Forschungsdatenpolicy) oder Vorgaben Ihrer Einrichtung, Ihrer Förderorganisation oder von Zeitschriften/Journals?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein</BUTTON_TEXT>
         <BUTTON_LINK>12-1</BUTTON_LINK>
         <BUTTON_LINK>13</BUTTON_LINK>
     </ENTRY>
@@ -276,7 +288,7 @@
         <ID>12-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob die Vorgaben durch das gewählte <a target="_blank" href="./glossary.html#metadata-standards">Metadatenschema</a> abgedeckt werden. <a target="_blank" href="./metadata-guide.html#adopt">Passen Sie das Schema ggf. an</a> und dokumentieren Sie dies.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob die Vorgaben durch das gewählte <a target="_blank" href="./glossary.html#metadata-standards">Metadatenschema</a> abgedeckt werden. <a target="_blank" href="./metadata_guide.html#adapt">Passen Sie das Schema ggf. an</a> und dokumentieren Sie dies.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>13</BUTTON_LINK>
     </ENTRY>
@@ -315,8 +327,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Werden Metadaten automatisch erfasst (z.B. Dateigröße, Datum, ISO-Wert etc. bei Fotos)?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>14-1</BUTTON_LINK>
         <BUTTON_LINK>15</BUTTON_LINK>
     </ENTRY>
@@ -325,7 +337,7 @@
         <ID>14-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten erfassen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a> gespeichert werden, und überprüfen Sie die Vollständigkeit. Erfassen Sie ggf. weitere <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a> gespeichert werden, und überprüfen Sie die Vollständigkeit. Erfassen Sie ggf. weitere <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>15</BUTTON_LINK>
     </ENTRY>
@@ -335,8 +347,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Können Metadaten aus anderen Systemen übernommen werden (z. B. ELNs, DMPs, Geräte-Software, Labordokumentation)?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>15-1</BUTTON_LINK>
         <BUTTON_LINK>16</BUTTON_LINK>
     </ENTRY>
@@ -345,7 +357,7 @@
         <ID>15-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten erfassen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a> übernommen und gespeichert werden, und überprüfen Sie die Vollständigkeit. Erfassen Sie ggf. weitere <a target="_blank" href="./metadata-guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a> übernommen und gespeichert werden, und überprüfen Sie die Vollständigkeit. Erfassen Sie ggf. weitere <a target="_blank" href="./metadata_guide.html#levels-of-metadata">relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>16</BUTTON_LINK>
     </ENTRY>
@@ -355,8 +367,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten erfassen</CATEGORY>
         <QUESTION_TEXT>Müssen (weitere) Metadaten manuell erhoben werden?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>16-1</BUTTON_LINK>
         <BUTTON_LINK>17</BUTTON_LINK>
     </ENTRY>
@@ -365,7 +377,7 @@
         <ID>16-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten erfassen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Erheben Sie <a target="_blank" href="./metadata-guide.html#levels-of-metadata">alle relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a> und tauschen Sie sich ggf. mit Fachkolleg*innen über die Vollständigkeit aus.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Erheben Sie <a target="_blank" href="./metadata_guide.html#levels-of-metadata">alle relevanten</a> <a target="_blank" href="./glossary.html#metadata">Metadaten</a> und tauschen Sie sich ggf. mit Fachkolleg*innen über die Vollständigkeit aus.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>17</BUTTON_LINK>
     </ENTRY>
@@ -375,8 +387,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Nutzen Sie bereits Tools zur Metadatenspeicherung (z. B. Datenmanagementtools, ELNs, digitale Feldbücher)?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>17-1</BUTTON_LINK>
         <BUTTON_LINK>17-2</BUTTON_LINK>
     </ENTRY>
@@ -395,8 +407,8 @@
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob eine Installation von Datenmanagementtools, <a target="_blank" href="./glossary.html#eln">elektronischen Laborbüchern</a> oder <a target="_blank" href="./glossary.html#digital-field-books">digitalen Feldbüchern</a> für sie sinnvoll ist.</p>]]></QUESTION_TEXT>
-        <BUTTON_TEXT>If yes</BUTTON_TEXT>
-        <BUTTON_TEXT>If no / unsure</BUTTON_TEXT>
+        <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Wenn nein / unsicher</BUTTON_TEXT>
         <BUTTON_LINK>17-2-1</BUTTON_LINK>
         <BUTTON_LINK>18</BUTTON_LINK>
     </ENTRY>
@@ -415,8 +427,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Ist ihr Datensatz umfangreich und komplex strukturiert?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>18-1</BUTTON_LINK>
         <BUTTON_LINK>18-2</BUTTON_LINK>
     </ENTRY>
@@ -425,9 +437,9 @@
         <ID>18-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Eine klare Zuordnung von <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">zentral gespeicherten Metadaten</a> zur jeweiligen Datendatei kann bei komplexen Datensätzen schwierig sein, daher wird eine <a target="_blank" href="./metadata-guide.html#metadata-as-separate-files">dezentrale Speicherung der Metadaten</a> empfohlen</a>. Soll eine <a target="_blank" href="./metadata-guide.html#metadata-as-seperate-files">zentrale Metadatenspeicherung</a> trotzdem in Betracht gezogen werden?</p>]]></QUESTION_TEXT>
-        <BUTTON_TEXT>If yes</BUTTON_TEXT>
-        <BUTTON_TEXT>If no</BUTTON_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Eine klare Zuordnung von <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">zentral gespeicherten Metadaten</a> zur jeweiligen Datendatei kann bei komplexen Datensätzen schwierig sein, daher wird eine <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">dezentrale Speicherung der Metadaten</a> empfohlen</a>. Soll eine <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">zentrale Metadatenspeicherung</a> trotzdem in Betracht gezogen werden?</p>]]></QUESTION_TEXT>
+        <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
         <BUTTON_LINK>19</BUTTON_LINK>
         <BUTTON_LINK>20</BUTTON_LINK>
     </ENTRY>
@@ -436,9 +448,9 @@
         <ID>18-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob eine einfache <a target="_blank" href="./metadata-guide.html#metadata-as-separate-files">Begleitdatei</a> (z.cB. <a target="_blank" href="./glossary.html#readme">README-Datei</a>) sinnvoll ist, um die <a target="_blank" href="./glossary.html#metadata">Metadaten</a> zu ihrem Datensatz zentral zu sammeln und auf einen Blick verfügbar zu machen.</p>]]></QUESTION_TEXT>
-        <BUTTON_TEXT>If yes</BUTTON_TEXT>
-        <BUTTON_TEXT>If no</BUTTON_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob eine einfache <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">Begleitdatei</a> (z.cB. <a target="_blank" href="./glossary.html#readme">README-Datei</a>) sinnvoll ist, um die <a target="_blank" href="./glossary.html#metadata">Metadaten</a> zu ihrem Datensatz zentral zu sammeln und auf einen Blick verfügbar zu machen.</p>]]></QUESTION_TEXT>
+        <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
         <BUTTON_LINK>18-2-1</BUTTON_LINK>
         <BUTTON_LINK>19</BUTTON_LINK>
     </ENTRY>
@@ -447,7 +459,7 @@
         <ID>18-2-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata-guide.html#metadata-as-separate-files">Metadatendatei</a> klar mit dem Datensatz verknüpft ist (z.B. durch eindeutige Namensgebung) und die <a target="_blank" href="./glossary.html#metadata">Metadaten</a> den einzelnen Datensätzen eindeutig zugeordnet werden können, um Datenverluste zu vermeiden.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">Metadatendatei</a> klar mit dem Datensatz verknüpft ist (z.B. durch eindeutige Namensgebung) und die <a target="_blank" href="./glossary.html#metadata">Metadaten</a> den einzelnen Datensätzen eindeutig zugeordnet werden können, um Datenverluste zu vermeiden.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -457,8 +469,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Werden ihre Datendateien häufig verschoben oder kopiert?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>19-1</BUTTON_LINK>
         <BUTTON_LINK>19-2</BUTTON_LINK>
     </ENTRY>
@@ -467,7 +479,7 @@
         <ID>19-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Eine zentrale <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">Metadatendatei</a> wird nicht empfohlen.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Eine zentrale <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">Metadatendatei</a> wird nicht empfohlen.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>20</BUTTON_LINK>
     </ENTRY>
@@ -476,9 +488,9 @@
         <ID>19-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob eine zentrale <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">Metadatendatei</a> für den gesamten Datensatz sinnvoll ist.</p>]]></QUESTION_TEXT>
-        <BUTTON_TEXT>If Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>If no</BUTTON_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob eine zentrale <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">Metadatendatei</a> für den gesamten Datensatz sinnvoll ist.</p>]]></QUESTION_TEXT>
+        <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
         <BUTTON_LINK>19-1-1</BUTTON_LINK>
         <BUTTON_LINK>19-1-2</BUTTON_LINK>
     </ENTRY>
@@ -487,7 +499,7 @@
         <ID>19-1-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">Metadatendatei</a> klar mit dem Datensatz verknüpft ist (z. B. durch eindeutige Namensgebung) und die <a target="_blank" href="./glossary.html#metadata">Metadaten</a> den einzelnen Datensätzen eindeutig zugeordnet werden können, um Datenverluste zu vermeiden.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">Metadatendatei</a> klar mit dem Datensatz verknüpft ist (z. B. durch eindeutige Namensgebung) und die <a target="_blank" href="./glossary.html#metadata">Metadaten</a> den einzelnen Datensätzen eindeutig zugeordnet werden können, um Datenverluste zu vermeiden.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -496,9 +508,9 @@
         <ID>19-1-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob dezentrale <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">Metadatendateien</a> sinnvoll sind.</p>]]></QUESTION_TEXT>
-        <BUTTON_TEXT>If yes</BUTTON_TEXT>
-        <BUTTON_TEXT>If no</BUTTON_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob dezentrale <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">Metadatendateien</a> sinnvoll sind.</p>]]></QUESTION_TEXT>
+        <BUTTON_TEXT>Wenn ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Wenn nein</BUTTON_TEXT>
         <BUTTON_LINK>19-1-2-1</BUTTON_LINK>
         <BUTTON_LINK>20</BUTTON_LINK>
     </ENTRY>
@@ -507,7 +519,7 @@
         <ID>19-1-2-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die einzelnen <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">Metadatendateien</a> klar mit den jeweiligen Datendateien verknüpft sind, sodass Datenverluste beim Verschieben oder Kopieren der Daten vermieden werden.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Stellen Sie sicher, dass die einzelnen <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">Metadatendateien</a> klar mit den jeweiligen Datendateien verknüpft sind, sodass Datenverluste beim Verschieben oder Kopieren der Daten vermieden werden.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -517,9 +529,9 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Ist es technisch möglich, dass relevante Metadaten innerhalb der Datendateien gespeichert werden?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes, completely</BUTTON_TEXT>
-        <BUTTON_TEXT>No</BUTTON_TEXT>
-        <BUTTON_TEXT>Yes, partly</BUTTON_TEXT>
+        <BUTTON_TEXT>Ja, vollständig</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja, teilweise </BUTTON_TEXT>
         <BUTTON_LINK>20-1</BUTTON_LINK>
         <BUTTON_LINK>20-2</BUTTON_LINK>
         <BUTTON_LINK>20-3</BUTTON_LINK>
@@ -529,7 +541,7 @@
         <ID>20-1</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob Sie ihre Metadaten direkt <a target="_blank" href="./metadata-guide.html#metadata-within-the-data-file">in den Datendateien</a> speichern möchten, um Datenverluste durch Kopieren oder Verschieben der Datendateien zu verhindern.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob Sie ihre Metadaten direkt <a target="_blank" href="./metadata_guide.html#metadata-within-the-data-file">in den Datendateien</a> speichern möchten, um Datenverluste durch Kopieren oder Verschieben der Datendateien zu verhindern.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -538,7 +550,7 @@
         <ID>20-2</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob Sie <a target="_blank" href="./metadata-guide.html#metadata-in-separate-files">dezentrale Metadatendateien</a> neben den Datendateien anlegen, um umfangreiche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> zu einzelnen Datendateien speichern zu können. Achten Sie darauf, diese Dateien gut mit den Datendateien zu verknüpfen, sodass Datenverluste bei verschieben oder kopieren der Daten vermieden werden.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob Sie <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">dezentrale Metadatendateien</a> neben den Datendateien anlegen, um umfangreiche <a target="_blank" href="./glossary.html#metadata">Metadaten</a> zu einzelnen Datendateien speichern zu können. Achten Sie darauf, diese Dateien gut mit den Datendateien zu verknüpfen, sodass Datenverluste bei verschieben oder kopieren der Daten vermieden werden.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -547,7 +559,7 @@
         <ID>20-3</ID>
         <TYPE>Antwort</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
-        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob Sie die technisch möglichen <a target="_blank" href="./glossary.html#metadata">Metadaten</a> direkt in der Datendatei speichern möchten, und ergänzen Sie diese mit <a target="_blank" href="./metadata-guide.html#metadata-in-separate-files">dezentralen Metadatendateien</a> oder einer <a target="_blank" href="./metadata-guide.html#spreadsheats-and-databases">zentralen Metadatendatei</a>.</p>]]></QUESTION_TEXT>
+        <QUESTION_TEXT><![CDATA[<p>Prüfen Sie, ob Sie die technisch möglichen <a target="_blank" href="./glossary.html#metadata">Metadaten</a> direkt in der Datendatei speichern möchten, und ergänzen Sie diese mit <a target="_blank" href="./metadata_guide.html#metadata-as-separate-files">dezentralen Metadatendateien</a> oder einer <a target="_blank" href="./metadata_guide.html#spreadsheets-and-databases">zentralen Metadatendatei</a>.</p>]]></QUESTION_TEXT>
         <BUTTON_TEXT>Weiter</BUTTON_TEXT>
         <BUTTON_LINK>21</BUTTON_LINK>
     </ENTRY>
@@ -557,8 +569,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Metadaten speichern und verknüpfen</CATEGORY>
         <QUESTION_TEXT>Ist Ihnen ein automatisiertes Durchsuchen der Metadaten wichtig?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>21-1</BUTTON_LINK>
         <BUTTON_LINK>21-2</BUTTON_LINK>
     </ENTRY>
@@ -586,8 +598,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Haben Sie die Struktur der Metadaten geprüft?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>23</BUTTON_LINK>
         <BUTTON_LINK>22-1</BUTTON_LINK>
     </ENTRY>
@@ -606,8 +618,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Haben Sie die inhaltliche Korrektheit der Metadaten geprüft?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>24</BUTTON_LINK>
         <BUTTON_LINK>23-1</BUTTON_LINK>
     </ENTRY>
@@ -626,8 +638,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Verwenden Sie kontrollierte Vokabulare oder Terminologien?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>25</BUTTON_LINK>
         <BUTTON_LINK>24-1</BUTTON_LINK>
     </ENTRY>
@@ -646,8 +658,8 @@
         <TYPE>Frage</TYPE>
         <CATEGORY>Qualität der Metadaten sicherstellen</CATEGORY>
         <QUESTION_TEXT>Sind die Metadaten mit den Daten verknüpft und dokumentiert?</QUESTION_TEXT>
-        <BUTTON_TEXT>Yes</BUTTON_TEXT>
-        <BUTTON_TEXT>No </BUTTON_TEXT>
+        <BUTTON_TEXT>Ja</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein </BUTTON_TEXT>
         <BUTTON_LINK>25-1</BUTTON_LINK>
         <BUTTON_LINK>25-2</BUTTON_LINK>
     </ENTRY>

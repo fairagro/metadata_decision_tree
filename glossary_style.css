@@ -1,0 +1,22 @@
+h2 {
+    color: hsl(171, 82%, 33%);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.glossary_container {
+    display: block;
+    align-items: center;
+    max-width: 860px;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+}
+
+h3 {
+    margin-top: 2em;
+}
+
+ul {
+    padding-left: 30px;
+}

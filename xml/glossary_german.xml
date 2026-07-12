@@ -1,0 +1,462 @@
+<data>
+    <headline>Glossar</headline>
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-1</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-1</parentID>
+        <type>h2</type>
+        <id>C</id>
+        <text><![CDATA[C]]></text>
+    </entry>
+    <entry>
+        <parentID>div-1</parentID>
+        <type>h3</type>
+        <id>codebook</id>
+        <text><![CDATA[Codebook / Data Dictionary]]></text>
+    </entry>
+    <entry>
+        <parentID>div-1</parentID>
+        <type>p</type>
+        <id>p-1</id>
+        <text><![CDATA[Ist ein wichtiges Dokumente, das den Datennutzer*innen über die Studie, die Datendatei(en),die Variablen, Kategorien usw. informiert, aus denen sich ein vollständiger Datensatz zusammensetzt. Es umreißt die Struktur, den Inhalt und die Variablendefinitionen eines Datensatzes oder einer Datensammlung. Das Data Dictionary oder das Codebuch kann das Datensatzlayout, eine Liste der Variablennamen und -bezeichnungen, Konzepte, Kategorien, Fälle, Codes für fehlende Werte, Häufigkeitszahlen, Anmerkungen, Aussagen zur Grundgesamtheit usw. enthalten. Damit ist es ein wichtiges Instrument für die Reproduzierbarkeit, da es anderen ermöglicht, Ihre Daten zu verstehen <a target="_blank" href="./references.html#source-1">[1]</a>, <a target="_blank" href="./references.html#source-2">[2]</a>. Die Begriffe Codebook und Data Dictionary werden häufig synonym verwendet.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-1</parentID>
+        <type>p</type>
+        <id>p-2</id>
+        <text><![CDATA[→ Eine Vorlage für ein ausführliches Data Dictionary für Feldexperimente ist die von ICASA entwickelte <a href="https://github.com/DSSAT/ICASA-Dictionary">Vorlage für einen Data Dictionary</a>. ]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-2</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>h2</type>
+        <id>D</id>
+        <text><![CDATA[D]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>h3</type>
+        <id>data-documentation</id>
+        <text><![CDATA[Datendokumentation ]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>p</type>
+        <id>p-3</id>
+        <text><![CDATA[Bezeichnet die strukturierte und detaillierte Beschreibung von Forschungsdaten, einschließlich ihrer Entstehung, Struktur, Inhalte und des Kontexts. Sie umfasst Informationen wie Erhebungsmethoden, Zeitpunkte, verwendete Werkzeuge und die zugrunde liegenden Forschungsfragen. Eine sorgfältige Dokumentation ist entscheidend, um die Nachvollziehbarkeit, Wiederverwendbarkeit und langfristige Archivierung von Daten sicherzustellen. Sie bildet die Grundlage für die Einhaltung der FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) und trägt zur Qualitätssicherung sowie zur Förderung offener Wissenschaft bei <a target="_blank" href="./references.html#source-3">[3]</a>, <a target="_blank" href="./references.html#source-4">[4]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>h3</type>
+        <id>data-cycle</id>
+        <text><![CDATA[Datenlebenszyklus ]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>p</type>
+        <id>p-4</id>
+        <text><![CDATA[Das Modell des Datenlebenszyklus umfasst alle Phasen, die <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269821">Forschungsdaten</a> von der Planung bis zur Nachnutzung durchlaufen können. Die Struktur des Datenlebenszyklus variiert von Modell zu Modell, im Allgemeinen umfasst er folgende Phasen:]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>ul</type>
+        <id>ul-1</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-1</id>
+        <text><![CDATA[Arbeit und Umgang mit Daten planen (siehe auch <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269831">Datenmanagementplan</a>)]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-2</id>
+        <text><![CDATA[Daten erheben]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-3</id>
+        <text><![CDATA[Daten aufbereiten und analysieren]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-4</id>
+        <text><![CDATA[Daten teilen und publizieren]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-5</id>
+        <text><![CDATA[Daten archivieren]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-1</parentID>
+        <type>li</type>
+        <id>li-6</id>
+        <text><![CDATA[Daten nachnutzen <a target="_blank" href="./references.html#source-5">[5]</a>]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>h3</type>
+        <id>dmp</id>
+        <text><![CDATA[Datenmanagementplan (DMP)]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>p</type>
+        <id>p-5</id>
+        <text><![CDATA[Ein Datenmanagementplan (DMP) beschreibt den Umgang mit <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269821">Forschungsdaten</a>, die in einem Projekt produziert oder genutzt werden, während der Projektlaufzeit und darüber hinaus. Der DMP enthält Regelungen, die innerhalb des Projektteams vereinbart und angewendet werden. Er hilft, das Datenmanagement systematisch zu planen und transparent umzusetzen.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>p</type>
+        <id>p-6</id>
+        <text><![CDATA[Der Datenmanagementplan dokumentiert die (geplante) Erhebung, Speicherung, Dokumentation, Pflege, Verarbeitung, Weitergabe, Veröffentlichung und Aufbewahrung der Daten, ebenso wie die erforderlichen Ressourcen, rechtlichen Randbedingungen und verantwortlichen Personen. Somit trägt ein DMP zur Qualität, langfristigen Nutzbarkeit und Sicherheit der Daten bei und unterstützt zum Beispiel bei der Umsetzung der <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c357823">FAIR-Prinzipien</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>p</type>
+        <id>p-7</id>
+        <text><![CDATA[Ein DMP ist ein lebendes Dokument, das heißt, dass er während des Projektes regelmäßig aktualisiert wird. Einige Fördergeber verlangen auf Grundlage ihrer <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269916">Richtlinien</a> die Einreichung eines DMP mit dem Projektantrag, meistens ist eine erste Version jedoch erst zu oder kurz nach Projektbeginn erforderlich <a target="_blank" href="./references.html#source-5">[5]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>h3</type>
+        <id>digital-field-books</id>
+        <text><![CDATA[Digitale Feldbücher]]></text>
+    </entry>
+    <entry>
+        <parentID>div-2</parentID>
+        <type>p</type>
+        <id>p-8</id>
+        <text><![CDATA[Ein digitales Feldbuch ist ein elektronisches System oder eine Softwarelösung zur Erfassung, Verwaltung und Analyse von Felddaten. Es ersetzt klassische handschriftliche Feldbücher. Die Bandbreite an verschiedenen digitalen Lösungen variiert dabei von einfachen digitalen Formularen zur Erfassung von Daten im Feld bis hin zu umfangreichen Softwarelösungen, die von der Planung bis zur Datenerhebung beim Management von Feldexperimenten genutzt werden können.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-3</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-3</parentID>
+        <type>h2</type>
+        <id>E</id>
+        <text><![CDATA[E]]></text>
+    </entry>
+    <entry>
+        <parentID>div-3</parentID>
+        <type>h3</type>
+        <id>eln</id>
+        <text><![CDATA[Elektronisches Laborbuch (Electronic Lab Notebook - ELN)]]></text>
+    </entry>
+    <entry>
+        <parentID>div-3</parentID>
+        <type>p</type>
+        <id>p-9</id>
+        <text><![CDATA[Sind digitale Anwendungen, die traditionelle, papierbasierte Laborjournale ersetzen. Sie ermöglichen die strukturierte Dokumentation des gesamten Forschungsprozesses – von der Planung über die Durchführung bis zur Auswertung wissenschaftlicher Experimente. ELNs bieten Funktionen wie Such- und Filtermöglichkeiten, erleichtern die Zusammenarbeit durch orts- und zeitunabhängigen Zugriff und unterstützen die Einhaltung der Guten Wissenschaftlichen Praxis. Je nach Fachdisziplin variieren die Anforderungen an ELNs, weshalb unterschiedliche Systeme existieren. Sie sind ein zentraler Bestandteil des Forschungsdatenmanagements und fördern Transparenz sowie Nachvollziehbarkeit in der Forschung <a target="_blank" href="./references.html#source-6">[6]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-4</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-4</parentID>
+        <type>h2</type>
+        <id>F</id>
+        <text><![CDATA[F]]></text>
+    </entry>
+    <entry>
+        <parentID>div-4</parentID>
+        <type>h3</type>
+        <id>fair-principles</id>
+        <text><![CDATA[FAIR-Prinzipien]]></text>
+    </entry>
+    <entry>
+        <parentID>div-4</parentID>
+        <type>p</type>
+        <id>p-10</id>
+        <text><![CDATA[Das Akronym FAIR steht für findable (auffindbar), accessible (zugänglich), interoperable (interoperabel) und reusable (nachnutzbar).]]></text>
+    </entry>
+    <entry>
+        <parentID>div-4</parentID>
+        <type>p</type>
+        <id>p-11</id>
+        <text><![CDATA[Im Gegensatz zu anderen Initiativen, die sich auf den menschlichen Wissenschaftler konzentrieren, legen die FAIR-Prinzipien den Schwerpunkt auf die Verbesserung der Fähigkeit von Maschinen, die Daten automatisch zu finden und zu nutzen, sowie auf die Unterstützung ihrer Wiederverwendung durch Individuen.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-4</parentID>
+        <type>p</type>
+        <id>p-12</id>
+        <text><![CDATA[Sie sollen denjenigen, die die Wiederverwendbarkeit ihrer Datenbestände verbessern wollen, als Leitfaden dienen <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-4</parentID>
+        <type>h3</type>
+        <id>research-data-policy</id>
+        <text><![CDATA[Forschungsdatenpolicy]]></text>
+    </entry>
+    <entry>
+        <parentID>div-4</parentID>
+        <type>p</type>
+        <id>p-13</id>
+        <text><![CDATA[Ist eine allgemeingültige institutionelle Vorschrift  an einer Einrichtung (an Hochschulen oder Forschungsinstituten häufig in Form einer Richtlinie), die sich an Forschende richtet und den Umgang mit <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269821">Forschungsdaten</a> während und nach einem Forschungsvorhaben mehr oder weniger verbindlich regelt. Der genaue Inhalt, die Rechtsverbindlichkeit sowie die Länge einer Policy können zwischen einzelnen Einrichtungen stark variieren <a target="_blank" href="./references.html#source-5">[5]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-5</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>h2</type>
+        <id>M</id>
+        <text><![CDATA[M]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>h3</type>
+        <id>metadata</id>
+        <text><![CDATA[Metadaten]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>p</type>
+        <id>p-14</id>
+        <text><![CDATA[Metadaten sind an sich unabhängige Daten, die strukturierte Informationen über andere Daten bzw. Ressourcen und deren Merkmale enthalten. Sie werden unabhängig von oder zusammen mit den Daten, die sie näher beschreiben, abgespeichert. Eine genaue Definition von Metadaten ist schwierig, weil der Begriff zum einen in unterschiedlichen Kontexten verwendet wird und zum anderen die Unterscheidung zwischen Daten und Metadaten je nach Blickwinkel unterschiedlich ausfällt.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>p</type>
+        <id>p-15</id>
+        <text><![CDATA[Meist unterscheidet man zwischen fachlichen und technischen bzw. administrativen Metadaten. Während letztgenannte einen klaren Metadatenstatus haben, können fachliche Metadaten bisweilen auch als Forschungsdaten begriffen werden.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>p</type>
+        <id>p-16</id>
+        <text><![CDATA[Um die Wirksamkeit von Metadaten zu erhöhen, ist eine Standardisierung der Beschreibung unbedingt erforderlich. Durch einen <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269914">Metadatenstandard</a> können Metadaten aus unterschiedlichen Quellen miteinander verknüpft und gemeinsam bearbeitet werden <a target="_blank" href="./references.html#source-5">[5]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>p</type>
+        <id>p-17</id>
+        <text><![CDATA[→ Weitere Informationen zu Metadaten finden Sie im Abschnitt zum Thema "What is metadata?" im Metadata Guide.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>h3</type>
+        <id>metadata-standards</id>
+        <text><![CDATA[Metadatenschemata und -standards]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>p</type>
+        <id>p-18</id>
+        <text><![CDATA[Sind strukturierte Vorgaben zur Beschreibung von Forschungsdaten, die eine einheitliche und maschinenlesbare Dokumentation ermöglichen. Sie definieren, welche Informationen (z. B. Titel, Autor, Lizenz, Methoden) in welchem Format erfasst werden sollen, um die Interoperabilität zwischen verschiedenen Systemen zu gewährleisten. Durch die Anwendung von Metadatenschemata wird die Auffindbarkeit, Nachnutzbarkeit und langfristige Archivierung von Daten verbessert. Ein Metadatenschema organisiert die Struktur von Metadaten. Es legt fest, welche Elemente zur Beschreibung von analogen und digitalen Objekten wie Forschungsdaten verpflichtend sind, und welche Informationen in welchem Format angegeben werden sollen. Ein standardisiertes Datenschema vereinfacht die Dateneingabe und erhöht die Qualität der Metadaten. Vor allem aber ermöglichen strukturierte Metadaten die Maschinenlesbarkeit und den Austausch von Informationen zwischen verschiedenen Anwendungen und gewährleisten eine langfristige Nachnutzbarkeit. Beispiele für etablierte Standards sind <a href="https://www.dublincore.org/specifications/dublin-core/">Dublin</a> Core und <a href="https://www.loc.gov/standards/mets/">METS</a>. Solche Standards sind essenziell für die Umsetzung der FAIR-Prinzipien im Forschungsdatenmanagement <a target="_blank" href="./references.html#source-5">[5]</a>, <a target="_blank" href="./references.html#source-8">[8]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>p</type>
+        <id>p-19</id>
+        <text><![CDATA[Die Begriffe Metadatenschema und Metadatenstandard werden häufig synonym verwendet, wobei ein Metadatenstandard ein in der betreffenden Community weit verbreitetes oder von einer durch eine Normungsorganisation validiertes Metadatenschema beschreibt <a target="_blank" href="./references.html#source-7">[7]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-5</parentID>
+        <type>p</type>
+        <id>p-20</id>
+        <text><![CDATA[→ Weitere Informationen zu Metadatenschemata finden Sie im Abschnitt zum Thema “Metadata” im Metadata Guide.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-6</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-6</parentID>
+        <type>h2</type>
+        <id>N</id>
+        <text><![CDATA[N]]></text>
+    </entry>
+    <entry>
+        <parentID>div-6</parentID>
+        <type>h3</type>
+        <id>further-use</id>
+        <text><![CDATA[Nachnutzung]]></text>
+    </entry>
+    <entry>
+        <parentID>div-6</parentID>
+        <type>p</type>
+        <id>p-21</id>
+        <text><![CDATA[Unter Nachnutzung von Daten versteht man die Verwendung von Daten für andere Zwecke als die, für die sie ursprünglich erhoben wurden. Die Nachnutzung von Daten ist besonders in der Wissenschaft wichtig, da sie es verschiedenen Forschern ermöglicht, unabhängig voneinander Ergebnisse zu analysieren und zu veröffentlichen, die auf denselben Daten basieren. Die Nachnutzbarkeit ist eine Schlüsselkomponente der FAIR-Prinzipien <a target="_blank" href="./references.html#source-9">[9]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-6</parentID>
+        <type>p</type>
+        <id>p-22</id>
+        <text><![CDATA[→ Warum Metadaten für die Nachnutzbarkeit eine Schlüsselrolle spielen, können Sie im Abschnitt “Using and reusing data” im Metadata Guide nachlesen.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-7</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-7</parentID>
+        <type>h2</type>
+        <id>R</id>
+        <text><![CDATA[R]]></text>
+    </entry>
+    <entry>
+        <parentID>div-7</parentID>
+        <type>h3</type>
+        <id>readme</id>
+        <text><![CDATA[README-Datei]]></text>
+    </entry>
+    <entry>
+        <parentID>div-7</parentID>
+        <type>p</type>
+        <id>p-23</id>
+        <text><![CDATA[README-Dateien enthalten in kompakter und strukturierter Form Informationen zu <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269821">Forschungsdaten</a>, Forschungsdatensätzen oder Forschungsdatenkollektionen und liegen häufig als einfache Textdatei oder in TEI-xml vor (.txt, .md, .xml). In diesem Sinn können README-Dateien begleitend zu Forschungsdaten publiziert werden oder der strukturierten Ablage von Forschungsdaten am Ende eines Projekts (z. B. auf einem Institutsserver oder einem <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269860">Repositorium</a> zur Archivierung) dienen. README-Dateien versammeln zentrale <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269912">Metadaten</a> zum Projekt, in dem die Daten entstanden sind (z.B. Projektname, beteiligte Personen, Förderung), geben Informationen zu verwendeten Benennungsstandards, Ordnerstrukturen, Abkürzungen und <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c437900">Normdaten</a> und zeichnen Änderungen an und Versionierungen von Forschungsdaten auf <a target="_blank" href="./references.html#source-5">[5]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-7</parentID>
+        <type>h3</type>
+        <id>repository</id>
+        <text><![CDATA[Repositorium]]></text>
+    </entry>
+    <entry>
+        <parentID>div-7</parentID>
+        <type>p</type>
+        <id>p-24</id>
+        <text><![CDATA[Ein Repositorium kann als eine spezielle Form des <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269827">Archivs</a> betrachtet werden. Im digitalen Zeitalter wird unter dem Begriff Repositorium ein verwalteter Speicherort für digitale Objekte verstanden. Da Repositorien meistens öffentlich oder einem eingeschränkten Nutzerkreis zugänglich sind, ist dieser Begriff eng mit <a href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269854">Open Access</a> verknüpft <a target="_blank" href="./references.html#source-5">[5]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-8</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-8</parentID>
+        <type>h2</type>
+        <id>S</id>
+        <text><![CDATA[S]]></text>
+    </entry>
+    <entry>
+        <parentID>div-8</parentID>
+        <type>h3</type>
+        <id>sop</id>
+        <text><![CDATA[Standard Operating Procedure (SOP)]]></text>
+    </entry>
+    <entry>
+        <parentID>div-8</parentID>
+        <type>p</type>
+        <id>p-25</id>
+        <text><![CDATA[Festgelegte oder vorgeschriebene Methoden, die routinemäßig bei der Durchführung bestimmter Vorgänge oder in bestimmten Situationen anzuwenden sind <a target="_blank" href="./references.html#source-10">[10]</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-9</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-9</parentID>
+        <type>h2</type>
+        <id>T</id>
+        <text><![CDATA[T]]></text>
+    </entry>
+    <entry>
+        <parentID>div-9</parentID>
+        <type>h3</type>
+        <id>terminology</id>
+        <text><![CDATA[Terminologien (Kontrollierte Vokabular, Taxonomien, Thesauri und Ontologien)]]></text>
+    </entry>
+    <entry>
+        <parentID>div-9</parentID>
+        <type>p</type>
+        <id>p-26</id>
+        <text><![CDATA[Ein kontrolliertes Vokabular ist ein normierter Sprachgebrauch, in dem ein Wort oder eine Phrase genau eine Bedeutung hat. Das kontrollierte Vokabular wird zum Beispiel beim Vergeben von Schlagworten (Keywords) in Metadaten verwendet, um ein digitales Objekt zu beschreiben. Diese Schlagwortvergabe bezieht sich dann auf eine Sammlung von Wörtern bzw. Phrasen, die etwa in einer Normdatei für die Katalogisierung oder in einem Index für das Harvesting und Retrieval hinterlegt sind. Eine zentrale Aufgabe des kontrollierten Vokabulars ist die Verknüpfung von Synonymen, die zum gleichen Suchergebnis führen <a target="_blank" href="./references.html#source-5">[5]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-9</parentID>
+        <type>p</type>
+        <id>p-27</id>
+        <text><![CDATA[Zusätzlich existieren Taxonomien und Thesauri, die Über- und Unterbegriffe wie auch Synonyme  zu Konzepten enthalten, bis hin zu Ontologien, die Eigenschaften und Relationen zwischen Konzepten modellieren <a target="_blank" href="./references.html#source-8">[8]</a>.]]></text>
+    </entry>
+    <entry>
+        <parentID>div-9</parentID>
+        <type>p</type>
+        <id>p-28</id>
+        <text><![CDATA[→ Weitere Informationen zu kontrollierten Vokabularien finden Sie im Abschnitt “Content rules and controlled vocabularies” im Metadata Guide.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>div</type>
+        <id>div-10</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>div-10</parentID>
+        <type>h2</type>
+        <id>V</id>
+        <text><![CDATA[V]]></text>
+    </entry>
+    <entry>
+        <parentID>div-10</parentID>
+        <type>h3</type>
+        <id>validation-tools</id>
+        <text><![CDATA[Validierungs-Tools]]></text>
+    </entry>
+    <entry>
+        <parentID>div-10</parentID>
+        <type>p</type>
+        <id>p-29</id>
+        <text><![CDATA[Es existiert eine Vielzahl online zugänglicher Tools, die Sie zur Validierung von Metadaten nutzen können. Die hier empfohlenen Tools sollen als Beispiele dienen. Bitte prüfen Sie vor der Nutzung die entsprechenden Nutzungsbedingungen:]]></text>
+    </entry>
+    <entry>
+        <parentID>div-10</parentID>
+        <type>ul</type>
+        <id>ul-2</id>
+        <text><![CDATA[]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-2</parentID>
+        <type>li</type>
+        <id>li-7</id>
+        <text><![CDATA[<a href="https://www.utilities-online.info/xsdvalidation">XML-Validator</a>]]></text>
+    </entry>
+    <entry>
+        <parentID>ul-2</parentID>
+        <type>li</type>
+        <id>li-8</id>
+        <text><![CDATA[<a href="https://jsonschema.dev/">JSON Schema-Validator</a>]]></text>
+    </entry>
+</data>

@@ -1,0 +1,33 @@
+.container
+{
+    display: block;
+    align-items: center;
+    max-width: 860px;
+    width: 100%;
+    text-align: left;
+    margin:auto;
+}
+.container ol 
+{
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.container li 
+{
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+.container li::before 
+{
+    display: inline-block;
+    content: "[" counter(item) "]";
+    counter-increment: item;
+    width: 3em;
+    margin-left: -3em;
+}

@@ -1,5 +1,5 @@
 var prevID = [];
-const defaultDataPath = "./data_german.xml";
+const defaultDataPath = "./xml/data_german.xml";
 let currentDataPath = defaultDataPath;
 // Load data from XML file and start main process
 function LoadDoc(id) {
@@ -123,6 +123,11 @@ function AddButtons(entry)
       }); */
 
       container.appendChild(newButton);
+    }
+
+    if(buttons_content.length == 0)
+    {
+      AddExportButton();
     }
 
     return;
@@ -253,6 +258,37 @@ function ResizeResponseButtons()
     const metrics = context.measureText(text);
     return metrics.width;
   }
-
-
 }
+
+// Adds an Export Button to the Answer Container
+function AddExportButton()
+{
+    const container = document.getElementById("container answer");
+    let newButton = document.createElement('button');
+    
+    newButton.textContent = "Antworten für RDMO exportieren";
+    newButton.id = "button";
+    newButton.className = "button";
+
+    newButton.onclick = function(){ExportingDataAsJSON("test");};
+    container.appendChild(newButton);
+}
+
+// Creates a JSON-file and automates it download using a temporary element
+function ExportingDataAsJSON(exportObj){
+    //Create base JSON-file
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj));
+    var downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href",dataStr);
+
+    // Get the current date and time
+    let now = new Date();
+    let year = now.getFullYear();
+    let month = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+    let day = String(now.getDate()).padStart(2, '0');
+
+    downloadAnchorNode.setAttribute("download","DT2RDMO-" + year + "-" + month + "-" + day + ".json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+  }

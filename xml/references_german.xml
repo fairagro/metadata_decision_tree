@@ -1,0 +1,79 @@
+<data>
+    <headline>Literaturverzeichnis</headline>
+    <entry>
+        <parentID>container</parentID>
+        <type>ol</type>
+        <id>ol-1</id>
+        <text></text>
+    </entry>
+    
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-1</id>
+        <text><![CDATA[Longwood Research Data Management, „Data Dictionary“. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary">https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/data-dictionary</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-2</id>
+        <text><![CDATA[Data Documentation Initiative Alliance, „Create a Codebook“. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://ddialliance.org/create-a-codebook">https://ddialliance.org/create-a-codebook</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-3</id>
+        <text><![CDATA[Bibliothek der Universität Zürich, „Daten dokumentieren“. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/mit-daten-arbeiten/daten-dokumentieren.html">https://www.ub.uzh.ch/de/wissenschaftlich-arbeiten/mit-daten-arbeiten/daten-dokumentieren.html</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-4</id>
+        <text><![CDATA[„Datendokumentation - Warum, was und wie?“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/datendokumentation/</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-5</id>
+        <text><![CDATA[„Glossar“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/praxis-kompakt/glossar/">https://forschungsdaten.info/praxis-kompakt/glossar/</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-6</id>
+        <text><![CDATA[„Elektronische Laborbücher“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/elektronische-laborbuecher/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/elektronische-laborbuecher/</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-7</id>
+        <text><![CDATA[Australian Research Data Commons (ARDC), „ARDC Metadata Guide“, 1. März 2020, Zenodo. doi: <a href="https://zenodo.org/records/6459832">10.5281/ZENODO.6459832</a>.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-8</id>
+        <text><![CDATA[„Metadaten und Metadatenstandards“, forschungsdaten.info. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/">https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-9</id>
+        <text><![CDATA[D. Faria, K. Bösl, und M. Englund, „Data life cycle - Reusing“, RDMkit Elixir Europe. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://rdmkit.elixir-europe.org/reusing#what-is-data-reuse">https://rdmkit.elixir-europe.org/reusing#what-is-data-reuse</a>]]></text>
+    </entry>
+
+    <entry>
+        <parentID>ol-1</parentID>
+        <type>li</type>
+        <id>source-10</id>
+        <text><![CDATA[„standard operating procedure“, Merriam-Webster. Zugegriffen: 18. August 2025. [Online]. Verfügbar unter: <a href="https://www.merriam-webster.com/dictionary/standard%20operating%20procedure">https://www.merriam-webster.com/dictionary/standard%20operating%20procedure</a>]]></text>
+    </entry>
+</data>
