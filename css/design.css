@@ -13,7 +13,7 @@
 }
 
 @font-face {
-    font-family: 'FirSans';
+    font-family: 'FiraSans';
     font-variant-ligatures: none; 
     font-feature-settings: "liga" 0;
     src: url('/fonts/FiraSans-Regular.woff2') format('woff2'),
@@ -28,7 +28,7 @@ head{
 
 body {
     display: block;
-    font-family: FirSans, Helvetica, sans-serif;
+    font-family: FiraSans, Helvetica, sans-serif;
     text-align: center;
     background-color: var(--bg_colour);
     color: var(--bg_contrast_colour);
@@ -38,7 +38,7 @@ body {
 }
 h1 {
     margin-top: 20px;
-    font-family: FirSans, Helvetica, sans-serif;
+    font-family: FiraSans, Helvetica, sans-serif;
     background-image: var(--text-gradient);
     -webkit-text-fill-color: transparent; 
     background-clip: text;
@@ -65,7 +65,7 @@ a:active {
 .button{
     font-size: 3em;
     font-weight: bold   ;
-    font-family: FirSans, Helvetica, sans-serif;
+    font-family: FiraSans, Helvetica, sans-serif;
     display: inline-flex;
     justify-content: center;
     align-items: center; /*Horizontal center*/
@@ -253,7 +253,7 @@ nav{
     align-items: center;
     padding: 0px 20px;
     background-color: var(--bg_colour);
-    font-family: FirSans, Helvetica, sans-serif;
+    font-family: FiraSans, Helvetica, sans-serif;
     border-bottom: 1px solid var(--contrast_colour_light);
     border-color: var(--contrast_colour_light);
 }
@@ -312,7 +312,7 @@ ul {
     color: black;
     text-decoration: none;
     font-size: 28px;
-    font-family: FirSans, Helvetica, sans-serif;
+    font-family: FiraSans, Helvetica, sans-serif;
 }
 
 .stack{
@@ -335,7 +335,7 @@ ul {
 {
     nav{
         flex-wrap: wrap;
-        font-family: FirSans, Helvetica, sans-serif;
+        font-family: FiraSans, Helvetica, sans-serif;
         border-bottom: 1px solid var(--contrast_colour);
         border-color: var(--contrast_colour_light);
     }
