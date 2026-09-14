@@ -8,6 +8,7 @@
 --bg_colour: hsl(0, 0%, 100%);
 --bg_contrast_colour: hsl(252, 7%, 14%);
 --text-gradient: linear-gradient(35deg, #0f9884, #9acb4e 75%);
+--underline-gradient: linear-gradient(35deg, #9acb4e, #0f9884, 75%);
 --area-gradient: linear-gradient(35deg, #0f9884, #9acb4e 35%);
 --button-gradient: linear-gradient(30deg, #0f9884, #9acb4e 45%);
 }
@@ -265,18 +266,41 @@ nav{
 }
 
 .navLinks a {
-    display: block;
+    position: relative;
+    display: inline-block;
     padding: 30px 16px;
     color: black;
-    text-decoration: none;
     font-size: 16px;
 
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    transition: ease-in-out 100ms;
+    font-family: FiraSans, Helvetica, sans-serif;
+    text-transform: none;
+    text-decoration: none;
 }
+/*
 .navLinks a:hover {
-    background-color: var(--main_colour);
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-decoration-skip-ink: none;
+    text-decoration-color: var(--main_colour);
+} */
+
+.navLinks a:hover {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navLinks li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.2em;
+    width: 100%;
+    height: 0.2em;
+    background: var(--text-gradient);
+    transform: scaleX(0);
+}
+
+.navLinks a:hover::after {
+    transform: scaleX(1);
 }
 
 ul {

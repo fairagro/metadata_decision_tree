@@ -10,7 +10,7 @@
         <div class="banner"></div>
         <nav>
             <div class="logoHeader">
-                <a href="./landingpage.html" target="_self"><img src="./images/logos/FAIRagro_Metadataguide_Logo-v01.svg" alt="Metadata Guide logo" style="padding: 0px 12px;"></a>
+                <a href="./landingpage.html" target="_self"><img src="./images/logos/FAIRagro_Metadataguide_Logo-v01.svg" alt="Metadata Guide logo"></a>
             </div>
 
             <div class="stack">
@@ -34,27 +34,22 @@
         
         <script>
             LoadUI();
-            SetPath("landingpage");
-            LoadPage();
+            LoadDoc("1");
         </script>
     </head>
-
     <body>
-        <h1 id="title">Entscheidungsbaum für den Umgang mit Metadaten</h1>
+        <h1 id="title">Default Title</h1>
         <hr class ="hr">
-        <div style="text-align: left;">
-            <p>This decision tree serves as a visual and structured guide to help researchers, data managers, and institutions make more informed decisions about managing research data in alignment with FAIR(Findable, Accessible, Interoperable, and Reusable) principles. The goal of this decision tree is to provide a step-by-step framework to ensure that data management practices are met in order to ensure the quality, accessibility, and long-term usability of research data.</p>
-            <p>This decision tree is designed to:</p>
+        <div id="container question" class="container question">Default Question</div>
+        <progress id="progress bar" max="25" min="0" value="18"></progress>
 
-            <ul style="list-style-type: circle;">
-                <li>Enable researchers to check if their data meets the FAIR data standards.</li>
-                <li>Provide guidance on making key decisions related to data storage, sharing, documentation, and licensing.</li>
-                <li>Encourage practices that improve collaboration, transparency, and reproducibility in research.</li>
-            </ul>
-
+        <div id="container answer" class="container answer">
+            <button id="button" class="button" onclick="LoadDoc(1)">Default Answer 1</button>
+            <button id="button" class="button" onclick="LoadDoc(2)">Default Answer 2</button>
         </div>
+        <button id="back" class="button" style="margin-top:40px" onclick="LoadPrev()">Zurück</button>
     </body>
- 
+    <div id="demo"></div>
     <footer>
         <a  href="https://fairagro.net/" target="_blank"><img src="./images/logos/Fairagro_Logo.png" alt="FAIRagro Logo" class="logoFooter"></a>
     </footer>
