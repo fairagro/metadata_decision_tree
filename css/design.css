@@ -7,7 +7,7 @@
 --contrast_colour_light:hsl(228, 3%, 67%);
 --bg_colour: hsl(0, 0%, 100%);
 --bg_contrast_colour: hsl(252, 7%, 14%);
---text-gradient: linear-gradient(35deg, #0f9884, #9acb4e 75%);
+--text-gradient: linear-gradient(35deg, #9acb4e, #0f9884 75%);
 --underline-gradient: linear-gradient(35deg, #9acb4e, #0f9884, 75%);
 --area-gradient: linear-gradient(35deg, #0f9884, #9acb4e 35%);
 --button-gradient: linear-gradient(30deg, #0f9884, #9acb4e 45%);
@@ -63,16 +63,16 @@ hr {
     margin-bottom: 40px;
 }
 a {
-    color: var(--main_colour_light);
+    color: var(--main_colour_dark);
 }
 a:visited {
-    color:var(--main_colour_dark);
+    color:var(--main_colour);
 }
 a:hover {
-    color: var(--contrast_colour);
+    color: var(--contrast_colour_dark);
 }
 a:active {
-    color: var(--contrast_colour_dark);
+    color: var(--contrast_colour);
 }
 
 .button{
@@ -293,14 +293,8 @@ nav{
     font-family: FiraSans, Helvetica, sans-serif;
     text-transform: none;
     text-decoration: none;
+    white-space: nowrap;
 }
-/*
-.navLinks a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 0.2em;
-    text-decoration-skip-ink: none;
-    text-decoration-color: var(--main_colour);
-} */
 
 .navPage a::after {
     content: "";
@@ -384,13 +378,25 @@ ul {
 
 /*mobile version*/
 
-@media (max-width: 768px) 
+@media (max-width: 1024px) /*768*/
 {
     nav{
         flex-wrap: wrap;
+        position: relative;
         font-family: FiraSans, Helvetica, sans-serif;
         border-bottom: 1px solid var(--contrast_colour);
         border-color: var(--contrast_colour_light);
+    }
+
+    .banner{
+        position: relative;
+    }
+
+    .navPage{
+    padding: 30px 16px;
+    }
+    .navPage-selected{
+    padding: 30px 16px;
     }
 
     .stack{
@@ -417,12 +423,8 @@ ul {
         font-size: 20px;
     }
 
-    .navLinks a:hover{
-        background-color: var(--main_colour);
-    }
-
     .navLinks .language{
-        padding: 30px 16px;
+        padding: 16px 30px;
         margin-bottom: 20px;
         margin-left: 0px;
         border: var(--main_colour) solid 2px;
@@ -435,7 +437,7 @@ ul {
     }
 
     .navLinks .language-selected{
-        padding: 30px 16px;
+        padding: 16px 30px;
         margin-bottom: 20px;
         margin-left: 0px;
         border: var(--main_colour) solid 2px;
