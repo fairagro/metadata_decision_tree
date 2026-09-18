@@ -208,7 +208,7 @@
         <CATEGORY>Zu erhebende Metadaten auswählen</CATEGORY>
         <QUESTION_TEXT>Gibt es Vorgaben zum Metadatenschema durch dieses Repositorium?</QUESTION_TEXT>
         <BUTTON_TEXT>Ja</BUTTON_TEXT>
-        <BUTTON_TEXT>Nein / Unischer</BUTTON_TEXT>
+        <BUTTON_TEXT>Nein / Unsicher</BUTTON_TEXT>
         <BUTTON_LINK>9-1</BUTTON_LINK>
         <BUTTON_LINK>10</BUTTON_LINK>
     </ENTRY>
