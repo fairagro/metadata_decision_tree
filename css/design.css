@@ -11,6 +11,11 @@
 --underline-gradient: linear-gradient(35deg, #9acb4e, #0f9884, 75%);
 --area-gradient: linear-gradient(35deg, #0f9884, #9acb4e 35%);
 --button-gradient: linear-gradient(30deg, #0f9884, #9acb4e 45%);
+--wp--preset--font-size--small: 0.9rem;
+--wp--preset--font-size--medium: clamp(0.95rem, 0.95rem + ((1vw - 0.2rem) * 0.286), 1.15rem);
+--wp--preset--font-size--large: clamp(1.2rem, 1.2rem + ((1vw - 0.2rem) * 0.286), 1.4rem);
+--wp--preset--font-size--x-large: clamp(1.4rem, 1.4rem + ((1vw - 0.2rem) * 0.357), 1.65rem);
+--wp--preset--font-size--xx-large: clamp(1.8rem, 1.8rem + ((1vw - 0.2rem) * 1), 2.5rem);
 }
 
 @font-face {
@@ -44,17 +49,17 @@ h1 {
     -webkit-text-fill-color: transparent; 
     background-clip: text;
 
-    /* FAIRagro Webseite
+    /* FAIRagro Webseite */
     font-weight: 600;
     letter-spacing: 0.5px;
-    font-size:  clamp(1.8rem, 1.8rem + ((1vw - 0.2rem) * 1), 2.5rem);; */
+    font-size:  var(--wp--preset--font-size--xx-large)
 
-    /*FAIRagro Knowledge Base*/
+    /*FAIRagro Knowledge Base
     font-size: 2em;
     font-weight: 600;
     line-height: 1.3;
     margin: 1.25em 0 1.25em 0;
-    letter-spacing: -.01em;
+    letter-spacing: -.01em;*/
 }
 
 hr {
@@ -63,22 +68,43 @@ hr {
     margin-bottom: 40px;
 }
 a {
-    color: var(--main_colour_dark);
+    color: black;
+    text-underline-offset: 0.3em;
+    text-decoration-color: var(--main_colour_light);
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    transition: all .2s ease-in-out 0s;
+    text-decoration-skip-ink: none;
 }
 a:visited {
-    color:var(--main_colour);
+    color: black;
+    text-underline-offset: 0.3em;
+    text-decoration-color: var(--main_colour);
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    transition: all .2s ease-in-out 0s;
+    text-decoration-skip-ink: none;
 }
 a:hover {
-    color: var(--contrast_colour_dark);
+    color: black;
+    text-decoration-color: var(--main_colour_dark);
+    text-underline-offset: 0.1em;
+    text-decoration-thickness: 4px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    transition: all .2s ease-in-out 0s;
+    text-decoration-skip-ink: none;
 }
 a:active {
     color: var(--contrast_colour);
 }
 
 .button{
-    font-size: 3em;
-    font-weight: bold   ;
+    font-size: var(--wp--preset--font-size--medium);
     font-family: FiraSans, Helvetica, sans-serif;
+    font-weight: 700;
     display: inline-flex;
     justify-content: center;
     align-items: center; /*Horizontal center*/
@@ -87,18 +113,19 @@ a:active {
 
     transition: all 0.2s ease-in-out 0s;
     border: none; /*var(--main_colour) 0.125em solid;*/
-    border-radius: 14px 0 14px 0; /*twice as strong as the default design from the FAIRagro homepage*/
+    border-radius: 7px 0 7px 0;
     text-align: center;
     color: var(--bg_contrast_colour);
     background-color: var(--main_colour_light);
     background-image: var(--button-gradient);
-    min-width: 10px;
-    /*max-height: 103.2px;*/
-    max-width: 375px;
-    min-height: 103.2px;
+
     margin-left: 15px;
     margin-right: 15px;
-    padding: 24px 72px;
+    
+    padding-top: 0.67rem;
+    padding-bottom: 0.67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 
     -webkit-hyphens: auto;
 	-moz-hyphens: auto;
@@ -382,14 +409,14 @@ ul {
 {
     nav{
         flex-wrap: wrap;
-        position: relative;
+        position: unset;
         font-family: FiraSans, Helvetica, sans-serif;
         border-bottom: 1px solid var(--contrast_colour);
         border-color: var(--contrast_colour_light);
     }
 
     .banner{
-        position: relative;
+        position: unset;
     }
 
     .navPage{

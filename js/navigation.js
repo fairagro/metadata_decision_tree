@@ -7,8 +7,30 @@ stack.addEventListener('click', () => {
     if (!menuOpen) {
         navLinks.style.display = "block";
         menuOpen = true;
-    }else if (menuOpen) {
+    } else if (menuOpen) {
         navLinks.style.display = "";
         menuOpen = false;
     }
+});
+
+function detectNavigationWidth(width) {
+    /*
+    if (width.matches) {
+        navLinks.style.display = "";
+        menuOpen = false;
+    } else {
+        navLinks.style.display = "";
+        menuOpen = false;
+    } */
+
+    navLinks.style.display = "";
+    menuOpen = false;
+}
+
+var width = window.matchMedia("(max-width: 1024px)")
+
+detectNavigationWidth(width);
+
+width.addEventListener("change", function () {
+    detectNavigationWidth(width);
 });

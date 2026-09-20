@@ -246,7 +246,7 @@ function ResizeResponseButtons()
       }
   }
 
-  function GetTextWidth(text, font){
+function GetTextWidth(text, font){
     // Create a canvas element
     const canvas = document.createElement("canvas");
     const context = canvas.getContext("2d");
