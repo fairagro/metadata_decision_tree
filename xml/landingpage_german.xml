@@ -1,0 +1,44 @@
+<data>
+    <headline>Der FAIRagro Metadata Guide</headline>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>paragraph-1</id>
+        <text>Gutes Forschungsdatenmanagement (FDM) macht Forschungsdaten FAIR (Findable, Accessible, Interoperable, Reusable) und dient der Qualitätssicherung von Forschungsdaten - und zwar in allen Phasen: über das Sammeln, Speichern und Auswerten bis zum Beschreiben, Archivieren, Teilen und Nachnutzen der Daten.</text>
+    </entry>
+    
+    <entry>
+        <parentID>container</parentID>
+        <type>figure</type>
+        <id>figure-1</id>
+        <text></text>
+    </entry>
+
+    <entry>
+        <parentID>figure-1</parentID>
+        <type>img</type>
+        <id>image-1</id>
+        <text>./images/grafics/data_life_cycle.png</text>
+    </entry>
+
+    <entry>
+        <parentID>figure-1</parentID>
+        <type>figcaption</type>
+        <id>image-1-caption</id>
+        <text>Datenlebenszyklus aus dem RDMkit von ELIXIR CC BY 4.0</text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>paragraph-2</id>
+        <text>Das dient im wesentlichen zwei Zielen: der Nachvollziehbarkeit und Transparenz von Forschung sowie der Vermeidung von doppelter Arbeit durch die Nachnutzung von Forschungsdaten. <br> Es gibt auch ganz persönlich gute Gründe dafür, FAIRe Daten zu produzieren: durch das Teilen von Forschungsdaten wird der wissenschaftliche Output erhöht, man wird als Forscher*in sichtbarer und häufiger zitiert. Außerdem gibt es später deutlich weniger Probleme, die eigenen Daten wiederzufinden und nachzuvollziehen, wenn die Daten bereits während des Forschungsprozesses FAIR aufbereitet sind. Und: zunehmend wird dieses auch von Forschungsförderern, Institutionen und Publikationsorganen gefordert.</text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>paragraph-3</id>
+        <text>Das Fundament zur Umsetzung der FAIR Prinzipien bilden Metadaten: zusätzliche strukturierte Informationen, die die eigentlichen (Forschungs-) Daten beschreiben. Sie werden verwendet, um Daten zu publizieren, auffindbar zu machen und zu zitieren. Ob die Nutzung von Metadaten für die eigene Forschung sinnvoll ist, wie, wo und wann sie am besten angewendet werden und was es zu beachten gibt, das gibt es in unserem interaktiven Metadata Guide auf spielerische Art zu entdecken. Viel Spaß!</text>
+    </entry>
+</data>

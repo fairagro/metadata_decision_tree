@@ -37,6 +37,12 @@ function AddElement(element, parent) {
 
   let htmlElement = document.createElement(type);
   htmlElement.id = id;
-  htmlElement.innerHTML = text;
+  if(type == "img")
+  {
+    htmlElement.src = text;
+  }else{
+    htmlElement.innerHTML = text;
+  }
+
   parent.appendChild(htmlElement);
 }

@@ -5,6 +5,7 @@
         <title>Entscheidungsbaum</title>
         <link rel="stylesheet" href="css/design.css">
         <link rel="stylesheet" href="css/fairagro_footer.css">
+        <link rel="stylesheet" href="css/landingpage_style.css">
         <link rel="icon" type="image/x-icon" href="./images/logos/FAIRagro_favicon.ico">
         <script src="js/program.js"></script>
 
@@ -25,8 +26,8 @@
                 <li class="navPage"><a id="nav_metadataguide" target="_self" href="./metadata_guide.html">Metadatenguide</a></li>
                 <li class="navPage"><a id="nav_contact" target="_self" href="https://fairagro.net/kontakt/">Kontakt</a></li>
                 <li class="navPage"><a id="nav_bibliography" target="_self" href="./references.html">Literaturverzeichnis</a></li>
-                <li><a id="language german" class="language-selected" onclick="SetLanguage('german');SetPath('metadata_guide'); LoadPage();">DE</a></li>
-                <li><a id="language english" class="language" onclick="SetLanguage('english'); SetPath('metadata_guide'); LoadPage();">EN</a></li>
+                <li><a id="language german" class="language-selected" onclick="SetLanguage('german');SetPath('landingpage'); LoadPage();">DE</a></li>
+                <li><a id="language english" class="language" onclick="SetLanguage('english'); SetPath('landingpage'); LoadPage();">EN</a></li>
             </ul>
         </nav>
         <script src="js/language_selector.js"></script>
@@ -36,21 +37,20 @@
         <script>
             LoadUI();
             SetPath("landingpage");
+            LoadPage();
         </script>
     </head>
 
     <body>
-        <h1 id="title">Entscheidungsbaum für den Umgang mit Metadaten</h1>
-        <div style="text-align: left;">
-            <p>This decision tree serves as a visual and structured guide to help researchers, data managers, and institutions make more informed decisions about managing research data in alignment with FAIR(Findable, Accessible, Interoperable, and Reusable) principles. The goal of this decision tree is to provide a step-by-step framework to ensure that data management practices are met in order to ensure the quality, accessibility, and long-term usability of research data.</p>
-            <p>This decision tree is designed to:</p>
-
-            <ul style="list-style-type: circle;">
-                <li>Enable researchers to check if their data meets the FAIR data standards.</li>
-                <li>Provide guidance on making key decisions related to data storage, sharing, documentation, and licensing.</li>
-                <li>Encourage practices that improve collaboration, transparency, and reproducibility in research.</li>
-            </ul>
-
+        <h1 id="title">Der FAIRagro Metadata Guide</h1>
+        <div class="container" id="container">
+            <p id="paragraph-1">Gutes Forschungsdatenmanagement (FDM) macht Forschungsdaten FAIR (Findable, Accessible, Interoperable, Reusable) und dient der Qualitätssicherung von Forschungsdaten - und zwar in allen Phasen: über das Sammeln, Speichern und Auswerten bis zum Beschreiben, Archivieren, Teilen und Nachnutzen der Daten.</p>
+            <figure id="figure-1">
+                <img id="image-1" src="./images/grafics/data_life_cycle.png" alt="Data Life Cycle">
+                <figcaption id="image-1-caption">Data Life cycle by RDMkit by ELIXIR CC BY 4.0</figcaption>
+            </figure>       
+            <p id="paragraph-2">Das dient im wesentlichen zwei Zielen: der Nachvollziehbarkeit und Transparenz von Forschung sowie der Vermeidung von doppelter Arbeit durch die Nachnutzung von Forschungsdaten. <br> Es gibt auch ganz persönlich gute Gründe dafür, FAIRe Daten zu produzieren: durch das Teilen von Forschungsdaten wird der wissenschaftliche Output erhöht, man wird als Forscher*in sichtbarer und häufiger zitiert. Außerdem gibt es später deutlich weniger Probleme, die eigenen Daten wiederzufinden und nachzuvollziehen, wenn die Daten bereits während des Forschungsprozesses FAIR aufbereitet sind. Und: zunehmend wird dieses auch von Forschungsförderern, Institutionen und Publikationsorganen gefordert.</p>
+            <p id="paragraph-3">Das Fundament zur Umsetzung der FAIR Prinzipien bilden Metadaten: zusätzliche strukturierte Informationen, die die eigentlichen (Forschungs-) Daten beschreiben. Sie werden verwendet, um Daten zu publizieren, auffindbar zu machen und zu zitieren. Ob die Nutzung von Metadaten für die eigene Forschung sinnvoll ist, wie, wo und wann sie am besten angewendet werden und was es zu beachten gibt, das gibt es in unserem interaktiven Metadata Guide auf spielerische Art zu entdecken. Viel Spaß!</p>
         </div>
 
 
