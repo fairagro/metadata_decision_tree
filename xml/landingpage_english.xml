@@ -1,0 +1,44 @@
+<data>
+    <headline>Der FAIRagro Metadata Guide</headline>
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>paragraph-1</id>
+        <text>Good research data management (RDM) ensures that research data is FAIR (Findable, Accessible, Interoperable, Reusable) and serves to ensure the quality of research data—throughout all phases: from collection, storage, and analysis to description, archiving, sharing, and reuse of the data.</text>
+    </entry>
+    
+    <entry>
+        <parentID>container</parentID>
+        <type>figure</type>
+        <id>figure-1</id>
+        <text></text>
+    </entry>
+
+    <entry>
+        <parentID>figure-1</parentID>
+        <type>img</type>
+        <id>image-1</id>
+        <text>./images/grafics/data_life_cycle.png</text>
+    </entry>
+
+    <entry>
+        <parentID>figure-1</parentID>
+        <type>figcaption</type>
+        <id>image-1-caption</id>
+        <text>Data Life Cycle by RDMkit by ELIXIR CC BY 4.0</text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>paragraph-2</id>
+        <text><![CDATA[This essentially serves two goals: ensuring the traceability and transparency of research, and avoiding duplication of effort through the reuse of research data. <br> There are also very personal reasons for producing FAIR data: sharing research data increases scientific output, makes you more visible as a researcher, and leads to more citations. Furthermore, you’ll encounter significantly fewer problems later on when trying to locate and trace your own data if the data has already been prepared according to FAIR principles during the research process. And: this is increasingly being required by research funders, institutions, and publishers.]]></text>
+    </entry>
+
+    <entry>
+        <parentID>container</parentID>
+        <type>p</type>
+        <id>paragraph-3</id>
+        <text>Metadata forms the foundation for implementing the FAIR principles: additional structured information that describes the actual (research) data. It is used to publish data, make it discoverable, and cite it. Whether using metadata makes sense for your own research, how, where, and when it’s best to use it, and what you need to keep in mind—you can discover all of this in a fun and interactive way in our Metadata Guide. Enjoy!</text>
+    </entry>
+</data>

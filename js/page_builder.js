@@ -3,11 +3,13 @@ let currentPageDataPath = defaultPageDataPath;
 
 // Load data from XML file and start main process
 function LoadPage() {
+  console.log(currentPageDataPath);
   var xmlRequest = new XMLHttpRequest();
   xmlRequest.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById('container').replaceChildren();
       var xmlDoc = xmlRequest.responseXML;
+      console.log(xmlDoc);
       var allElements = xmlDoc.getElementsByTagName("entry");
 
       for (let i = 0; i < allElements.length; i++) {

@@ -32,7 +32,7 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>paragraph-2</id>
-        <text>Das dient im wesentlichen zwei Zielen: der Nachvollziehbarkeit und Transparenz von Forschung sowie der Vermeidung von doppelter Arbeit durch die Nachnutzung von Forschungsdaten. <br> Es gibt auch ganz persönlich gute Gründe dafür, FAIRe Daten zu produzieren: durch das Teilen von Forschungsdaten wird der wissenschaftliche Output erhöht, man wird als Forscher*in sichtbarer und häufiger zitiert. Außerdem gibt es später deutlich weniger Probleme, die eigenen Daten wiederzufinden und nachzuvollziehen, wenn die Daten bereits während des Forschungsprozesses FAIR aufbereitet sind. Und: zunehmend wird dieses auch von Forschungsförderern, Institutionen und Publikationsorganen gefordert.</text>
+        <text><![CDATA[Das dient im wesentlichen zwei Zielen: der Nachvollziehbarkeit und Transparenz von Forschung sowie der Vermeidung von doppelter Arbeit durch die Nachnutzung von Forschungsdaten. <br> Es gibt auch ganz persönlich gute Gründe dafür, FAIRe Daten zu produzieren: durch das Teilen von Forschungsdaten wird der wissenschaftliche Output erhöht, man wird als Forscher*in sichtbarer und häufiger zitiert. Außerdem gibt es später deutlich weniger Probleme, die eigenen Daten wiederzufinden und nachzuvollziehen, wenn die Daten bereits während des Forschungsprozesses FAIR aufbereitet sind. Und: zunehmend wird dieses auch von Forschungsförderern, Institutionen und Publikationsorganen gefordert.]]></text>
     </entry>
 
     <entry>
