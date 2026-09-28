@@ -145,6 +145,16 @@ a:active {
     box-shadow: 12px 12px 18px rgba(0, 0, 0, 0.5);;
 }
 
+.back{
+    margin-top:40px;
+    width: fit-content; 
+    align-self: center;
+}
+
+.bottom{
+    margin-bottom: auto;
+}
+
 .banner{
     height: 35px;
     width: 100%;
@@ -168,7 +178,8 @@ a:active {
     padding: 0.5em;
     border: none;
     justify-content: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 100px;
     font-size: xx-large;
     border-color: var(--bg_contrast_colour);
@@ -185,6 +196,7 @@ progress{
     margin-top: 25px;
     max-width: 392.8px;
     margin-bottom: 40px;
+    align-self: center;
 }
 
 .notice{
@@ -265,7 +277,8 @@ progress{
 
 .answer{
     max-width: 880px;
-    margin:auto;
+    margin-right:auto;
+    margin-left: auto;
 }
 
 .logoFooter{

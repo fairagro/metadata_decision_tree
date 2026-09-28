@@ -1,8 +1,7 @@
 .container{
     display: block;
     align-items: center;
-    max-width: 80%;
-    width: 100%;
+    width: 80%;
     text-align: left;
-    margin-bottom: auto;
+    align-self: center;
 }
