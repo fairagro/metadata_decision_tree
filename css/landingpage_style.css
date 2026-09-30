@@ -4,4 +4,15 @@
     width: 80%;
     text-align: left;
     align-self: center;
+    max-width: 860px;
+}
+
+figure{
+    float: right;
+    text-align: center;
+}
+
+figcaption{
+    padding-top: 0.5em;
+    font-size: 12px;
 }

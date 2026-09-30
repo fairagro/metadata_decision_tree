@@ -39,6 +39,6 @@
         <parentID>container</parentID>
         <type>p</type>
         <id>paragraph-3</id>
-        <text>Metadata forms the foundation for implementing the FAIR principles: additional structured information that describes the actual (research) data. It is used to publish data, make it discoverable, and cite it. Whether using metadata makes sense for your own research, how, where, and when it’s best to use it, and what you need to keep in mind—you can discover all of this in a fun and interactive way in our Metadata Guide. Enjoy!</text>
+        <text><![CDATA[Metadata forms the foundation for implementing the FAIR principles: additional structured information that describes the actual (research) data. It is used to publish data, make it discoverable, and cite it. Whether using metadata makes sense for your own research, how, where, and when it’s best to use it, and what you need to keep in mind—you can discover all of this in a fun and interactive way in the <a href="./decision_tree.html">Decision Tree</a> of our Metadata Guide. Enjoy!]]></text>
     </entry>
 </data>

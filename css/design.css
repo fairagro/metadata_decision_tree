@@ -410,6 +410,9 @@ ul {
     margin: 3px;
 }
 
+p{
+    text-align: justify;
+}
 
 /*mobile version*/
 
