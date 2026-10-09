@@ -7,6 +7,7 @@ function SetLanguage(language) {
     LoadUI()
 }
 
+// Initialize/loa session language and load navigation
 function LoadUI(){
     //Set current data path to the selected language
     let language = sessionStorage.getItem("currentLanguage");

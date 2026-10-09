@@ -28,10 +28,12 @@ function LoadPage() {
   xmlRequest.send();
 }
 
+// Set path to a XML-file for a given page
 function SetPath(page) {
   currentPageDataPath = "./xml/" + page + "_" + sessionStorage.getItem("currentLanguage") + ".xml";
 }
 
+// Create and add an element to a parent on the HTML page
 function AddElement(element, parent) {
   let type = element.getElementsByTagName("type")[0].textContent;
   let id = element.getElementsByTagName("id")[0].textContent;

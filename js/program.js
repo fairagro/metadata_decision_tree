@@ -125,10 +125,13 @@ function AddButtons(entry)
       container.appendChild(newButton);
     }
 
+    /* Adds export button, but should only be uncommented when the functionality of the export button is complete
+    I would also recommend adding the button with a different condition. This way is very static and was only for creating a prototype.
     if(buttons_content.length == 0)
     {
       AddExportButton();
     }
+      */
 
     return;
 }
@@ -174,7 +177,7 @@ function UpdateProgressBar(entries, id)
     progressBar.max = questionCounter;
 }
 
-// Set border colour of the div "container question" based on the TYPE of the entry
+// Set border colour of the div "container question" based on the TYPE of the entry - OUTDATED
 function SetQuestionBorderColour(entry)
 {
   if(entry.getElementsByTagName("TYPE")[0].childNodes[0].nodeValue =="Antwort")
@@ -190,6 +193,7 @@ function SetQuestionBorderColour(entry)
   }
 }
 
+// Loads previous question based on traversed path
 function LoadPrev()
 {
   if(prevID.length >= 2)
@@ -201,6 +205,7 @@ function LoadPrev()
   }
 }
 
+// Synchronises the width of all response buttons to the largest one
 function ResizeResponseButtons()
 {
   let maxWidth = 0;
@@ -234,18 +239,10 @@ function ResizeResponseButtons()
 
           buttons[i].style.width = maxWidth + "px";
           buttons[i].style.height = maxHeight + "px";
-          //buttons[i].innerText = buttons[i].getBoundingClientRect().height;
-        /*
-          if (!buttons[i].style.fontSize) 
-          {
-            buttons[i].style.fontSize = "3em";
-          }
-        */
-          //buttons[i].innerText = GetTextWidth(buttons[i].innerText, buttons[i].style.fontSize + buttons[i].style.fontFamily);
-          
       }
   }
 
+// Calculate width of a provided text for a provided font
 function GetTextWidth(text, font){
     // Create a canvas element
     const canvas = document.createElement("canvas");

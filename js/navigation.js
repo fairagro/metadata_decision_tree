@@ -1,8 +1,9 @@
 const stack = document.querySelector('.stack'); //Div with the stack
 const navLinks = document.querySelector('.navLinks'); //Div with all the navigation links
 let menuOpen = false;
+const minWidthDesktop = 1024;
 
-//Adds an interaction to the stack block that opens and closes the navigation menu
+//Adds an interaction to the stack block that opens and closes the navigation menu to controll the menu style
 stack.addEventListener('click', () => {
     if (!menuOpen) {
         navLinks.style.display = "block";
@@ -27,7 +28,7 @@ function detectNavigationWidth(width) {
     menuOpen = false;
 }
 
-var width = window.matchMedia("(max-width: 1024px)")
+var width = window.matchMedia(`(max-width: ${minWidthDesktop}px)`);
 
 detectNavigationWidth(width);
 
