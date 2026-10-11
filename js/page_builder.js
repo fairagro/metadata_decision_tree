@@ -3,7 +3,6 @@ let currentPageDataPath = defaultPageDataPath;
 
 // Load data from XML file and start main process
 function LoadPage() {
-  console.log(currentPageDataPath);
   var xmlRequest = new XMLHttpRequest();
   xmlRequest.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
