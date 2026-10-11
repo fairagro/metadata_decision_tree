@@ -9,7 +9,6 @@ function LoadPage() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById('container').replaceChildren();
       var xmlDoc = xmlRequest.responseXML;
-      console.log(xmlDoc);
       var allElements = xmlDoc.getElementsByTagName("entry");
 
       for (let i = 0; i < allElements.length; i++) {
@@ -18,10 +17,10 @@ function LoadPage() {
       }
 
       document.getElementById("title").innerText = xmlDoc.getElementsByTagName("headline")[0].textContent;;
-
+      /*
       console.log(xmlDoc);
       console.log(xmlDoc.documentElement.tagName);
-      console.log(allElements.length);
+      console.log(allElements.length); */
     }
   };
   xmlRequest.open("GET", currentPageDataPath, true);
